@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Franja Morada | FCAGLP - Elecciones Estudiantiles</title>
+    <title>Franja Morada Observatorio | FCAGLP - UNLP</title>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <!-- FontAwesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary: #6b21a8; /* Morado institucional */
-            --primary-dark: #581c87;
-            --accent: #f59e0b; /* Detalle amarillo/dorado */
+            --bg-primary: #581c87; /* Morado / Granate institucional oscuro */
+            --bg-secondary: #4c1d95;
             --bg-light: #f8fafc;
             --text-dark: #1e293b;
             --text-gray: #64748b;
@@ -24,6 +23,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
         }
 
         body {
@@ -33,14 +33,13 @@
         }
 
         header {
-            background: linear-gradient(135deg, var(--primary) default, var(--primary-dark));
-            background-color: var(--primary);
+            background-color: var(--bg-primary);
             color: var(--white);
-            padding: 1rem 0;
             position: sticky;
             top: 0;
             z-index: 1000;
             box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            border-bottom: 2px solid rgba(255,255,255,0.1);
         }
 
         .container {
@@ -53,41 +52,89 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 0.8rem 0;
         }
 
         .logo {
             font-weight: 800;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             display: flex;
-            align-items: center;
-            gap: 10px;
+            flex-direction: column;
+            line-height: 1.2;
+            letter-spacing: 0.5px;
         }
 
-        .logo span {
-            color: var(--accent);
+        .logo span.sub {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.9rem;
+            color: #e2e8f0;
         }
 
+        /* Estilos de la barra de navegación con Desplegables (Dropdowns) */
         .nav-links {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             list-style: none;
+            align-items: center;
+        }
+
+        .nav-links li {
+            position: relative;
         }
 
         .nav-links a {
             color: var(--white);
             text-decoration: none;
-            font-weight: 600;
-            font-size: 0.95rem;
+            font-weight: 500;
+            font-size: 0.9rem;
+            padding: 10px 5px;
             transition: color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
 
         .nav-links a:hover {
-            color: var(--accent);
+            color: #cbd5e1;
+        }
+
+        /* Contenido del menú desplegable */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--bg-secondary);
+            min-width: 220px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            border-radius: 6px;
+            overflow: hidden;
+            list-style: none;
+            padding: 8px 0;
+            z-index: 1001;
+        }
+
+        .dropdown-menu li a {
+            padding: 10px 15px;
+            color: var(--white);
+            white-space: nowrap;
+        }
+
+        .dropdown-menu li a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+        }
+
+        /* Mostrar el desplegable al pasar el mouse */
+        .nav-links li.dropdown:hover .dropdown-menu {
+            display: block;
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(107, 33, 168, 0.9), rgba(88, 28, 135, 0.9)), url('https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
             color: var(--white);
             text-align: center;
             padding: 5rem 20px;
@@ -100,27 +147,27 @@
         }
 
         .hero p {
-            font-size: 1.2rem;
-            max-width: 700px;
+            font-size: 1.15rem;
+            max-width: 750px;
             margin: 0 auto 2rem auto;
             color: #e2e8f0;
         }
 
         .btn {
             display: inline-block;
-            background-color: var(--accent);
-            color: #1e293b;
+            background-color: var(--white);
+            color: var(--bg-primary);
             padding: 12px 30px;
             border-radius: 30px;
             font-weight: 700;
             text-decoration: none;
             transition: transform 0.2s, background-color 0.2s;
-            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.15);
         }
 
         .btn:hover {
             transform: translateY(-2px);
-            background-color: #d97706;
+            background-color: #f1f5f9;
         }
 
         /* Sections */
@@ -133,10 +180,9 @@
             font-size: 2rem;
             font-weight: 800;
             margin-bottom: 3rem;
-            color: var(--primary);
+            color: var(--bg-primary);
         }
 
-        /* Propuestas Grid */
         .grid-3 {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -148,7 +194,7 @@
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-            border-top: 5px solid var(--primary);
+            border-top: 5px solid var(--bg-primary);
             transition: transform 0.3s;
         }
 
@@ -157,49 +203,86 @@
         }
 
         .card i {
-            font-size: 2.5rem;
-            color: var(--primary);
+            font-size: 2rem;
+            color: var(--bg-primary);
             margin-bottom: 1rem;
         }
 
         .card h3 {
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             margin-bottom: 10px;
+            color: var(--bg-primary);
         }
 
-        .card p {
+        .card p, .card ul {
             color: var(--text-gray);
             font-size: 0.95rem;
         }
 
-        /* FAQ / Elecciones */
-        .faq-container {
-            max-width: 800px;
+        .card ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .info-box {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+            max-width: 900px;
+            margin: 0 auto 3rem auto;
+            border-left: 6px solid var(--bg-primary);
+        }
+
+        .info-box h3 {
+            color: var(--bg-primary);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+        .info-box p {
+            color: var(--text-gray);
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+
+        .proposal-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
-        .faq-item {
+        .proposal-item {
             background: var(--white);
-            margin-bottom: 15px;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
         }
 
-        .faq-item h4 {
-            color: var(--primary);
-            margin-bottom: 8px;
-            font-size: 1.1rem;
+        .proposal-item i {
+            color: var(--bg-primary);
+            font-size: 1.2rem;
+            margin-top: 3px;
         }
 
-        .faq-item p {
+        .proposal-item h4 {
+            font-size: 1rem;
+            color: var(--text-dark);
+            margin-bottom: 5px;
+        }
+
+        .proposal-item p {
+            font-size: 0.85rem;
             color: var(--text-gray);
-            font-size: 0.95rem;
         }
 
-        /* Contacto / Redes */
-        .footer-content {
-            background-color: #0f172a;
+        footer {
+            background-color: #3b0764;
             color: var(--white);
             text-align: center;
             padding: 3rem 20px;
@@ -227,16 +310,12 @@
         }
 
         .social-icons a:hover {
-            background: var(--primary);
+            background: var(--bg-secondary);
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
             .nav-links {
-                display: none; /* Simplificado para móviles, se puede agregar menú hamburguesa si se desea */
-            }
-            .hero h1 {
-                font-size: 2rem;
+                display: none; /* Simplificado para pantallas chicas */
             }
         }
     </style>
@@ -246,84 +325,211 @@
     <header>
         <div class="container nav">
             <div class="logo">
-                <i class="fa-solid fa-graduation-cap"></i> Franja Morada <span>FCAGLP</span>
+                FRANJA MORADA
+                <span class="sub">Observatorio</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#propuestas">Propuestas</a></li>
-                <li><a href="#elecciones">Elecciones</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#somos">Quiénes Somos</a></li>
+                
+                <!-- Menú desplegable Académico -->
+                <li class="dropdown">
+                    <a href="#academico">Académico <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#academico">Planes de Estudio</a></li>
+                        <li><a href="#academico">Nuevas Tecnicaturas</a></li>
+                        <li><a href="#academico">Aulas y Promociones</a></li>
+                    </ul>
+                </li>
+
+                <!-- Menú desplegable Herramientas -->
+                <li class="dropdown">
+                    <a href="#aproba">Aprobá con la Franja <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#aproba">Nube Morada (Apuntes)</a></li>
+                        <li><a href="#aproba">Clases Moradas y YouTube</a></li>
+                        <li><a href="#aproba">Colecta de Rocas</a></li>
+                    </ul>
+                </li>
+
+                <!-- Menú desplegable Espacios y Comunidad -->
+                <li class="dropdown">
+                    <a href="#espacios">Comunidad <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#espacios">Buffet "La Viruta"</a></li>
+                        <li><a href="#vinculacion">Viajes Académicos</a></li>
+                        <li><a href="#vinculacion">Congreso CIGMA</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#propuestas2027">Propuestas 2027</a></li>
             </ul>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <h1>Construyamos el futuro de Astronomía y Geofísica</h1>
-            <p>Defendemos la educación pública, gratuita, laica y de excelencia. Conocé nuestras propuestas para estas elecciones estudiantiles.</p>
-            <a href="#propuestas" class="btn">Ver Propuestas</a>
+            <h1>Construyendo la Facultad que nos merecemos</h1>
+            <p>Espacio de representación, herramientas de estudio y defensa de la educación pública, gratuita y de excelencia en la FCAGLP.</p>
+            <a href="#academico" class="btn">Conocé nuestras iniciativas</a>
         </div>
     </section>
 
-    <section id="propuestas" class="container">
-        <h2 class="section-title">Nuestras Propuestas</h2>
+    <!-- QUIÉNES SOMOS -->
+    <section id="somos" class="container">
+        <div class="info-box">
+            <h3>Lo que somos y lo que defendemos</h3>
+            <p>Hace 9 años que representamos a los estudiantes del Observatorio. Somos compañeros, amigos y, ante todo, estudiantes comprometidos con nuestra Facultad y con la Universidad Pública.</p>
+            <p>Somos una agrupación reformista e independiente de cualquier gobierno, que defiende la autonomía universitaria y trabaja por una UNLP pública, inclusiva, justa y de excelencia. Una Universidad que forme profesionales comprometidos con la sociedad, fomente el pensamiento crítico y reconozca a la ciencia y al conocimiento como herramientas fundamentales para transformar nuestra realidad.</p>
+        </div>
+    </section>
+
+    <!-- ACADÉMICO -->
+    <section id="academico" style="background-color: #f1f5f9;">
+        <div class="container">
+            <h2 class="section-title">Gestión y Avances Académicos</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <h3>Planes de Estudio</h3>
+                    <p>Impulsamos la discusión para adaptar nuestras carreras a los nuevos desafíos. Mantenemos reuniones con la Decana, Dra. Amalia Meza, quien asumió el compromiso de iniciar este proceso con participación estudiantil.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Nuevas Tecnicaturas</h3>
+                    <p>Conseguimos la aprobación de 5 nuevas tecnicaturas para Geofísica y Astronomía (actualmente a la espera de aprobación nacional) para certificar conocimientos y facilitar la inserción laboral temprana:</p>
+                    <ul style="font-size: 0.85rem;">
+                        <li><strong>Geofísica:</strong> Cs. de la Tierra y el Ambiente, Georreferenciación, Procesamiento de Señales.</li>
+                        <li><strong>Astronomía:</strong> Redes Geodésicas, Cálculo Científico.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h3>Aulas y Promociones</h3>
+                    <p>Impulsamos el nuevo aulario en construcción para sumar espacios. Logramos traer materias como Análisis Matemático I y Fundamentos de Geología al Observatorio, incorporando regímenes de promoción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APROBÁ CON LA FRANJA -->
+    <section id="aproba" class="container">
+        <h2 class="section-title">Aprobá con la Franja</h2>
+        <p style="text-align: center; color: var(--text-gray); max-width: 700px; margin: -2rem auto 3rem auto;">Herramientas construidas por estudiantes para acompañarte durante la cursada y la preparación de exámenes.</p>
         <div class="grid-3">
             <div class="card">
-                <i class="fa-solid fa-book-open"></i>
-                <h3>Académicas y Apuntes</h3>
-                <p>Actualización constante del banco de apuntes, gestión de comisiones flexibles y tutorías de pares para las materias filtro (Física III, Matemática, Análisis).</p>
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <h3>Nube Morada</h3>
+                <p>Nuestro Drive renovado con parciales resueltos, prácticas, teorías, resúmenes y material bibliográfico desde primer año hasta materias avanzadas.</p>
             </div>
             <div class="card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Infraestructura y Gabinetes</h3>
-                <p>Mejoras en el acceso y mantenimiento de los gabinetes informáticos, optimización de la conectividad en la facultad y espacios de estudio cómodos.</p>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Clases Moradas y YouTube</h3>
+                <p>Clases de consulta periódicas para materias complejas y un canal con resoluciones de ejercicios y explicaciones grabadas disponibles todo el año.</p>
             </div>
             <div class="card">
-                <i class="fa-solid fa-users"></i>
-                <h3>Bienestar Estudiantil</h3>
-                <p>Acompañamiento en trámites de becas (Progresar, Comedor, Albergue), boleto estudiantil y asesoramiento integral para ingresantes de Astronomía y Geofísica.</p>
+                <i class="fa-solid fa-gem"></i>
+                <h3>Colecta de Rocas</h3>
+                <p>Ampliamos las muestras de mano disponibles en la cátedra de Fundamentos de Geología para mejorar la preparación práctica para los parciales.</p>
             </div>
         </div>
     </section>
 
-    <section id="elecciones" style="background-color: #f1f5f9;">
+    <!-- ESPACIOS Y BUFFET -->
+    <section id="espacios" style="background-color: #f1f5f9;">
         <div class="container">
-            <h2 class="section-title">Preguntas Frecuentes sobre las Elecciones</h2>
-            <div class="faq-container">
-                <div class="faq-item">
-                    <h4>¿Cuándo son las elecciones?</h4>
-                    <p>Las votaciones se llevarán a cabo durante los próximos días en el edificio principal de la facultad. ¡Consultá el padrón para confirmar tu mesa!</p>
+            <h2 class="section-title">Espacios para Vivir la Facultad</h2>
+            <div class="info-box" style="margin-bottom: 0;">
+                <h3>Buffet y Salón Comedor "La Viruta" y Espacios CEGMA</h3>
+                <p>Desde la conducción del CEGMA llevamos los espacios de la facultad de 120m² a más de 820m². Este año realizamos una <strong>refacción integral del Buffet "La Viruta"</strong>: optimización de cocina, nuevo motor extractor, microondas, mesadas, además de nuevos menús accesibles y el Club del Cafecito.</p>
+                <p>También gestionamos el CEGMA "Ana Teresa Diego", sector de lockers, la Glorieta, la librería (CCyL) y la Sala Informatizada Conjunta.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VINCULACIÓN PROFESIONAL Y VIAJES -->
+    <section id="vinculacion" class="container">
+        <h2 class="section-title">Vinculación Profesional y Viajes</h2>
+        <div class="grid-3">
+            <div class="card">
+                <i class="fa-solid fa-bus"></i>
+                <h3>Viajes Académicos</h3>
+                <p>Organizamos la visita técnica a la Planta de Desarrollo de Celdas de Litio y el traslado de más de 50 estudiantes a la 68° Reunión Anual de la Asociación Argentina de Astronomía en San Juan, gestionando becas y alojamiento. Impulsamos también el <strong>Fondo Común para Viajes de Campaña</strong>.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Congreso CIGMA</h3>
+                <p>Creamos y realizamos la 1° Edición del Congreso Interdisciplinario de Geofísica, Meteorología y Astronomía (CIGMA), un encuentro de tres días con charlas, actividades y empleabilidad. También participamos en la REFMA y en la observación del eclipse lunar.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Jornadas y Expansión</h3>
+                <p>Acompañamiento activo en EXPO Empleo, la Jornada del Litio, ENIGMA y SABIA-MAR, acercando a las y los estudiantes al ámbito científico, técnico y profesional fuera del aula.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROPUESTAS 2027 -->
+    <section id="propuestas2027" style="background-color: #f1f5f9;">
+        <div class="container">
+            <h2 class="section-title">Propuestas y Desafíos 2027</h2>
+            <div class="proposal-list">
+                <div class="proposal-item">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <div>
+                        <h4>Más materias en el Observatorio</h4>
+                        <p>Aprovechar el nuevo aulario para sumar asignaturas y evitar traslados y superposiciones con otras facultades.</p>
+                    </div>
                 </div>
-                <div class="faq-item">
-                    <h4>¿Qué necesito para votar?</h4>
-                    <p>Tenés que presentarte con tu DNI físico y figurar en el padrón electoral de estudiantes de la FCAGLP.</p>
+                <div class="proposal-item">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <div>
+                        <h4>Calendario coordinado</h4>
+                        <p>Articular fechas de parciales y finales con las unidades académicas externas para ordenar la cursada.</p>
+                    </div>
                 </div>
-                <div class="faq-item">
-                    <h4>¿Por qué se vota?</h4>
-                    <p>Se renovarán los representantes estudiantiles ante el Consejo Directivo y el Centro de Estudiantes, garantizando que nuestra voz siga siendo escuchada en el cogobierno universitario.</p>
+                <div class="proposal-item">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <div>
+                        <h4>Banco de experiencias</h4>
+                        <p>Evolución de la Nube Morada con modalidades de finales, bibliografía y guías aportadas por estudiantes.</p>
+                    </div>
+                </div>
+                <div class="proposal-item">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <div>
+                        <h4>Programa de tutorías de pares</h4>
+                        <p>Red de acompañamiento para ingresantes en inscripción, becas, uso de sistemas y organización inicial.</p>
+                    </div>
+                </div>
+                <div class="proposal-item">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <div>
+                        <h4>Semana de Orientación Profesional</h4>
+                        <p>Charlas, armado de CV, entrevistas y vinculación con organismos, institutos y sector privado.</p>
+                    </div>
+                </div>
+                <div class="proposal-item">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                    <div>
+                        <h4>Banco de equipamiento de campaña</h4>
+                        <p>Elementos de uso común en préstamo para reducir costos en salidas a terreno de las carreras.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="nosotros" class="container">
-        <h2 class="section-title">¿Quiénes Somos?</h2>
-        <div style="max-width: 800px; margin: 0 auto; text-align: center; color: var(--text-gray);">
-            <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Somos estudiantes de Astronomía, Geofísica y Meteorología organizados para transformar nuestra facultad. Creemos en una universidad científica, inclusiva y con fuerte inserción social.</p>
-            <p style="font-size: 1.1rem;">Trabajamos todos los días para resolver los problemas cotidianos de las cursadas y para defender los derechos de todo el estudiantado de la UNLP.</p>
-        </div>
-    </section>
-
-    <footer id="contacto" class="footer-content">
+    <!-- FOOTER -->
+    <footer>
         <div class="container">
-            <h3>Franja Morada FCAGLP</h3>
-            <p style="color: #94a3b8; margin-top: 5px;">Facultad de Ciencias Astronómicas y Geofísicas - UNLP</p>
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 400;">Franja Morada Observatorio</h3>
+            <p style="color: #cbd5e1; margin-top: 5px; font-size: 0.9rem;">Facultad de Ciencias Astronómicas y Geofísicas - UNLP</p>
             <div class="social-icons">
-                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="mailto:tu-correo@example.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:contacto@example.com" title="Correo"><i class="fa-solid fa-envelope"></i></a>
             </div>
-            <p style="font-size: 0.85rem; color: #64748b; margin-top: 2rem;">© 2026 Franja Morada Astronomía y Geofísica. Todos los derechos reservados.</p>
+            <p style="font-size: 0.8rem; color: #94a3b8; margin-top: 2rem;">© 2026 Centro de Estudiantes de Geofísica, Meteorología y Astronomía (CEGMA). Todos los derechos reservados.</p>
         </div>
     </footer>
 
