@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .font-script { font-family: 'Playfair Display', serif; }
-        /* Transiciones suaves para dropdowns */
         .dropdown-menu {
             transition: all 0.25s ease-in-out;
             transform-origin: top;
@@ -42,16 +41,19 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
                 
-                <!-- Logo Institucional -->
-                <a href="#inicio" class="flex flex-col">
-                    <span class="font-extrabold text-lg tracking-wider uppercase">Franja Morada</span>
-                    <span class="font-script italic text-sm text-pink-200">Observatorio</span>
+                <!-- Logo Institucional Arriba a la Izquierda -->
+                <a href="index.html" class="flex items-center gap-3 group">
+                    <img src="462345743_565132929532120_3987986382482826614_n.jpg" alt="Logo Franja Morada Observatorio" class="w-11 h-11 object-cover rounded-full border-2 border-pink-200 shadow-md group-hover:scale-105 transition">
+                    <div class="flex flex-col">
+                        <span class="font-extrabold text-sm sm:text-base tracking-wider uppercase leading-tight">Franja Morada</span>
+                        <span class="font-script italic text-xs sm:text-sm text-pink-200">Observatorio</span>
+                    </div>
                 </a>
 
                 <!-- Navegación Escritorio -->
                 <nav class="hidden lg:flex items-center space-x-1 xl:space-x-3">
-                    <a href="#inicio" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">Inicio</a>
-                    <a href="#elecciones" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition text-pink-200 font-semibold">Elecciones 2026</a>
+                    <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium bg-granate-light transition">Inicio</a>
+                    <a href="elecciones.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition text-pink-200 font-semibold">Elecciones 2026</a>
 
                     <!-- Dropdown: La Agrupación -->
                     <div class="relative group">
@@ -59,9 +61,9 @@
                             La Agrupación <i class="fa-solid fa-chevron-down text-xs"></i>
                         </button>
                         <div class="dropdown-menu absolute left-0 mt-0 w-56 bg-granate-dark rounded-md shadow-xl py-2 hidden group-hover:block border border-granate-light">
-                            <a href="#quienes-somos" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Quiénes Somos</a>
-                            <a href="#lo-que-hicimos" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Lo que Hicimos</a>
-                            <a href="#comunidad" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Comunidad Morada</a>
+                            <a href="quienes-somos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Quiénes Somos</a>
+                            <a href="lo-que-hicimos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Lo que Hicimos</a>
+                            <a href="comunidad.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Comunidad Morada</a>
                         </div>
                     </div>
 
@@ -71,10 +73,9 @@
                             Estudiantes <i class="fa-solid fa-chevron-down text-xs"></i>
                         </button>
                         <div class="dropdown-menu absolute left-0 mt-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden group-hover:block border border-granate-light">
-                            <a href="#aproba" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Aprobá con la Franja</a>
-                            <a href="#tramites" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Guía de Trámites</a>
-                            <a href="#becas" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Becas y Beneficios</a>
-                            <a href="#calendario" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Calendario Académico</a>
+                            <a href="aproba.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Aprobá con la Franja</a>
+                            <a href="tramites.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Guía de Trámites</a>
+                            <a href="becas.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Becas y Beneficios</a>
                         </div>
                     </div>
 
@@ -84,14 +85,14 @@
                             Facultad y Vida Prof. <i class="fa-solid fa-chevron-down text-xs"></i>
                         </button>
                         <div class="dropdown-menu absolute left-0 mt-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden group-hover:block border border-granate-light">
-                            <a href="#espacios" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Espacios del Centro</a>
-                            <a href="#vinculacion" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Vinculación y Viajes</a>
-                            <a href="#congresos" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Congresos (CIGMA / REFMA)</a>
+                            <a href="espacios.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Espacios del Centro</a>
+                            <a href="vinculacion.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Vinculación y Viajes</a>
+                            <a href="congresos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Congresos (CIGMA / REFMA)</a>
                         </div>
                     </div>
 
-                    <a href="#faq" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">FAQ</a>
-                    <a href="#contacto" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">Contacto</a>
+                    <a href="faq.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">FAQ</a>
+                    <a href="contacto.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">Contacto</a>
                 </nav>
 
                 <!-- Botón Menú Móvil -->
@@ -105,36 +106,36 @@
 
         <!-- Menú Desplegable Móvil -->
         <div id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-2 pb-4 space-y-2 border-t border-granate-light">
-            <a href="#inicio" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Inicio</a>
-            <a href="#elecciones" class="block px-3 py-2 rounded-md text-base font-medium text-pink-200 font-semibold hover:bg-granate-light">Elecciones 2026</a>
+            <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Inicio</a>
+            <a href="elecciones.html" class="block px-3 py-2 rounded-md text-base font-medium text-pink-200 font-semibold hover:bg-granate-light">Elecciones 2026</a>
             <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">La Agrupación</div>
-            <a href="#quienes-somos" class="block px-6 py-1 text-sm hover:bg-granate-light">Quiénes Somos</a>
-            <a href="#lo-que-hicimos" class="block px-6 py-1 text-sm hover:bg-granate-light">Lo que Hicimos</a>
-            <a href="#comunidad" class="block px-6 py-1 text-sm hover:bg-granate-light">Comunidad Morada</a>
+            <a href="quienes-somos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Quiénes Somos</a>
+            <a href="lo-que-hicimos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Lo que Hicimos</a>
+            <a href="comunidad.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Comunidad Morada</a>
             
             <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">Estudiantes</div>
-            <a href="#aproba" class="block px-6 py-1 text-sm hover:bg-granate-light">Aprobá con la Franja</a>
-            <a href="#tramites" class="block px-6 py-1 text-sm hover:bg-granate-light">Guía de Trámites</a>
-            <a href="#becas" class="block px-6 py-1 text-sm hover:bg-granate-light">Becas y Beneficios</a>
+            <a href="aproba.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Aprobá con la Franja</a>
+            <a href="tramites.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Guía de Trámites</a>
+            <a href="becas.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Becas y Beneficios</a>
             
             <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">Facultad y Vida Prof.</div>
-            <a href="#espacios" class="block px-6 py-1 text-sm hover:bg-granate-light">Espacios del Centro</a>
-            <a href="#vinculacion" class="block px-6 py-1 text-sm hover:bg-granate-light">Vinculación y Viajes</a>
+            <a href="espacios.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Espacios del Centro</a>
+            <a href="vinculacion.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Vinculación y Viajes</a>
             
-            <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light border-t border-granate-light pt-2">FAQ</a>
-            <a href="#contacto" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Contacto</a>
+            <a href="faq.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light border-t border-granate-light pt-2">FAQ</a>
+            <a href="contacto.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Contacto</a>
         </div>
     </header>
 
-    <!-- INICIO / HERO SECTION CON BUSCADOR INTERNO -->
-    <section id="inicio" class="relative bg-gradient-to-br from-granate to-granate-dark text-white py-20 px-4 sm:px-6 lg:px-8 text-center">
+    <!-- INICIO / HERO SECTION -->
+    <section class="relative bg-gradient-to-br from-granate to-granate-dark text-white py-24 px-4 sm:px-6 lg:px-8 text-center">
         <div class="max-w-4xl mx-auto space-y-6">
-            <span class="inline-block bg-pink-900/60 text-pink-200 border border-pink-700/50 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">Elecciones Estudiantiles 2026</span>
+            <span class="inline-block bg-pink-900/60 text-pink-200 border border-pink-700/50 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">Centro de Estudiantes - CEGMA</span>
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">
-                Este 4, 5 y 6 de noviembre elegí <span class="font-script text-pink-300 font-normal">Franja Morada Observatorio</span>
+                Construyendo la Facultad que nos merecemos[cite: 1]
             </h1>
             <p class="text-lg sm:text-xl text-slate-200 max-w-2xl mx-auto">
-                Construyendo la Facultad de Ciencias Astronómicas y Geofísicas que nos merecemos. Gestión, compromiso y defensa de la universidad pública.
+                Espacio de representación, herramientas de estudio y defensa de la educación pública, gratuita y de excelencia en la FCAGLP.
             </p>
 
             <!-- Buscador Interno Interactivo -->
@@ -149,236 +150,56 @@
             </div>
 
             <div class="flex flex-wrap justify-center gap-4 pt-4">
-                <a href="#elecciones" class="bg-white text-granate font-bold px-8 py-3 rounded-full shadow-lg hover:bg-slate-100 transition transform hover:-translate-y-0.5">Conocé la Propuesta</a>
-                <a href="#aproba" class="border-2 border-white/80 text-white font-bold px-8 py-3 rounded-full hover:bg-white/10 transition">Aprobá con la Franja</a>
+                <a href="elecciones.html" class="bg-white text-granate font-bold px-8 py-3 rounded-full shadow-lg hover:bg-slate-100 transition transform hover:-translate-y-0.5">Elecciones 2026</a>
+                <a href="aproba.html" class="border-2 border-white/80 text-white font-bold px-8 py-3 rounded-full hover:bg-white/10 transition">Aprobá con la Franja</a>
             </div>
         </div>
     </section>
 
-    <!-- BARRA DE ENLACES DE INTERÉS EXTERNOS -->
-    <div class="bg-slate-900 text-slate-300 py-4 border-b border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-6 text-sm font-medium">
-            <span class="text-pink-400 font-bold uppercase text-xs tracking-widest hidden sm:inline">Accesos Rápidos:</span>
-            <a href="https://guarani.unlp.edu.ar" target="_blank" class="hover:text-white flex items-center gap-2 transition"><i class="fa-solid fa-graduation-cap text-pink-400">></i> SIU-Guaraní</a>
-            <a href="https://fcaglp.unlp.edu.ar" target="_blank" class="hover:text-white flex items-center gap-2 transition"><i class="fa-solid fa-globe text-pink-400"></i> Campus FCAG</a>
-            <a href="https://www.unlp.edu.ar" target="_blank" class="hover:text-white flex items-center gap-2 transition"><i class="fa-solid fa-university text-pink-400"></i> Portal UNLP</a>
-        </div>
-    </div>
-
-    <!-- SECCIÓN ELECCIONES 2026 -->
-    <section id="elecciones" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <!-- ACCESOS RÁPIDOS A SECCIONES PRINCIPALES -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div class="text-center max-w-3xl mx-auto mb-12">
-            <h2 class="text-3xl font-extrabold text-granate">Elecciones Estudiantiles 2026</h2>
-            <p class="text-slate-600 mt-2">Fechas claves, qué se vota y por qué tu participación es fundamental para sostener el cogobierno universitario.</p>
+            <h2 class="text-3xl font-extrabold text-granate">Explorá nuestro sitio</h2>
+            <p class="text-slate-600 mt-2">Conocé las herramientas, espacios y proyectos que desarrollamos en el Observatorio.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-8 rounded-2xl shadow-md border-t-4 border-granate hover:shadow-xl transition">
-                <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4">
-                    <i class="fa-regular fa-calendar-days"></i>
+            <a href="quienes-somos.html" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition group">
+                <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-granate group-hover:text-white transition">
+                    <i class="fa-solid fa-users"></i>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">Cuándo y Dónde</h3>
-                <p class="text-slate-600 text-sm">Los días **4, 5 y 6 de noviembre** en el edificio principal de la Facultad. Buscá tu mesa en el padrón estudiantil.</p>
-            </div>
-            <div class="bg-white p-8 rounded-2xl shadow-md border-t-4 border-granate hover:shadow-xl transition">
-                <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4">
-                    <i class="fa-solid fa-box-archive"></i>
+                <h3 class="text-xl font-bold text-slate-800 mb-2">La Agrupación</h3>
+                <p class="text-slate-600 text-sm">Nuestra historia de 9 años, valores reformistas, los logros en Consejo Directivo y la Comunidad Morada.</p>
+            </a>
+            <a href="aproba.html" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition group">
+                <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-granate group-hover:text-white transition">
+                    <i class="fa-solid fa-book-open"></i>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">Qué Se Vota</h3>
-                <p class="text-slate-600 text-sm">Se renuevan los representantes estudiantiles ante el Consejo Directivo y la conducción del Centro de Estudiantes (CEGMA).</p>
-            </div>
-            <div class="bg-white p-8 rounded-2xl shadow-md border-t-4 border-granate hover:shadow-xl transition">
-                <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4">
-                    <i class="fa-solid fa-users-line"></i>
+                <h3 class="text-xl font-bold text-slate-800 mb-2">Estudiantes</h3>
+                <p class="text-slate-600 text-sm">Accedé a Nube Morada, Clases Moradas, guía de trámites y beneficios universitarios.</p>
+            </a>
+            <a href="espacios.html" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition group">
+                <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-granate group-hover:text-white transition">
+                    <i class="fa-solid fa-building-columns"></i>
                 </div>
-                <h3 class="text-xl font-bold text-slate-800 mb-2">Sumate a Fiscalizar</h3>
-                <p class="text-slate-600 text-sm">Defendé el voto estudiantil sumándote como fiscal. Sumate a nuestro grupo de WhatsApp para coordinar turnos.</p>
-            </div>
+                <h3 class="text-xl font-bold text-slate-800 mb-2">Facultad y Vida Prof.</h3>
+                <p class="text-slate-600 text-sm">Buffet La Viruta, congresos CIGMA y REFMA, viajes académicos y vinculación profesional.</p>
+            </a>
         </div>
     </section>
 
-    <!-- LA AGRUPACIÓN (QUIÉNES SOMOS, LOGROS, COMUNIDAD) -->
-    <section id="quienes-somos" class="bg-slate-100 py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6">
-                    <span class="text-granate font-bold uppercase tracking-wider text-xs bg-pink-200/60 px-3 py-1 rounded-full">Nuestra Identidad</span>
-                    <h2 class="text-3xl font-extrabold text-slate-900">9 años representando a los estudiantes del Observatorio</h2>
-                    <p class="text-slate-700 leading-relaxed">
-                        Somos compañeros, amigos y estudiantes comprometidos con nuestra Facultad y con la Universidad Pública. Una agrupación reformista e independiente de cualquier gobierno, que defiende la autonomía universitaria.
-                    </p>
-                    <p class="text-slate-700 leading-relaxed">
-                        Trabajamos por una UNLP inclusiva, justa y de excelencia, que reconozca a la ciencia y al conocimiento como herramientas fundamentales para transformar nuestra realidad social.
-                    </p>
-                </div>
-                <div id="lo-que-hicimos" class="bg-white p-8 rounded-2xl shadow-md space-y-4 border-l-4 border-granate">
-                    <h3 class="text-xl font-bold text-granate">Lo que Hicimos en el Consejo y el Centro</h3>
-                    <ul class="space-y-3 text-sm text-slate-700">
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-granate mt-1"></i> <div><strong>PRAEs y Cursadas:</strong> Impulsamos Programas de Rendimiento Académico y nuevas extensiones de trabajos prácticos.</div></li>
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-granate mt-1"></i> <div><strong>Nuevas Tecnicaturas:</strong> Conseguimos la aprobación de 5 tecnicaturas para Geofísica y Astronomía.</div></li>
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-granate mt-1"></i> <div><strong>Planes de Estudio:</strong> Iniciamos la discusión histórica junto a la Decana Dra. Amalia Meza para actualizar los planes.</div></li>
-                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-granate mt-1"></i> <div><strong>Nuevo Aulario:</strong> Impulsamos las obras para sumar aulas y traer materias al Observatorio.</div></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- COMUNIDAD MORADA -->
-    <section id="comunidad" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div class="text-center max-w-3xl mx-auto mb-12">
-            <h2 class="text-3xl font-extrabold text-granate">Comunidad Morada</h2>
-            <p class="text-slate-600 mt-2">Espacios de encuentro, integración y cultura más allá de las aulas.</p>
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition text-center border border-slate-200">
-                <i class="fa-solid fa-mug-hot text-3xl text-granate mb-3"></i>
-                <h4 class="font-bold text-slate-800">Mesita de Comunidad</h4>
-                <p class="text-xs text-slate-600 mt-1">Puntos de encuentro y café compartido en los pasillos.</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition text-center border border-slate-200">
-                <i class="fa-solid fa-music text-3xl text-granate mb-3"></i>
-                <h4 class="font-bold text-slate-800">Fiesta del Ingresante</h4>
-                <p class="text-xs text-slate-600 mt-1>Damos la bienvenida oficial a los nuevos estudiantes.</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition text-center border border-slate-200">
-                <i class="fa-solid fa-store text-3xl text-granate mb-3"></i>
-                <h4 class="font-bold text-slate-800">Feria de Emprendedores</h4>
-                <p class="text-xs text-slate-600 mt-1">Espacios autogestionados y producción estudiantil.</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition text-center border border-slate-200">
-                <i class="fa-solid fa-trophy text-3xl text-granate mb-3"></i>
-                <h4 class="font-bold text-slate-800">Mundial y Recreación</h4>
-                <p class="text-xs text-slate-600 mt-1">Torneos, actividades recreativas y espacios de distensión.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ESTUDIANTES (APROBÁ CON LA FRANJA, TRÁMITES, BECAS, CALENDARIO) -->
-    <section id="aproba" class="bg-slate-100 py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-extrabold text-granate">Aprobá con la Franja</h2>
-                <p class="text-slate-600 mt-2">Herramientas construidas por estudiantes para acompañarte durante la cursada y los exámenes.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-granate">
-                    <i class="fa-solid fa-cloud-arrow-down text-2xl text-granate mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Nube Morada</h3>
-                    <p class="text-sm text-slate-600">Drive renovado con apuntes, parciales resueltos y bibliografía de materias de todos los años.</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-granate">
-                    <i class="fa-solid fa-chalkboard-user text-2xl text-granate mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Clases Moradas</h3>
-                    <p class="text-sm text-slate-600">Clases de consulta organizadas para Análisis I, Álgebra y Física General I durante todo el año.</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-granate">
-                    <i class="fa-brands fa-youtube text-2xl text-granate mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Canal de YouTube</h3>
-                    <p class="text-sm text-slate-600">Videos con resolución de ejercicios, parciales viejos y clases grabadas de consulta.</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-granate">
-                    <i class="fa-solid fa-gem text-2xl text-granate mb-3"></i>
-                    <h3 class="font-bold text-lg mb-2">Colecta de Rocas</h3>
-                    <p class="text-sm text-slate-600">Ampliación de muestras de mano para facilitar la preparación práctica de Fundamentos de Geología.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TRÁMITES Y BECAS -->
-    <section id="tramites" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div id="becas" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-                <h3 class="text-xl font-bold text-granate mb-4 flex items-center gap-2">
-                    <i class="fa-solid fa-id-card"></i> Guía de Trámites Frecuentes
-                </h3>
-                <ul class="space-y-3 text-sm text-slate-700">
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-granate"></i> Inscripción a materias y finales por SIU-Guaraní.</li>
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-granate"></i> Solicitud de certificado de alumno regular y analítico.</li>
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-granate"></i> Presentación de equivalencias y regímenes especiales (REC).</li>
-                </ul>
-            </div>
-            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-                <h3 class="text-xl font-bold text-granate mb-4 flex items-center gap-2">
-                    <i class="fa-solid fa-hand-holding-dollar"></i> Becas y Beneficios UNLP
-                </h3>
-                <ul class="space-y-3 text-sm text-slate-700">
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-granate"></i> Becas de ayuda económica, albergue y comedor universitario.</li>
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-granate"></i> Fondo Común para Viajes de Campaña (reducción de costos).</li>
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-granate"></i> Promociones y precios accesibles en el Buffet "La Viruta".</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- FACULTAD Y VIDA PROFESIONAL (ESPACIOS, VINCULACIÓN, CONGRESOS) -->
-    <section id="espacios" class="bg-slate-100 py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl font-extrabold text-granate">Facultad y Vida Profesional</h2>
-                <p class="text-slate-600 mt-2">Espacios del centro, congresos y experiencias más allá del aula.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-sm space-y-3">
-                    <h3 class="text-lg font-bold text-granate">Buffet "La Viruta" y Espacios</h3>
-                    <p class="text-sm text-slate-600">Ampliamos el CEGMA a más de 820m². Realizamos una refacción integral de la cocina de La Viruta, nuevo extractor, microondas y Club del Cafecito, junto a lockers y Sala Informatizada.</p>
-                </div>
-                <div id="vinculacion" class="bg-white p-8 rounded-xl shadow-sm space-y-3">
-                    <h3 class="text-lg font-bold text-granate">Vinculación y Viajes</h3>
-                    <p class="text-sm text-slate-600">Visita técnica a la Planta de Celdas de Litio y viaje de más de 50 estudiantes a la 68° Reunión Anual de la Asociación Argentina de Astronomía en San Juan.</p>
-                </div>
-                <div id="congresos" class="bg-white p-8 rounded-xl shadow-sm space-y-3">
-                    <h3 class="text-lg font-bold text-granate">Congresos (CIGMA / REFMA)</h3>
-                    <p class="text-sm text-slate-600">Creamos la 1° Edición del Congreso Interdisciplinario CIGMA. Participación activa en REFMA y en la observación del eclipse lunar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PREGUNTAS FRECUENTES (FAQ) -->
-    <section id="faq" class="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-extrabold text-granate">Preguntas Frecuentes (FAQ)</h2>
-            <p class="text-slate-600 mt-2">Dudas habituales sobre cursadas, trámites y participación estudiantil.</p>
-        </div>
-        <div class="space-y-4">
-            <details class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 cursor-pointer group">
-                <summary class="font-bold text-slate-800 flex justify-between items-center">
-                    ¿Cómo puedo acceder a los apuntes de la Nube Morada?
-                    <i class="fa-solid fa-chevron-down text-xs transition group-open:rotate-180"></i>
-                </summary>
-                <p class="text-sm text-slate-600 mt-3 pt-3 border-t border-slate-100">Podes ingresar a través del link en nuestras redes sociales o solicitando el acceso directo en el centro de estudiantes / mesita de la agrupación.</p>
-            </details>
-            <details class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 cursor-pointer group">
-                <summary class="font-bold text-slate-800 flex justify-between items-center">
-                    ¿Qué documentación necesito para votar en las elecciones?
-                    <i class="fa-solid fa-chevron-down text-xs transition group-open:rotate-180"></i>
-                </summary>
-                <p class="text-sm text-slate-600 mt-3 pt-3 border-t border-slate-100">Debes presentarte con tu DNI físico y figurar en el padrón correspondiente a estudiantes de la FCAG.</p>
-            </details>
-            <details class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 cursor-pointer group">
-                <summary class="font-bold text-slate-800 flex justify-between items-center">
-                    ¿Cómo funciona el Fondo Común para Viajes de Campaña?
-                    <i class="fa-solid fa-chevron-down text-xs transition group-open:rotate-180"></i>
-                </summary>
-                <p class="text-sm text-slate-600 mt-3 pt-3 border-t border-slate-100">Es una herramienta colaborativa impulsada por el CEGMA mediante eventos y actividades para abaratar los costos operativos de los viajes obligatorios de las carreras.</p>
-            </details>
-        </div>
-    </section>
-
-    <!-- CONTACTO Y FOOTER -->
-    <footer id="contacto" class="bg-granate-dark text-white pt-16 pb-12">
+    <!-- FOOTER -->
+    <footer class="bg-granate-dark text-white pt-16 pb-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div>
                 <h3 class="font-script text-2xl text-pink-200 mb-2">Franja Morada Observatorio</h3>
-                <p class="text-slate-300 text-sm">Facultad de Ciencias Astronómicas y Geofísicas - UNLP. Construyendo la facultad que nos merecemos todos los días del año.</p>
+                <p class="text-slate-300 text-sm">Facultad de Ciencias Astronómicas y Geofísicas - UNLP. Construyendo la facultad que nos merecemos todo el año.</p>
             </div>
             <div>
                 <h4 class="font-bold text-pink-200 mb-3 uppercase text-xs tracking-wider">Enlaces Útiles</h4>
                 <ul class="space-y-2 text-sm text-slate-300">
-                    <li><a href="#quienes-somos" class="hover:text-white transition">Quiénes Somos</a></li>
-                    <li><a href="#aproba" class="hover:text-white transition">Aprobá con la Franja</a></li>
-                    <li><a href="#elecciones" class="hover:text-white transition">Elecciones 2026</a></li>
+                    <li><a href="quienes-somos.html" class="hover:text-white transition">Quiénes Somos</a></li>
+                    <li><a href="aproba.html" class="hover:text-white transition">Aprobá con la Franja</a></li>
+                    <li><a href="elecciones.html" class="hover:text-white transition">Elecciones 2026</a></li>
                 </ul>
             </div>
             <div>
@@ -386,7 +207,7 @@
                 <div class="flex gap-4 text-xl mt-2">
                     <a href="https://instagram.com" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://youtube.com" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="mailto:franjaobservatorio@gmail.com" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="contacto.html" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </div>
@@ -400,30 +221,31 @@
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
-    <!-- SCRIPT DE INTERACTIVIDAD (Buscador y Menú Móvil) -->
+    <!-- SCRIPT DE BUSCADOR Y MENÚ MÓVIL -->
     <script>
-        // Toggle Menú Móvil
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         menuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Buscador Interno Interactivo
         const searchInput = document.getElementById('searchInput');
         const searchResults = document.getElementById('searchResults');
 
         const searchableContent = [
-            { title: "Elecciones 2026 (4, 5 y 6 de noviembre)", url: "#elecciones" },
-            { title: "Nube Morada (Drive de apuntes y parciales)", url: "#aproba" },
-            { title: "Clases Moradas de consulta", url: "#aproba" },
-            { title: "Nuevas Tecnicaturas en Geofísica y Astronomía", url: "#quienes-somos" },
-            { title: "Planes de Estudio (Relevamiento y discusión)", url: "#quienes-somos" },
-            { title: "Buffet y Salón Comedor La Viruta", url: "#espacios" },
-            { title: "Fondo Común para Viajes de Campaña", url: "#tramites" },
-            { title: "Congreso CIGMA e Interdisciplinariedad", url: "#congresos" },
-            { title: "Guía de Trámites y SIU-Guaraní", url: "#tramites" },
-            { title: "Becas UNLP y Comedor Universitario", url: "#becas" }
+            { title: "Elecciones 2026", url: "elecciones.html" },
+            { title: "Quiénes Somos (Nuestra Identidad)", url: "quienes-somos.html" },
+            { title: "Lo que Hicimos (Logros en Consejo Directivo)", url: "lo-que-hicimos.html" },
+            { title: "Comunidad Morada (Fiesta del ingresante, ferias)", url: "comunidad.html" },
+            { title: "Nube Morada (Drive de apuntes y parciales)", url: "aproba.html" },
+            { title: "Clases Moradas y YouTube", url: "aproba.html" },
+            { title: "Guía de Trámites y SIU-Guaraní", url: "tramites.html" },
+            { title: "Becas y Beneficios UNLP", url: "becas.html" },
+            { title: "Espacios del Centro y Buffet La Viruta", url: "espacios.html" },
+            { title: "Vinculación y Viajes (Planta de Litio y San Juan)", url: "vinculacion.html" },
+            { title: "Congresos CIGMA y REFMA", url: "congresos.html" },
+            { title: "Preguntas Frecuentes (FAQ)", url: "faq.html" },
+            { title: "Contacto y Redes", url: "contacto.html" }
         ];
 
         searchInput.addEventListener('input', (e) => {
@@ -444,10 +266,6 @@
                     a.href = item.url;
                     a.textContent = item.title;
                     a.className = 'block px-4 py-2 hover:bg-slate-100 text-sm text-slate-700 transition';
-                    a.addEventListener('click', () => {
-                        searchResults.classList.add('hidden');
-                        searchInput.value = '';
-                    });
                     searchResults.appendChild(a);
                 });
             } else {
@@ -459,7 +277,6 @@
             }
         });
 
-        // Ocultar resultados al hacer click fuera
         document.addEventListener('click', (e) => {
             if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
                 searchResults.classList.add('hidden');
