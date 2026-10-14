@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Balance de las acciones y proyectos impulsados por Franja Morada Observatorio durante 2026, con antecedentes y gestiones en curso claramente identificados." name="description"/>
+  <title>
+   Qu&eacute; Hacemos · Balance 2026 | Franja Morada Observatorio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            granate: {
+              DEFAULT: '#5c1233',
+              dark: '#400c22',
+              light: '#7a1943',
+              accent: '#fbcfe8'
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body { font-family: Inter, sans-serif; }
+    .font-script { font-family: 'Playfair Display', serif; }
+    .nav-dropdown:hover .dropdown-menu,
+    .nav-dropdown:focus-within .dropdown-menu { display: block; }
+    summary { cursor: pointer; }
+    summary::-webkit-details-marker { display: none; }
+    .soft-grid {
+      background-image: radial-gradient(#7a194319 1px, transparent 1px);
+      background-size: 25px 25px;
+    }
+  </style>
+ </head>
+ <body class="bg-slate-50 text-slate-800 antialiased">
+  <!-- ===== ENCABEZADO Y MENÚS ===== -->
+  <header class="bg-granate text-white sticky top-0 z-50 shadow-lg border-b border-granate-light">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-24 gap-4">
+     <a aria-label="Inicio" class="shrink-0" href="index.html">
+      <img alt="Franja Morada Observatorio" class="h-24 w-auto object-contain" src="logo-franja.png"/>
+     </a>
+     <nav aria-label="Navegaci&oacute;n principal" class="hidden lg:flex items-center space-x-1 xl:space-x-3">
+      <a class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light" href="index.html">
+       Inicio
+      </a>
+      <a class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light" href="elecciones.html">
+       Elecciones 2026
+      </a>
+      <div class="relative nav-dropdown">
+       <button aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-bold flex items-center gap-2 bg-granate-light" type="button">
+        La Agrupaci&oacute;n
+        <i class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu absolute left-0 mt-0 w-60 bg-granate-dark shadow-xl rounded-lg py-2 hidden border border-granate-light">
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light transition" href="quienes-somos.html">
+         Qui&eacute;nes Somos
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light transition bg-granate-light" href="que-hacemos.html">
+         Qu&eacute; Hacemos
+        </a>
+       </div>
+      </div>
+      <div class="relative nav-dropdown">
+       <button class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light" type="button">
+        Estudiantes
+        <i class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu absolute left-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden border border-granate-light">
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="aproba.html">
+         Aprob&aacute; con la Franja
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="tramites.html">
+         Gu&iacute;a de Tr&aacute;mites
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="becas.html">
+         Becas y Beneficios
+        </a>
+       </div>
+      </div>
+      <div class="relative nav-dropdown">
+       <button class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light" type="button">
+        Facultad y Vida Prof.
+        <i class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu absolute left-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden border border-granate-light">
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="espacios.html">
+         Espacios del Centro
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="vinculacion.html">
+         Vinculaci&oacute;n y Viajes
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="congresos.html">
+         Congresos
+        </a>
+       </div>
+      </div>
+      <a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="faq.html">
+       FAQ
+      </a>
+      <a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="contacto.html">
+       Contacto
+      </a>
+     </nav>
+     <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="lg:hidden p-2 text-xl" id="menu-btn">
+      <i class="fa-solid fa-bars">
+      </i>
+     </button>
+    </div>
+   </div>
+   <nav class="hidden lg:hidden bg-granate-dark px-4 pt-2 pb-5 space-y-1" id="mobile-menu">
+    <a class="block px-3 py-2" href="index.html">
+     Inicio
+    </a>
+    <a class="block px-3 py-2" href="elecciones.html">
+     Elecciones 2026
+    </a>
+    <p class="text-pink-200 text-xs uppercase tracking-wider font-bold pt-3 px-3">
+     La Agrupaci&oacute;n
+    </p>
+    <a class="block px-6 py-2 text-sm" href="quienes-somos.html">
+     Qui&eacute;nes Somos
+    </a>
+    <a class="block px-6 py-2 text-sm bg-granate-light rounded-lg" href="que-hacemos.html">
+     Qu&eacute; Hacemos
+    </a>
+    <p class="text-pink-200 text-xs uppercase tracking-wider font-bold pt-3 px-3">
+     Estudiantes
+    </p>
+    <a class="block px-6 py-2 text-sm" href="aproba.html">
+     Aprob&aacute; con la Franja
+    </a>
+    <a class="block px-6 py-2 text-sm" href="tramites.html">
+     Gu&iacute;a de Tr&aacute;mites
+    </a>
+    <a class="block px-6 py-2 text-sm" href="becas.html">
+     Becas y Beneficios
+    </a>
+    <p class="text-pink-200 text-xs uppercase tracking-wider font-bold pt-3 px-3">
+     Facultad y Vida Prof.
+    </p>
+    <a class="block px-6 py-2 text-sm" href="espacios.html">
+     Espacios del Centro
+    </a>
+    <a class="block px-6 py-2 text-sm" href="vinculacion.html">
+     Vinculaci&oacute;n y Viajes
+    </a>
+    <a class="block px-6 py-2 text-sm" href="congresos.html">
+     Congresos
+    </a>
+    <a class="block px-3 py-2" href="faq.html">
+     FAQ
+    </a>
+    <a class="block px-3 py-2" href="contacto.html">
+     Contacto
+    </a>
+   </nav>
+  </header>
+  <main>
+   <!-- ===== SECCIÓN 01: QUÉ HACEMOS ===== -->
+   <section class="relative overflow-hidden bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white py-20 px-4">
+    <div class="max-w-6xl mx-auto relative">
+     <span class="inline-flex rounded-full border border-white/20 bg-white/10 text-xs uppercase tracking-[.2em] font-bold px-4 py-2">
+      La Agrupaci&oacute;n &middot; Balance 2026
+     </span>
+     <h1 class="text-4xl sm:text-6xl font-black mt-7 leading-tight">
+      Lo que hicimos en 2026
+     </h1>
+     <p class="text-lg sm:text-xl text-pink-100 max-w-3xl mt-6 leading-relaxed">
+      Un recorrido por las iniciativas, gestiones y proyectos que impulsamos durante 2026
+      para acompa&ntilde;ar a los estudiantes y mejorar la vida en nuestra Facultad.
+      Tambi&eacute;n incluimos antecedentes de a&ntilde;os anteriores cuando ayudan a entender el trabajo de este a&ntilde;o.
+     </p>
+    </div>
+   </section>
+   <div class="bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex gap-3 flex-wrap text-sm">
+     <a class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50" href="quienes-somos.html">
+      Qui&eacute;nes Somos
+     </a>
+     <a class="rounded-full px-4 py-2 font-semibold border bg-granate text-white border-granate" href="que-hacemos.html">
+      Qu&eacute; Hacemos
+     </a>
+    </div>
+   </div>
+   <!-- ===== SECCIÓN 02: PROYECTOS ACADÉMICOS Y DE COGOBIERNO ===== -->
+   <section class="py-16 sm:py-20 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase tracking-[.2em] text-xs font-bold text-granate">
+      Representaci&oacute;n
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3 mb-7">
+      Proyectos acad&eacute;micos y de cogobierno
+     </h2>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Tarjeta 1: PRAE -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-book-open">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        PRAE
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Impulsamos nuevas instancias para Matem&aacute;ticas Especiales II, &Aacute;lgebra,
+        Electromagnetismo, Mec&aacute;nica del Continuo y Mec&aacute;nica Celeste I.
+       </p>
+      </article>
+      <!-- Tarjeta 2: Extensión de trabajos prácticos -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-calendar-plus">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Extensi&oacute;n de trabajos pr&aacute;cticos
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Conseguimos nuevamente su aprobaci&oacute;n en el Consejo Directivo.
+       </p>
+      </article>
+      <!-- Tarjeta 3: Pasantías estudiantiles -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-briefcase">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Pasant&iacute;as estudiantiles
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Promovimos la continuidad, aprobaci&oacute;n e implementaci&oacute;n del Programa de
+        Pasant&iacute;as Estudiantiles (PPE).
+       </p>
+      </article>
+      <!-- Tarjeta 4: Reglamento Especial de Cursadas -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-file-circle-check">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Reglamento Especial de Cursadas
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Presentamos una propuesta de REC para contemplar distintas situaciones y dar mayor flexibilidad a
+        las trayectorias.
+       </p>
+      </article>
+      <!-- Tarjeta 5: Protocolo para emergencias -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-shield-heart">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Protocolo para emergencias
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Impulsamos un marco de actuaci&oacute;n institucional frente a situaciones de fuerza mayor.
+       </p>
+      </article>
+      <!-- Tarjeta 6: Planes de estudio -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-pen-to-square">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Planes de estudio
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Promovimos el inicio de la discusi&oacute;n de actualizaci&oacute;n y mantuvimos reuniones con la
+        Decana. Tambi&eacute;n elaboramos un formulario estudiantil de balance.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <!-- ===== SECCIÓN 03: CINCO TECNICATURAS APROBADAS ===== -->
+   <section class="py-16 sm:py-20 px-4 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase tracking-[.2em] text-xs font-bold text-granate">
+      M&aacute;s formaci&oacute;n
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3 mb-7">
+      Cinco tecnicaturas aprobadas
+     </h2>
+     <p class="text-slate-600 leading-relaxed text-lg max-w-4xl mt-4">
+      Impulsamos la aprobaci&oacute;n de cinco nuevas tecnicaturas para reconocer conocimientos adquiridos
+      y ampliar posibilidades acad&eacute;micas y laborales.
+      <strong>
+       Su implementaci&oacute;n a&uacute;n est&aacute; pendiente de la aprobaci&oacute;n nacional
+       correspondiente.
+      </strong>
+     </p>
+     <div class="grid md:grid-cols-2 gap-5 mt-8">
+      <div class="p-7 bg-white rounded-2xl border border-pink-100">
+       <h3 class="font-bold text-xl text-granate mb-4">
+        Geof&iacute;sica
+       </h3>
+       <ul class="space-y-3 text-slate-700 list-disc pl-5">
+        <li>
+         Ciencias de la Tierra y el Ambiente
+        </li>
+        <li>
+         Georreferenciaci&oacute;n
+        </li>
+        <li>
+         Procesamiento de Se&ntilde;ales
+        </li>
+       </ul>
+      </div>
+      <div class="p-7 bg-white rounded-2xl border border-pink-100">
+       <h3 class="font-bold text-xl text-granate mb-4">
+        Astronom&iacute;a
+       </h3>
+       <ul class="space-y-3 text-slate-700 list-disc pl-5">
+        <li>
+         Redes Geod&eacute;sicas
+        </li>
+        <li>
+         C&aacute;lculo Cient&iacute;fico
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- ===== SECCIÓN 04: MÁS ESPACIOS Y MATERIAS EN EL OBSERVATORIO ===== -->
+   <section class="py-16 sm:py-20 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase tracking-[.2em] text-xs font-bold text-granate">
+      Cursadas
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3 mb-7">
+      M&aacute;s espacios y materias en el Observatorio
+     </h2>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Tarjeta 1: Nuevo aulario -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-school">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Nuevo aulario
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        En 2025 comenz&oacute; la construcci&oacute;n del nuevo aulario para ampliar los espacios de
+        cursada; la obra continuaba en desarrollo al momento de la plataforma.
+       </p>
+      </article>
+      <!-- Tarjeta 2: Materias en la Facultad -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-location-dot">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Materias en la Facultad
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Se incorporaron An&aacute;lisis Matem&aacute;tico I y Fundamentos de Geolog&iacute;a con
+        r&eacute;gimen de promoci&oacute;n, reduciendo traslados.
+       </p>
+      </article>
+      <!-- Tarjeta 3: Más instancias de promoción -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-list-check">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        M&aacute;s instancias de promoci&oacute;n
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Impulsamos alternativas de promoci&oacute;n en Astronom&iacute;a General, Geof&iacute;sica General,
+        Introducci&oacute;n a las Ciencias Atmosf&eacute;ricas y Estad&iacute;stica Aplicada.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <!-- ===== SECCIÓN 05: APROBÁ CON LA FRANJA ===== -->
+   <section class="py-16 sm:py-20 px-4 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase tracking-[.2em] text-xs font-bold text-granate">
+      Acompa&ntilde;amiento acad&eacute;mico
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3 mb-7">
+      Aprob&aacute; con la Franja
+     </h2>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Tarjeta 1: Nube Morada -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-cloud">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Nube Morada
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Renovamos el espacio de apuntes con parciales, pr&aacute;cticas, res&uacute;menes y material de
+        diferentes materias.
+       </p>
+      </article>
+      <!-- Tarjeta 2: Clases Moradas -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-chalkboard-user">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Clases Moradas
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Organizamos consultas de An&aacute;lisis Matem&aacute;tico I, &Aacute;lgebra y F&iacute;sica General
+        I.
+       </p>
+      </article>
+      <!-- Tarjeta 3: Contenido en YouTube -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-video">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Contenido en YouTube
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Sumamos resoluciones y clases grabadas para estudiar a tu ritmo.
+       </p>
+      </article>
+      <!-- Tarjeta 4: Colecta de rocas -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-mountain">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Colecta de rocas
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Pusimos en marcha una colecta para ampliar muestras utilizadas en Fundamentos de Geolog&iacute;a.
+       </p>
+      </article>
+     </div>
+     <a class="inline-flex mt-7 font-bold text-granate hover:underline" href="aproba.html">
+      Explor&aacute; Aprob&aacute; con la Franja
+      <i class="fa-solid fa-arrow-right ml-2 mt-1">
+      </i>
+     </a>
+    </div>
+   </section>
+   <!-- ===== SECCIÓN 06: VIAJES, VINCULACIÓN Y CONGRESOS ===== -->
+   <section class="py-16 sm:py-20 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase tracking-[.2em] text-xs font-bold text-granate">
+      Experiencias
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3 mb-7">
+      Viajes, vinculaci&oacute;n y congresos
+     </h2>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Tarjeta 1: Viajes académicos -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-bus">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Viajes acad&eacute;micos
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Visita a la Planta de Desarrollo de Celdas de Litio y viaje con m&aacute;s de 50 estudiantes a la
+        68.&ordf; Reuni&oacute;n Anual de Astronom&iacute;a en San Juan.
+       </p>
+      </article>
+      <!-- Tarjeta 2: Fondo Común para Viajes de Campaña -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-piggy-bank">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Fondo Com&uacute;n para Viajes de Campa&ntilde;a
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Una herramienta para reducir costos a partir de rifas y eventos, mientras se reclama financiamiento
+        estructural.
+       </p>
+      </article>
+      <!-- Tarjeta 3: Vinculación profesional -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-network-wired">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Vinculaci&oacute;n profesional
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Impulsamos y acompa&ntilde;amos EXPO Empleo, Jornada del Litio, ENIGMA, SABIA-MAR, REFMA y CIGMA.
+       </p>
+      </article>
+      <!-- Tarjeta 4: CIGMA -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-atom">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        CIGMA
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Organizamos la primera edici&oacute;n del Congreso Interdisciplinario de Geof&iacute;sica,
+        Meteorolog&iacute;a y Astronom&iacute;a.
+       </p>
+      </article>
+      <!-- Tarjeta 5: Actividades científicas -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-moon">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Actividades cient&iacute;ficas
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Participamos en la organizaci&oacute;n de REFMA y una observaci&oacute;n del eclipse lunar junto al
+        Planetario.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <!-- ===== SECCIÓN 07: ESPACIOS PARA VIVIR LA FACULTAD ===== -->
+   <section class="py-16 sm:py-20 px-4 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase tracking-[.2em] text-xs font-bold text-granate">
+      Vida cotidiana
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3 mb-7">
+      Espacios para vivir la Facultad
+     </h2>
+     <p class="text-slate-600 leading-relaxed text-lg max-w-4xl mt-4">
+      Como antecedente de nuestro trabajo, desde 2018 incorporamos m&aacute;s de
+      <strong>
+       700 m&sup2;
+      </strong>
+      a los espacios del Centro de Estudiantes, hasta alcanzar alrededor de
+      <strong>
+       820 m&sup2;
+      </strong>
+      , seg&uacute;n el balance presentado en 2026.
+     </p>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Tarjeta 1: Buffet La Viruta -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-utensils">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Buffet La Viruta
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Renovamos cocina y atenci&oacute;n: horno, anafe, instalaciones el&eacute;ctricas, extractor,
+        campana, mesadas y microondas. Se sumaron men&uacute;s, promociones, cafeter&iacute;a y Club del
+        Cafecito.
+       </p>
+      </article>
+      <!-- Tarjeta 2: CEGMA Ana Teresa Diego -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-lock">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        CEGMA Ana Teresa Diego
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Espacio del Centro de Estudiantes y sector de lockers.
+       </p>
+      </article>
+      <!-- Tarjeta 3: Otros espacios -->
+      <article class="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm">
+       <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl">
+        <i class="fa-solid fa-copy">
+        </i>
+       </div>
+       <h3 class="font-extrabold text-lg mt-5">
+        Otros espacios
+       </h3>
+       <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+        Glorieta, Centro de Copiado y Librer&iacute;a y Sala Informatizada Conjunta.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="bg-granate-dark text-white py-14 px-4">
+   <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+    <div>
+     <h3 class="font-script text-2xl text-pink-200">
+      Franja Morada Observatorio
+     </h3>
+     <p class="mt-3 text-sm text-slate-300">
+      Facultad de Ciencias Astron&oacute;micas y Geof&iacute;sicas &middot; UNLP.
+     </p>
+    </div>
+    <div>
+     <h4 class="font-bold text-pink-200 mb-3">
+      La Agrupaci&oacute;n
+     </h4>
+     <a class="block text-sm mb-2" href="quienes-somos.html">
+      Qui&eacute;nes Somos
+     </a>
+     <a class="block text-sm mb-2" href="que-hacemos.html">
+      Qu&eacute; Hacemos
+     </a>
+    </div>
+    <div>
+     <h4 class="font-bold text-pink-200 mb-3">
+      Seguinos
+     </h4>
+     <a class="text-sm hover:underline" href="https://www.instagram.com/franjamoradaobservatorio/" rel="noopener noreferrer" target="_blank">
+      <i class="fa-brands fa-instagram mr-2">
+      </i>
+      @franjamoradaobservatorio
+     </a>
+    </div>
+   </div>
+   <div class="max-w-6xl mx-auto mt-10 pt-5 border-t border-white/20 text-xs text-slate-400 text-center">
+    &copy; 2026 Franja Morada Observatorio
+   </div>
+  </footer>
+  <script>
+   // ===== MENÚ PARA CELULARES =====
+    const b = document.getElementById('menu-btn');
+    const m = document.getElementById('mobile-menu');
+
+    b.addEventListener('click', () => {
+      const open = m.classList.toggle('hidden') === false;
+      b.setAttribute('aria-expanded', String(open));
+      b.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    });
+  </script>
+ </body>
+</html>
