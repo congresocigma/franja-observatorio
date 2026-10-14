@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guía de Trámites | Franja Morada Observatorio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        granate: {
+                            DEFAULT: "#5c1233",
+                            dark: "#400c22",
+                            light: "#7a1943",
+                            accent: "#fbcfe8"
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: Inter, sans-serif; }
+        .font-script { font-family: "Playfair Display", serif; }
+        .nav-dropdown:hover .dropdown-menu,
+        .nav-dropdown:focus-within .dropdown-menu { display: block; }
+        details > summary { cursor: pointer; }
+        details > summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+    <!-- ===== ENCABEZADO Y NAVEGACIÓN ===== -->
+    <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-24 gap-4">
+                <a href="index.html" aria-label="Ir al inicio" class="shrink-0">
+                    <img src="logo-franja.png" alt="Franja Morada Observatorio" class="h-24 w-auto object-contain">
+                </a>
+                <nav class="hidden lg:flex items-center gap-1 xl:gap-3" aria-label="Navegación principal">
+                    <a href="index.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Inicio</a>
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light ">
+                            Elecciones 2026
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="elecciones.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Información electoral
+                            </a>
+                            <a href="elecciones.html#propuestas-2027" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Propuestas 2027
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light ">
+                            La Agrupación
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="quienes-somos.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Quiénes Somos
+                            </a>
+                            <a href="que-hacemos.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Qué Hacemos
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light bg-granate-light">
+                            Estudiantes
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="aproba.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Aprobá con la Franja
+                            </a>
+                            <a href="tramites.html" class="block px-4 py-3 text-sm hover:bg-granate-light bg-granate-light">
+                                Guía de Trámites
+                            </a>
+                            <a href="becas.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Becas y Beneficios
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light ">
+                            Facultad y Vida Prof.
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="espacios.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Espacios del Centro
+                            </a>
+                            <a href="vinculacion.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Vinculación y Viajes
+                            </a>
+                            <a href="congresos.html" class="block px-4 py-3 text-sm hover:bg-granate-light ">
+                                Congresos
+                            </a>
+                        </div>
+                    </div>
+                    <a href="faq.html" class="px-3 py-2 text-sm rounded-md hover:bg-granate-light">FAQ</a>
+                    <a href="contacto.html" class="px-3 py-2 text-sm rounded-md hover:bg-granate-light">Contacto</a>
+                </nav>
+                <button id="menu-btn" type="button" class="lg:hidden p-2 text-xl" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Navegación para celulares -->
+        <nav id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" aria-label="Navegación móvil">
+            <a href="index.html" class="block px-3 py-2">Inicio</a>
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Elecciones 2026</p>
+            <a href="elecciones.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Información electoral
+            </a>
+            <a href="elecciones.html#propuestas-2027" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Propuestas 2027
+            </a>
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">La Agrupación</p>
+            <a href="quienes-somos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Quiénes Somos
+            </a>
+            <a href="que-hacemos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Qué Hacemos
+            </a>
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Estudiantes</p>
+            <a href="aproba.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Aprobá con la Franja
+            </a>
+            <a href="tramites.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light bg-granate-light">
+                Guía de Trámites
+            </a>
+            <a href="becas.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Becas y Beneficios
+            </a>
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Facultad y Vida Prof.</p>
+            <a href="espacios.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Espacios del Centro
+            </a>
+            <a href="vinculacion.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Vinculación y Viajes
+            </a>
+            <a href="congresos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light ">
+                Congresos
+            </a>
+            <a href="faq.html" class="block px-3 py-2">FAQ</a>
+            <a href="contacto.html" class="block px-3 py-2">Contacto</a>
+        </nav>
+    </header>
+<main>
+    <!-- ===== PORTADA ===== -->
+    <section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">Estudiantes · Información práctica</p>
+            <h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">Guía de Trámites</h1>
+            <p class="mt-5 max-w-3xl text-lg sm:text-xl text-pink-100 leading-relaxed">Estamos preparando una guía clara para ayudarte a resolver los trámites más habituales de la vida universitaria.</p>
+        </div>
+    </section>
+    <!-- ===== SECCIÓN: Sección en construcción ===== -->
+    <section class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Próximamente</p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Sección en construcción</h2>
+            <div class="mt-8 rounded-3xl bg-pink-50 border border-pink-100 p-8 sm:p-12 max-w-4xl">
+                <div class="text-4xl text-granate">
+                    <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+                </div>
+                <h3 class="mt-5 font-extrabold text-2xl text-granate">Estamos trabajando en esta guía</h3>
+                <p class="text-slate-600 leading-relaxed mt-4">
+                    Próximamente vas a encontrar información sobre SIU Guaraní, inscripciones, constancias, finales, equivalencias,
+                    trámites académicos y a quién consultar en cada situación.
+                </p>
+                <p class="text-slate-600 leading-relaxed mt-3">
+                    Mientras tanto, podés consultar a la Secretaría de Bienestar Estudiantil de la Facultad.
+                </p>
+                <a href="https://www.fcaglp.unlp.edu.ar/index.php/alumnos/bienestar-estudiantil/" target="_blank" rel="noopener noreferrer" class="inline-flex mt-6 bg-granate text-white px-6 py-3 rounded-full font-bold hover:bg-granate-light">
+                    Bienestar Estudiantil FCAG
+                    <i class="fa-solid fa-arrow-up-right-from-square ml-2 mt-1" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+    <!-- ===== PIE DE PÁGINA ===== -->
+    <footer class="bg-granate-dark text-white px-4 py-12">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+            <div>
+                <h2 class="font-script text-xl text-pink-200">Franja Morada Observatorio</h2>
+                <p class="text-slate-300 text-sm mt-2">Facultad de Ciencias Astronómicas y Geofísicas · UNLP</p>
+            </div>
+            <div class="flex gap-5 text-sm">
+                <a href="index.html" class="hover:underline">Inicio</a>
+                <a href="quienes-somos.html" class="hover:underline">La Agrupación</a>
+                <a href="contacto.html" class="hover:underline">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <!-- ===== MENÚ MÓVIL ===== -->
+    <script>
+        const menuButton = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        menuButton.addEventListener("click", () => {
+            const isOpen = mobileMenu.classList.toggle("hidden") === false;
+            menuButton.setAttribute("aria-expanded", String(isOpen));
+            menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
+        });
+    </script>
+</body>
+</html>
