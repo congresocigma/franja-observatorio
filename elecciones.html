@@ -82,7 +82,7 @@
         <div class="mt-8 bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-9">
           <form id="padron-form" class="flex flex-col sm:flex-row gap-3"><label for="dni-padron" class="sr-only">Número de DNI</label><input id="dni-padron" type="text" inputmode="numeric" autocomplete="off" maxlength="11" required placeholder="Tu número de DNI" class="flex-1 min-w-0 border border-slate-300 px-5 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-pink-200"><button type="submit" class="bg-granate text-white font-bold px-6 py-3 rounded-xl hover:bg-granate-light transition">Consultar padrón</button></form>
           <div id="padron-respuesta" class="hidden mt-5 rounded-xl p-5 text-sm leading-relaxed" role="status" aria-live="polite"></div>
-          <p class="text-xs text-slate-500 mt-5">El resultado es informativo y debe contrastarse con el padrón electoral oficial. Tu DNI no se muestra en el resultado. Si el buscador no está disponible, consultá con la Junta Electoral.</p>
+          <p class="text-xs text-slate-500 mt-5">El resultado es orientativo y debe contrastarse con el padrón oficial. Este buscador utiliza una copia pública y reducida del padrón 2026 que contiene DNI, número de orden y condición electoral.</p>
         </div>
       </div>
     </section>
@@ -126,9 +126,10 @@
         box.textContent='Consultando…';
         if(!/^\d{7,9}$/.test(dni)){box.textContent='Ingresá un DNI válido sin puntos.';return;}
         try {
-          const res=await fetch('/api/consultar-padron',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({dni}),cache:'no-store'});
-          const data=await res.json();
-          if(!res.ok)throw new Error(data.error||'La consulta no está disponible.');
+          const res=await fetch('./padron.json',{cache:'no-store'});
+          if(!res.ok)throw new Error('No se pudo cargar padron.json (HTTP '+res.status+').');
+          const padron=await res.json();
+          const data=padron[dni.replace(/^0+/,'')] || {estado:'NO_ENCONTRADO'};
           const estados={
             'CUMPLE CONDICION':['CUMPLE CONDICIÓN','Votás Centro de Estudiantes, Consejo Directivo y Consejo Superior.'],
             'INGRESANTE CUMPLE':['INGRESANTE CUMPLE','Votás Centro de Estudiantes, Consejo Directivo y Consejo Superior.'],
