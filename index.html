@@ -51,15 +51,33 @@
                     <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium bg-granate-light transition">Inicio</a>
                     <a href="elecciones.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition text-pink-200 font-semibold">Elecciones 2026</a>
 
-                    <!-- Dropdown: La Agrupación -->
+                    <!-- ================================================= -->
+                    <!-- MENÚ: LA AGRUPACIÓN -->
+                    <!-- ================================================= -->
                     <div class="relative group">
-                        <button class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light transition">
-                            La Agrupación <i class="fa-solid fa-chevron-down text-xs"></i>
+                        <button
+                            type="button"
+                            class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light transition"
+                            aria-haspopup="true"
+                        >
+                            La Agrupación
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
                         </button>
-                        <div class="dropdown-menu absolute left-0 mt-0 w-56 bg-granate-dark rounded-md shadow-xl py-2 hidden group-hover:block border border-granate-light">
-                            <a href="quienes-somos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Quiénes Somos</a>
-                            <a href="lo-que-hicimos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Lo que Hicimos</a>
-                            <a href="comunidad.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Comunidad Morada</a>
+
+                        <div class="dropdown-menu absolute left-0 mt-0 w-56 bg-granate-dark rounded-md shadow-xl py-2 hidden group-hover:block group-focus-within:block border border-granate-light">
+                            <a
+                                href="quienes-somos.html"
+                                class="block px-4 py-3 text-sm hover:bg-granate-light transition"
+                            >
+                                Quiénes Somos
+                            </a>
+
+                            <a
+                                href="que-hacemos.html"
+                                class="block px-4 py-3 text-sm hover:bg-granate-light transition"
+                            >
+                                Qué Hacemos
+                            </a>
                         </div>
                     </div>
 
@@ -104,11 +122,19 @@
         <div id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-2 pb-4 space-y-2 border-t border-granate-light">
             <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Inicio</a>
             <a href="elecciones.html" class="block px-3 py-2 rounded-md text-base font-medium text-pink-200 font-semibold hover:bg-granate-light">Elecciones 2026</a>
-            <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">La Agrupación</div>
-            <a href="quienes-somos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Quiénes Somos</a>
-            <a href="lo-que-hicimos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Lo que Hicimos</a>
-            <a href="comunidad.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Comunidad Morada</a>
-            
+            <!-- MENÚ MÓVIL: LA AGRUPACIÓN -->
+            <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">
+                La Agrupación
+            </div>
+
+            <a href="quienes-somos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">
+                Quiénes Somos
+            </a>
+
+            <a href="que-hacemos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">
+                Qué Hacemos
+            </a>
+
             <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">Estudiantes</div>
             <a href="aproba.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Aprobá con la Franja</a>
             <a href="tramites.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Guía de Trámites</a>
@@ -164,7 +190,7 @@
                     <i class="fa-solid fa-users"></i>
                 </div>
                 <h3 class="text-xl font-bold text-slate-800 mb-2">La Agrupación</h3>
-                <p class="text-slate-600 text-sm">Nuestra historia de 9 años, valores reformistas, los logros en Consejo Directivo y la Comunidad Morada.</p>
+                <p class="text-slate-600 text-sm">Conocé quiénes somos, qué defendemos y cómo trabajamos todos los días en la Facultad.</p>
             </a>
             <a href="aproba.html" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition group">
                 <div class="w-12 h-12 bg-pink-100 text-granate rounded-xl flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-granate group-hover:text-white transition">
@@ -194,6 +220,7 @@
                 <h4 class="font-bold text-pink-200 mb-3 uppercase text-xs tracking-wider">Enlaces Útiles</h4>
                 <ul class="space-y-2 text-sm text-slate-300">
                     <li><a href="quienes-somos.html" class="hover:text-white transition">Quiénes Somos</a></li>
+                    <li><a href="que-hacemos.html" class="hover:text-white transition">Qué Hacemos</a></li>
                     <li><a href="aproba.html" class="hover:text-white transition">Aprobá con la Franja</a></li>
                     <li><a href="elecciones.html" class="hover:text-white transition">Elecciones 2026</a></li>
                 </ul>
@@ -231,8 +258,7 @@
         const searchableContent = [
             { title: "Elecciones 2026", url: "elecciones.html" },
             { title: "Quiénes Somos (Nuestra Identidad)", url: "quienes-somos.html" },
-            { title: "Lo que Hicimos (Logros en Consejo Directivo)", url: "lo-que-hicimos.html" },
-            { title: "Comunidad Morada (Fiesta del ingresante, ferias)", url: "comunidad.html" },
+            { title: "Qué Hacemos (representación, logros, proyectos, comunidad)", url: "que-hacemos.html" },
             { title: "Nube Morada (Drive de apuntes y parciales)", url: "aproba.html" },
             { title: "Clases Moradas y YouTube", url: "aproba.html" },
             { title: "Guía de Trámites y SIU-Guaraní", url: "tramites.html" },
