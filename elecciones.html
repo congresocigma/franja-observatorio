@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elecciones estudiantiles 2026 en la Facultad de Ciencias Astronómicas y Geofísicas: qué se vota, requisitos y candidaturas de Franja Morada Observatorio.">
+  <title>Elecciones 2026 | Franja Morada Observatorio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{granate:{DEFAULT:'#5c1233',dark:'#400c22',light:'#7a1943',accent:'#fbcfe8'}}}}}</script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body{font-family:Inter,sans-serif} .font-script{font-family:'Playfair Display',serif}
+    .soft-grid{background-image:radial-gradient(#7a194322 1px,transparent 1px);background-size:25px 25px}
+    .nav-dropdown:focus-within .dropdown-menu,.nav-dropdown:hover .dropdown-menu{display:block}
+    details summary{cursor:pointer} details summary::-webkit-details-marker{display:none}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+  <header class="bg-granate text-white sticky top-0 z-50 shadow-lg border-b border-granate-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-24 gap-4">
+        <a href="index.html" class="flex items-center shrink-0 group py-2" aria-label="Volver a inicio"><img src="logo-franja.png" alt="Franja Morada Observatorio" class="h-24 w-auto object-contain group-hover:scale-105 transition"></a>
+        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-3" aria-label="Navegación principal">
+          <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">Inicio</a>
+          <a href="elecciones.html" aria-current="page" class="px-3 py-2 rounded-md text-sm font-bold bg-granate-light text-pink-100">Elecciones 2026</a>
+          <div class="relative nav-dropdown"><button type="button" class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light">La Agrupación <i class="fa-solid fa-chevron-down text-xs"></i></button><div class="dropdown-menu absolute left-0 w-56 bg-granate-dark rounded-md shadow-xl py-2 hidden border border-granate-light"><a href="quienes-somos.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Quiénes Somos</a><a href="lo-que-hicimos.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Lo que Hicimos</a><a href="comunidad.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Comunidad Morada</a></div></div>
+          <div class="relative nav-dropdown"><button type="button" class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light">Estudiantes <i class="fa-solid fa-chevron-down text-xs"></i></button><div class="dropdown-menu absolute left-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden border border-granate-light"><a href="aproba.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Aprobá con la Franja</a><a href="tramites.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Guía de Trámites</a><a href="becas.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Becas y Beneficios</a></div></div>
+          <div class="relative nav-dropdown"><button type="button" class="px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 hover:bg-granate-light">Facultad y Vida Prof. <i class="fa-solid fa-chevron-down text-xs"></i></button><div class="dropdown-menu absolute left-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden border border-granate-light"><a href="espacios.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Espacios del Centro</a><a href="vinculacion.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Vinculación y Viajes</a><a href="congresos.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Congresos</a></div></div>
+          <a href="faq.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light">FAQ</a><a href="contacto.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light">Contacto</a>
+        </nav>
+        <button id="menu-btn" type="button" aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false" class="lg:hidden text-xl p-2"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <nav id="mobile-menu" aria-label="Navegación móvil" class="hidden lg:hidden bg-granate-dark px-4 pt-2 pb-4 space-y-1 border-t border-granate-light">
+      <a href="index.html" class="block px-3 py-2 rounded-md">Inicio</a><a href="elecciones.html" class="block px-3 py-2 rounded-md bg-granate-light font-bold">Elecciones 2026</a>
+      <p class="text-xs uppercase tracking-wider text-pink-300 font-bold px-3 pt-3">La Agrupación</p><a href="quienes-somos.html" class="block px-6 py-1 text-sm">Quiénes Somos</a><a href="lo-que-hicimos.html" class="block px-6 py-1 text-sm">Lo que Hicimos</a><a href="comunidad.html" class="block px-6 py-1 text-sm">Comunidad Morada</a>
+      <p class="text-xs uppercase tracking-wider text-pink-300 font-bold px-3 pt-3">Estudiantes</p><a href="aproba.html" class="block px-6 py-1 text-sm">Aprobá con la Franja</a><a href="tramites.html" class="block px-6 py-1 text-sm">Guía de Trámites</a><a href="becas.html" class="block px-6 py-1 text-sm">Becas y Beneficios</a>
+      <p class="text-xs uppercase tracking-wider text-pink-300 font-bold px-3 pt-3">Facultad y Vida Prof.</p><a href="espacios.html" class="block px-6 py-1 text-sm">Espacios del Centro</a><a href="vinculacion.html" class="block px-6 py-1 text-sm">Vinculación y Viajes</a><a href="congresos.html" class="block px-6 py-1 text-sm">Congresos</a>
+      <a href="faq.html" class="block px-3 py-2">FAQ</a><a href="contacto.html" class="block px-3 py-2">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
+      <div class="absolute -top-28 -right-20 w-96 h-96 rounded-full border-[70px] border-white/5 pointer-events-none"></div>
+      <div class="absolute -bottom-40 -left-20 w-96 h-96 rounded-full bg-pink-400/5 blur-3xl pointer-events-none"></div>
+      <div class="relative max-w-5xl mx-auto text-center">
+        <span class="inline-flex items-center gap-2 rounded-full px-4 py-2 bg-white/10 border border-white/20 text-pink-100 text-xs font-bold uppercase tracking-widest"><i class="fa-solid fa-check-to-slot"></i> Elecciones estudiantiles 2026</span>
+        <h1 class="text-4xl sm:text-5xl lg:text-7xl leading-tight font-black tracking-tight mt-7">Tu voz también<br><span class="text-pink-200">construye la Facultad.</span></h1>
+        <p class="text-lg sm:text-xl max-w-2xl mx-auto text-pink-50/90 mt-6 leading-relaxed">Cada año elegimos a quienes nos representan. Conocé cómo funcionan las elecciones, qué se vota y cómo participar.</p>
+        <div class="mt-9 inline-flex flex-col sm:flex-row items-center gap-2 sm:gap-5 bg-white/10 border border-white/20 px-6 py-4 rounded-2xl backdrop-blur-sm"><i class="fa-regular fa-calendar text-pink-200 text-xl"></i><strong class="text-lg">4, 5 y 6 de noviembre</strong><span class="text-pink-100 text-sm">2026 · de 8 a 18 h</span></div>
+        <div class="flex flex-wrap justify-center gap-3 mt-10"><a href="#guia" class="bg-white text-granate px-7 py-3 rounded-full font-bold hover:bg-pink-100 transition">Cómo funcionan <i class="fa-solid fa-arrow-down ml-2"></i></a><a href="#candidaturas" class="border border-white/70 text-white px-7 py-3 rounded-full font-semibold hover:bg-white/10 transition">Nuestra lista</a></div>
+      </div>
+    </section>
+
+    <section id="guia" class="scroll-mt-28 py-20 px-4 sm:px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="max-w-3xl"><span class="text-granate font-bold text-xs uppercase tracking-[.2em]">Guía de elecciones</span><h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">¿Qué son las elecciones estudiantiles?</h2><p class="text-slate-600 text-lg leading-relaxed mt-5">Son el momento en el que las y los estudiantes elegimos a nuestros representantes. Nos permiten decidir quiénes van a llevar nuestras inquietudes, defender nuestros derechos e impulsar propuestas en la Facultad y en la Universidad.</p><p class="mt-4 text-slate-600 leading-relaxed">Se realizan <strong>todos los años</strong> y forman parte de la participación estudiantil en el cogobierno de la UNLP.</p></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-11">
+          <article class="rounded-2xl bg-white border border-slate-200 p-7 shadow-sm"><div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl"><i class="fa-solid fa-people-group"></i></div><h3 class="text-xl font-extrabold mt-5">Centro de Estudiantes</h3><p class="text-xs uppercase tracking-wider font-semibold text-granate mt-1">CEGMA</p><p class="text-slate-600 text-sm mt-4 leading-relaxed">Es nuestra herramienta de organización y representación cotidiana: acompaña a estudiantes, impulsa proyectos y defiende sus intereses.</p><p class="text-sm font-bold text-granate mt-5">10 vocalías en la lista</p></article>
+          <article class="rounded-2xl bg-white border border-slate-200 p-7 shadow-sm"><div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl"><i class="fa-solid fa-building-columns"></i></div><h3 class="text-xl font-extrabold mt-5">Consejo Directivo</h3><p class="text-xs uppercase tracking-wider font-semibold text-granate mt-1">Facultad</p><p class="text-slate-600 text-sm mt-4 leading-relaxed">Es uno de los órganos de gobierno de la Facultad. Allí se debaten y resuelven cuestiones académicas e institucionales que nos afectan.</p><p class="text-sm font-bold text-granate mt-5">5 bancas estudiantiles a elegir</p></article>
+          <article class="rounded-2xl bg-white border border-slate-200 p-7 shadow-sm"><div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl"><i class="fa-solid fa-landmark"></i></div><h3 class="text-xl font-extrabold mt-5">Consejo Superior</h3><p class="text-xs uppercase tracking-wider font-semibold text-granate mt-1">Universidad</p><p class="text-slate-600 text-sm mt-4 leading-relaxed">Es un órgano de gobierno de la UNLP donde participan representantes de las facultades y se toman decisiones a nivel universitario.</p><p class="text-sm font-bold text-granate mt-5">1 representación estudiantil por Facultad</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="requisitos" class="py-20 px-4 sm:px-6 bg-white border-y border-slate-200 scroll-mt-28">
+      <div class="max-w-6xl mx-auto"><div class="text-center max-w-3xl mx-auto"><span class="text-granate font-bold text-xs uppercase tracking-[.2em]">Participación</span><h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">¿Puedo votar?</h2><p class="text-slate-600 mt-4">Las condiciones dependen de qué representantes quieras elegir. En ambos casos, necesitás figurar en el padrón correspondiente.</p></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+          <article class="rounded-3xl p-8 sm:p-10 bg-pink-50 border border-pink-100 relative overflow-hidden"><div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-granate text-2xl shadow-sm"><i class="fa-solid fa-users"></i></div><h3 class="text-2xl font-extrabold text-granate mt-6">Centro de Estudiantes</h3><p class="mt-4 text-slate-700 leading-relaxed">Podés votar si aprobaste <strong>una cursada o un parcial en los últimos dos años</strong>.</p><div class="mt-7 flex items-start gap-3 bg-white/80 rounded-xl px-4 py-4 text-sm text-granate font-semibold"><i class="fa-solid fa-circle-check text-lg mt-0.5"></i><span>Una cursada aprobada <em>o</em> un parcial aprobado.</span></div></article>
+          <article class="rounded-3xl p-8 sm:p-10 bg-slate-50 border border-slate-200"><div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-granate text-2xl shadow-sm"><i class="fa-solid fa-building-columns"></i></div><h3 class="text-2xl font-extrabold text-granate mt-6">Consejo Directivo y Superior</h3><p class="mt-4 text-slate-700 leading-relaxed">Podés votar si aprobaste <strong>un examen final en los últimos dos años</strong>.</p><div class="mt-7 flex items-start gap-3 bg-white rounded-xl px-4 py-4 text-sm text-granate font-semibold"><i class="fa-solid fa-graduation-cap text-lg mt-0.5"></i><span>Si sos ingresante, alcanza con haber aprobado un parcial.</span></div></article>
+        </div>
+        <div class="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-6 py-5 flex gap-4 items-start"><i class="fa-solid fa-id-card text-amber-700 mt-1"></i><div><h3 class="font-bold text-slate-800">Importante: revisá el padrón</h3><p class="text-sm text-slate-600 mt-1 leading-relaxed">Las condiciones académicas orientan sobre quiénes pueden votar, pero la habilitación efectiva depende de estar incluido en el padrón electoral. Llevá DNI o libreta estudiantil para acreditar tu identidad.</p></div></div>
+      </div>
+    </section>
+
+    <section class="px-4 py-20 soft-grid"><div class="max-w-5xl mx-auto bg-granate rounded-3xl p-8 sm:p-12 text-white flex flex-col md:flex-row md:items-center justify-between gap-7 shadow-xl"><div><p class="text-pink-200 text-xs tracking-[.2em] uppercase font-bold">La participación importa</p><h2 class="text-2xl sm:text-3xl font-extrabold mt-3">No es solo elegir nombres.<br>Es elegir quién nos representa.</h2><p class="mt-4 text-pink-100/90 max-w-xl">En cada elección tenemos la oportunidad de decidir qué voces llevan nuestras ideas y necesidades a los espacios donde se toman decisiones.</p></div><a href="#candidaturas" class="shrink-0 inline-flex justify-center items-center gap-2 bg-white text-granate font-bold rounded-full px-7 py-3 hover:bg-pink-100 transition">Conocé la lista <i class="fa-solid fa-arrow-right"></i></a></div></section>
+
+    <section id="candidaturas" class="scroll-mt-28 py-20 px-4 sm:px-6"><div class="max-w-6xl mx-auto"><div class="text-center max-w-3xl mx-auto"><span class="text-granate font-bold text-xs uppercase tracking-[.2em]">Franja Morada Observatorio</span><h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Nuestra lista 2026</h2><p class="text-slate-600 mt-4">Acá vas a poder conocer a quienes integran nuestra propuesta para cada espacio de representación.</p><span class="inline-block mt-5 rounded-full bg-pink-100 text-granate text-xs font-bold px-4 py-2"><i class="fa-regular fa-clock mr-1"></i> Candidaturas próximamente</span></div>
+      <div class="mt-12 space-y-14">
+        <div><div class="flex flex-wrap items-end justify-between gap-3 mb-6"><div><p class="text-granate text-xs font-bold uppercase tracking-widest">Centro de Estudiantes</p><h3 class="text-2xl font-extrabold mt-1">CEGMA</h3></div><span class="text-sm text-slate-500">10 vocalías</span></div><div id="centro-cards" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"></div></div>
+        <div><div class="flex flex-wrap items-end justify-between gap-3 mb-6"><div><p class="text-granate text-xs font-bold uppercase tracking-widest">Cogobierno de la Facultad</p><h3 class="text-2xl font-extrabold mt-1">Consejo Directivo</h3></div><span class="text-sm text-slate-500">5 titulares · 5 suplentes</span></div><h4 class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-wider">Titulares</h4><div id="directivo-titulares" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"></div><h4 class="text-sm font-bold text-slate-500 mb-4 mt-8 uppercase tracking-wider">Suplentes</h4><div id="directivo-suplentes" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"></div></div>
+        <div><div class="flex flex-wrap items-end justify-between gap-3 mb-6"><div><p class="text-granate text-xs font-bold uppercase tracking-widest">Cogobierno de la Universidad</p><h3 class="text-2xl font-extrabold mt-1">Consejo Superior</h3></div><span class="text-sm text-slate-500">1 titular · 1 suplente</span></div><div id="superior-cards" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"></div></div>
+      </div>
+    </div></section>
+
+    <section class="py-16 px-4 bg-white border-t border-slate-200"><div class="max-w-4xl mx-auto"><h2 class="text-2xl sm:text-3xl font-extrabold text-granate">Preguntas frecuentes</h2><div class="mt-6 space-y-3">
+      <details class="group border border-slate-200 rounded-xl p-5"><summary class="font-bold flex justify-between gap-4">¿Se votan las tres representaciones el mismo día?<i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition"></i></summary><p class="text-slate-600 mt-3 text-sm leading-relaxed">Sí. Las elecciones estudiantiles de 2026 están previstas para el 4, 5 y 6 de noviembre.</p></details>
+      <details class="group border border-slate-200 rounded-xl p-5"><summary class="font-bold flex justify-between gap-4">¿Puedo votar Centro aunque no pueda votar Consejo?<i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition"></i></summary><p class="text-slate-600 mt-3 text-sm leading-relaxed">Sí, los requisitos no son los mismos. Para Centro alcanza con una cursada o parcial aprobado en los últimos dos años; para Consejo se aplica el requisito correspondiente a tu situación académica. Siempre verificá que estés en el padrón.</p></details>
+      <details class="group border border-slate-200 rounded-xl p-5"><summary class="font-bold flex justify-between gap-4">¿Qué tengo que llevar para votar?<i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition"></i></summary><p class="text-slate-600 mt-3 text-sm leading-relaxed">DNI o libreta estudiantil para acreditar tu identidad.</p></details>
+    </div></div></section>
+  </main>
+  <footer class="bg-granate-dark text-white pt-16 pb-10"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 mb-12"><div><h3 class="font-script text-2xl text-pink-200 mb-2">Franja Morada Observatorio</h3><p class="text-slate-300 text-sm">Facultad de Ciencias Astronómicas y Geofísicas · UNLP.</p></div><div><h4 class="font-bold text-pink-200 mb-3 uppercase text-xs tracking-wider">Enlaces útiles</h4><a href="index.html" class="block text-slate-300 text-sm mb-2 hover:text-white">Inicio</a><a href="quienes-somos.html" class="block text-slate-300 text-sm mb-2 hover:text-white">Quiénes Somos</a><a href="aproba.html" class="block text-slate-300 text-sm hover:text-white">Aprobá con la Franja</a></div><div><h4 class="font-bold text-pink-200 mb-3 uppercase text-xs tracking-wider">Contacto</h4><a href="contacto.html" class="text-slate-300 text-sm hover:text-white"><i class="fa-solid fa-envelope mr-2"></i>Consultas y redes sociales</a></div></div><div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-400 border-t border-granate-light pt-6">© 2026 Franja Morada Observatorio · FCAG UNLP.</div></footer>
+  <script>
+    const btn=document.getElementById('menu-btn');const menu=document.getElementById('mobile-menu');btn.addEventListener('click',()=>{const opened=menu.classList.toggle('hidden')===false;btn.setAttribute('aria-expanded',String(opened));btn.setAttribute('aria-label',opened?'Cerrar menú':'Abrir menú')});
+    // Cuando tengas la lista, completá "nombre" y "foto" para cada integrante.
+    // Las rutas de imagen pueden ser, por ejemplo, "fotos/centro-1.jpg".
+    const candidaturas={
+      centro:Array.from({length:10},(_,i)=>({cargo:`${i+1}° vocal`,nombre:'',foto:''})),
+      directivoTitulares:Array.from({length:5},(_,i)=>({cargo:`${i+1}° titular`,nombre:'',foto:''})),
+      directivoSuplentes:Array.from({length:5},(_,i)=>({cargo:`${i+1}° suplente`,nombre:'',foto:''})),
+      superior:[{cargo:'Titular',nombre:'',foto:''},{cargo:'Suplente',nombre:'',foto:''}]
+    };
+    function renderCards(id,items){const cont=document.getElementById(id);items.forEach(persona=>{const article=document.createElement('article');article.className='bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition';const photo=document.createElement('div');photo.className='aspect-[4/5] bg-gradient-to-br from-pink-100 via-slate-100 to-pink-50 flex items-center justify-center text-granate/30 text-5xl';if(persona.foto){const img=document.createElement('img');img.src=persona.foto;img.alt=persona.nombre?`Foto de ${persona.nombre}`:'Foto de candidatura';img.className='w-full h-full object-cover';photo.appendChild(img)}else{photo.innerHTML='<i class="fa-solid fa-user"></i>'}const info=document.createElement('div');info.className='p-4';const cargo=document.createElement('p');cargo.className='text-xs uppercase tracking-wider text-granate font-extrabold';cargo.textContent=persona.cargo;const nombre=document.createElement('p');nombre.className='mt-2 font-semibold text-sm text-slate-700 min-h-10';nombre.textContent=persona.nombre||'Próximamente';info.append(cargo,nombre);article.append(photo,info);cont.appendChild(article)})}
+    renderCards('centro-cards',candidaturas.centro);renderCards('directivo-titulares',candidaturas.directivoTitulares);renderCards('directivo-suplentes',candidaturas.directivoSuplentes);renderCards('superior-cards',candidaturas.superior);
+  </script>
+</body>
+</html>
