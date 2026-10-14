@@ -22,8 +22,8 @@ module.exports = async function handler(req,res) {
   if(!/^[0-9]{7,9}$/.test(doc)) return res.status(400).json({error:'Ingresá un DNI válido, sin puntos.'});
   try {
     const row=load()[doc.replace(/^0+/,'')];
-    if(!row) return res.status(200).json({estado:'NO_ENCONTRADO',doble:false});
+    if(!row) return res.status(200).json({estado:'NO_ENCONTRADO'});
     // Do not expose names, legajos, other-faculty status, or personal records.
-    return res.status(200).json({estado:row.estado,doble:!!row.doble});
+    return res.status(200).json({estado:row.estado,numeroPadron:row.orden});
   } catch(error) {console.error('Error configurando consulta de padrón');return res.status(503).json({error:'La consulta todavía no está disponible. Usá los padrones oficiales.'});}
 };
