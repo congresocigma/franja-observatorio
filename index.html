@@ -38,16 +38,16 @@
 
     <!-- NAVBAR FIJA (STICKY) CON ALTURA AJUSTADA PARA EL LOGO GRANDE -->
     <header class="bg-granate text-white sticky top-0 z-50 shadow-lg border-b border-granate-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-24">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-24 gap-4">
                 
                 <!-- Logo al doble de tamaño (h-24) -->
-                <a href="index.html" class="flex items-center group py-2">
+                <a href="index.html" class="flex items-center group py-2 shrink-0">
                     <img src="logo-franja.png" alt="Logo Franja Morada Observatorio" class="h-24 w-auto object-contain group-hover:scale-105 transition">
                 </a>
 
                 <!-- Navegación Escritorio -->
-                <nav class="hidden lg:flex items-center space-x-1 xl:space-x-3">
+                <nav class="hidden 2xl:flex items-center gap-1">
                     <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium bg-granate-light transition">Inicio</a>
                     <a href="elecciones.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition text-pink-200 font-semibold">Elecciones 2026</a>
 
@@ -101,16 +101,32 @@
                         <div class="dropdown-menu absolute left-0 mt-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden group-hover:block border border-granate-light">
                             <a href="espacios.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Espacios del Centro</a>
                             <a href="vinculacion.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Vinculación y Viajes</a>
-                            <a href="congresos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Congresos (CIGMA / REFMA)</a>
+                            <a href="congresos.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Congresos (CIGMA / CONECTAR)</a>
                         </div>
                     </div>
+
+                    <!-- ===== NUEVAS SECCIONES: CARRERAS E INGRESANTES ===== -->
+                    <!-- Los archivos HTML se crearán más adelante. -->
+                    <a
+                        href="carreras.html"
+                        class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition whitespace-nowrap"
+                    >
+                        Carreras
+                    </a>
+
+                    <a
+                        href="ingresantes.html"
+                        class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition whitespace-nowrap"
+                    >
+                        Ingresantes
+                    </a>
 
                     <a href="faq.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">FAQ</a>
                     <a href="contacto.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light transition">Contacto</a>
                 </nav>
 
                 <!-- Botón Menú Móvil -->
-                <div class="flex items-center gap-3 lg:hidden">
+                <div class="flex items-center gap-3 2xl:hidden">
                     <button id="menu-btn" class="text-white focus:outline-none text-xl p-2">
                         <i class="fa-solid fa-bars"></i>
                     </button>
@@ -119,7 +135,7 @@
         </div>
 
         <!-- Menú Desplegable Móvil -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-2 pb-4 space-y-2 border-t border-granate-light">
+        <div id="mobile-menu" class="hidden 2xl:hidden bg-granate-dark px-4 pt-2 pb-4 space-y-2 border-t border-granate-light max-h-[75vh] overflow-y-auto">
             <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Inicio</a>
             <a href="elecciones.html" class="block px-3 py-2 rounded-md text-base font-medium text-pink-200 font-semibold hover:bg-granate-light">Elecciones 2026</a>
             <!-- MENÚ MÓVIL: LA AGRUPACIÓN -->
@@ -143,7 +159,23 @@
             <div class="border-t border-granate-light pt-2 text-xs uppercase tracking-wider text-pink-300 font-bold px-3">Facultad y Vida Prof.</div>
             <a href="espacios.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Espacios del Centro</a>
             <a href="vinculacion.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Vinculación y Viajes</a>
+            <a href="congresos.html" class="block px-6 py-1 text-sm hover:bg-granate-light">Congresos</a>
             
+            <!-- ===== NUEVAS SECCIONES: CARRERAS E INGRESANTES ===== -->
+            <a
+                href="carreras.html"
+                class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light border-t border-granate-light pt-2"
+            >
+                Carreras
+            </a>
+
+            <a
+                href="ingresantes.html"
+                class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light"
+            >
+                Ingresantes
+            </a>
+
             <a href="faq.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light border-t border-granate-light pt-2">FAQ</a>
             <a href="contacto.html" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-granate-light">Contacto</a>
         </div>
@@ -282,44 +314,144 @@
                     <i class="fa-solid fa-building-columns"></i>
                 </div>
                 <h3 class="text-xl font-bold text-slate-800 mb-2">Facultad y Vida Prof.</h3>
-                <p class="text-slate-600 text-sm">Buffet La Viruta, congresos CIGMA y REFMA, viajes académicos y vinculación profesional.</p>
+                <p class="text-slate-600 text-sm">Buffet La Viruta, congresos CIGMA y CONECTAR, viajes académicos y vinculación profesional.</p>
             </a>
         </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- ================================================= -->
+    <!-- FOOTER: CONTACTOS Y LINKS DE INTERÉS -->
+    <!-- ================================================= -->
     <footer class="bg-granate-dark text-white pt-16 pb-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+
+            <!-- IDENTIDAD -->
             <div>
-                <h3 class="font-script text-2xl text-pink-200 mb-2">Franja Morada Observatorio</h3>
-                <p class="text-slate-300 text-sm">Facultad de Ciencias Astronómicas y Geofísicas - UNLP. Construyendo la facultad que nos merecemos todo el año.</p>
+                <h3 class="font-script text-2xl text-pink-200 mb-3">
+                    Franja Morada Observatorio
+                </h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    Facultad de Ciencias Astronómicas y Geofísicas · UNLP.
+                    Construyendo la Facultad que nos merecemos.
+                </p>
             </div>
+
+            <!-- ENLACES INTERNOS -->
             <div>
-                <h4 class="font-bold text-pink-200 mb-3 uppercase text-xs tracking-wider">Enlaces Útiles</h4>
-                <ul class="space-y-2 text-sm text-slate-300">
+                <h4 class="font-bold text-pink-200 mb-4 uppercase text-xs tracking-wider">
+                    Explorá la web
+                </h4>
+                <ul class="space-y-3 text-sm text-slate-300">
+                    <li><a href="carreras.html" class="hover:text-white transition">Carreras</a></li>
+                    <li><a href="ingresantes.html" class="hover:text-white transition">Ingresantes</a></li>
                     <li><a href="quienes-somos.html" class="hover:text-white transition">Quiénes Somos</a></li>
                     <li><a href="que-hacemos.html" class="hover:text-white transition">Qué Hacemos</a></li>
                     <li><a href="aproba.html" class="hover:text-white transition">Aprobá con la Franja</a></li>
                     <li><a href="elecciones.html" class="hover:text-white transition">Elecciones 2026</a></li>
                 </ul>
             </div>
+
+            <!-- CONTACTOS -->
             <div>
-                <h4 class="font-bold text-pink-200 mb-3 uppercase text-xs tracking-wider">Redes y Contacto</h4>
-                <div class="flex gap-4 text-xl mt-2">
-                    <a href="https://instagram.com" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://youtube.com" target="_blank" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="contacto.html" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate transition"><i class="fa-solid fa-envelope"></i></a>
+                <h4 class="font-bold text-pink-200 mb-4 uppercase text-xs tracking-wider">
+                    Contactos
+                </h4>
+                <ul class="space-y-3 text-sm text-slate-300 break-words">
+                    <li>
+                        <a href="mailto:franjaobservatorio@gmail.com" class="hover:text-white transition">
+                            <i class="fa-solid fa-envelope mr-2" aria-hidden="true"></i>
+                            Franja Morada Observatorio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:alumnos@fcaglp.unlp.edu.ar" class="hover:text-white transition">
+                            <i class="fa-solid fa-graduation-cap mr-2" aria-hidden="true"></i>
+                            Departamento de Alumnos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:estudiantiles@fcaglp.unlp.edu.ar" class="hover:text-white transition">
+                            <i class="fa-solid fa-heart mr-2" aria-hidden="true"></i>
+                            Bienestar Estudiantil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html" class="hover:text-white transition font-semibold">
+                            Ver todos los contactos →
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- LINKS DE INTERÉS -->
+            <div>
+                <h4 class="font-bold text-pink-200 mb-4 uppercase text-xs tracking-wider">
+                    Links de interés
+                </h4>
+                <ul class="space-y-3 text-sm text-slate-300">
+                    <li>
+                        <a href="https://www.fcaglp.unlp.edu.ar/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">
+                            Sitio web de la FCAG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.unlp.edu.ar/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">
+                            Universidad Nacional de La Plata
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/drive/folders/11ejDN7UZM3RN5-9Pztl3srj75Ti3WnkV?usp=sharing" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">
+                            Nube Morada · Apuntes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@franjamoradaobservatorio" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">
+                            Clases en YouTube
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- REDES SOCIALES -->
+                <div class="flex gap-3 text-xl mt-6">
+                    <a
+                        href="https://www.instagram.com/franjamoradaobservatorio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram de Franja Morada Observatorio"
+                        class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate-light transition"
+                    >
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a
+                        href="https://www.youtube.com/@franjamoradaobservatorio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="YouTube de Franja Morada Observatorio"
+                        class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-granate-light transition"
+                    >
+                        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
         </div>
+
         <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-400 border-t border-granate-light pt-6">
-            © 2026 Franja Morada Observatorio - FCAG UNLP. Todos los derechos reservados.
+            © 2026 Franja Morada Observatorio · FCAG UNLP.
         </div>
     </footer>
 
-    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
-    <a href="https://wa.me/5492210000000" target="_blank" class="fixed bottom-6 right-6 bg-emerald-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl hover:bg-emerald-500 transition transform hover:scale-110 z-50" aria-label="WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
+    <!-- ================================================= -->
+    <!-- BOTÓN FLOTANTE DE INSTAGRAM -->
+    <!-- ================================================= -->
+    <a
+        href="https://www.instagram.com/franjamoradaobservatorio/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visitar Instagram de Franja Morada Observatorio"
+        title="Escribinos por Instagram"
+        class="fixed bottom-6 right-6 bg-granate-light text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl hover:bg-granate transition transform hover:scale-110 z-50"
+    >
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
     </a>
 
     <!-- SCRIPT DE BUSCADOR Y MENÚ MÓVIL -->
@@ -343,7 +475,9 @@
             { title: "Becas y Beneficios UNLP", url: "becas.html" },
             { title: "Espacios del Centro y Buffet La Viruta", url: "espacios.html" },
             { title: "Vinculación y Viajes (Planta de Litio y San Juan)", url: "vinculacion.html" },
-            { title: "Congresos CIGMA y REFMA", url: "congresos.html" },
+            { title: "Congresos CIGMA y CONECTAR", url: "congresos.html" },
+            { title: "Carreras de la FCAG", url: "carreras.html" },
+            { title: "Información para Ingresantes", url: "ingresantes.html" },
             { title: "Preguntas Frecuentes (FAQ)", url: "faq.html" },
             { title: "Contacto y Redes", url: "contacto.html" }
         ];
