@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Espacios del Centro de Estudiantes del Observatorio.">
+    <title>Espacios del Centro | Franja Morada Observatorio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        granate: {
+                            DEFAULT: "#5c1233",
+                            dark: "#400c22",
+                            light: "#7a1943",
+                            accent: "#fbcfe8"
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Inter, sans-serif;
+        }
+
+        .font-script {
+            font-family: "Playfair Display", serif;
+        }
+
+        .nav-dropdown:hover .dropdown-menu,
+        .nav-dropdown:focus-within .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- ===== ENCABEZADO ===== -->
+    <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-24 gap-4">
+                <a href="index.html" aria-label="Ir al inicio" class="shrink-0">
+                    <img src="logo-franja.png" alt="Franja Morada Observatorio" class="h-24 w-auto object-contain">
+                </a>
+
+                <nav class="hidden lg:flex items-center gap-1 xl:gap-3" aria-label="Navegación principal">
+                    <a href="index.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Inicio</a>
+                    <a href="elecciones.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Elecciones 2026</a>
+
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light">
+                            La Agrupación
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="quienes-somos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Quiénes Somos
+                            </a>
+                            <a href="que-hacemos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Qué Hacemos
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light">
+                            Estudiantes
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="aproba.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Aprobá con la Franja
+                            </a>
+                            <a href="tramites.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Guía de Trámites
+                            </a>
+                            <a href="becas.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Becas y Beneficios
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="relative nav-dropdown">
+                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 bg-granate-light">
+                            Facultad y Vida Prof.
+                            <i class="fa-solid fa-chevron-down text-xs" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+                            <a href="espacios.html" class="block px-4 py-3 text-sm hover:bg-granate-light bg-granate-light">
+                                Espacios del Centro
+                            </a>
+                            <a href="vinculacion.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Vinculación y Viajes
+                            </a>
+                            <a href="congresos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">
+                                Congresos
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="faq.html" class="px-3 py-2 text-sm rounded-md hover:bg-granate-light">FAQ</a>
+                    <a href="contacto.html" class="px-3 py-2 text-sm rounded-md hover:bg-granate-light">Contacto</a>
+                </nav>
+
+                <button id="menu-btn" type="button" class="lg:hidden p-2 text-xl" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <nav id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" aria-label="Navegación móvil">
+            <a href="index.html" class="block px-3 py-2">Inicio</a>
+            <a href="elecciones.html" class="block px-3 py-2">Elecciones 2026</a>
+
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">La Agrupación</p>
+            <a href="quienes-somos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Quiénes Somos</a>
+            <a href="que-hacemos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Qué Hacemos</a>
+
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Estudiantes</p>
+            <a href="aproba.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Aprobá con la Franja</a>
+            <a href="tramites.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Guía de Trámites</a>
+            <a href="becas.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Becas y Beneficios</a>
+
+            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Facultad y Vida Prof.</p>
+            <a href="espacios.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light bg-granate-light">Espacios del Centro</a>
+            <a href="vinculacion.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Vinculación y Viajes</a>
+            <a href="congresos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Congresos</a>
+
+            <a href="faq.html" class="block px-3 py-2">FAQ</a>
+            <a href="contacto.html" class="block px-3 py-2">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== PORTADA ===== -->
+        <section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
+            <div class="max-w-6xl mx-auto">
+                <p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">
+                    Facultad y Vida Profesional · Espacios del Centro
+                </p>
+                <h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">
+                    Espacios del Centro
+                </h1>
+                <p class="mt-5 max-w-3xl text-lg sm:text-xl text-pink-100 leading-relaxed">
+                    Lugares pensados para estudiar, compartir, encontrarnos y hacer más cómoda la vida cotidiana en la Facultad.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== NAVEGACIÓN INTERNA ===== -->
+        <div class="bg-white border-b border-slate-200">
+            <div class="max-w-6xl mx-auto px-4 py-4 flex gap-3 flex-wrap text-sm">
+                <a href="espacios.html" class="rounded-full px-4 py-2 font-semibold border bg-granate text-white border-granate">
+                    Espacios del Centro
+                </a>
+                <a href="vinculacion.html" class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50">
+                    Vinculación y Viajes
+                </a>
+                <a href="congresos.html" class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50">
+                    Congresos
+                </a>
+            </div>
+        </div>
+
+        <!-- ===== INTRO ===== -->
+        <section class="py-16 px-4 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Vida universitaria</p>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Espacios que construimos y sostenemos</h2>
+                <p class="mt-5 max-w-4xl text-lg text-slate-600 leading-relaxed">
+                    Tras años de trabajo, hoy contamos con distintos espacios al servicio de estudiantes del Observatorio.
+                    Son lugares para estudiar, comer, descansar, imprimir apuntes, reunirse y compartir la vida universitaria.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== ESPACIO 1 ===== -->
+        <section class="py-16 px-4 bg-slate-50">
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+                <div>
+                    <img src="imagenes/cegma-lockers.jpg" alt="Espacio del CEGMA y sector de lockers" class="w-full h-80 object-cover rounded-3xl shadow-lg border border-slate-200">
+                </div>
+                <div>
+                    <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Espacio de estudio</p>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">CEGMA y sector de lockers</h2>
+                    <p class="mt-5 text-slate-600 leading-relaxed">
+                        Un espacio pensado para el día a día estudiantil, con mesas, pizarras, WiFi, cocina,
+                        dispenser de agua fría y caliente, aire acondicionado y un sector de apuntes comunitario.
+                    </p>
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Además, sumamos un nuevo sector de lockers con capacidad para cientos de estudiantes,
+                        para que más personas puedan guardar sus materiales y moverse con mayor comodidad.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ESPACIO 2 ===== -->
+        <section class="py-16 px-4 bg-white">
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+                <div class="order-2 lg:order-1">
+                    <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Servicios estudiantiles</p>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Centro de Copiado y Librería</h2>
+                    <p class="mt-5 text-slate-600 leading-relaxed">
+                        El Centro de Copiado y Librería funciona como una herramienta cotidiana para acompañar la cursada.
+                        Allí podés retirar apuntes, comprar artículos de librería y acceder a distintos recursos útiles para estudiar.
+                    </p>
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        También incorporamos mejoras en el espacio y en la atención,
+                        facilitando medios de pago y una mayor comodidad para quienes lo usan todos los días.
+                    </p>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img src="imagenes/centro-copiado.jpg" alt="Centro de Copiado y Librería" class="w-full h-80 object-cover rounded-3xl shadow-lg border border-slate-200">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ESPACIO 3 ===== -->
+        <section class="py-16 px-4 bg-slate-50">
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+                <div>
+                    <img src="imagenes/sala-informatizada.jpg" alt="Sala Informatizada Conjunta" class="w-full h-80 object-cover rounded-3xl shadow-lg border border-slate-200">
+                </div>
+                <div>
+                    <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Acceso tecnológico</p>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Sala Informatizada Conjunta</h2>
+                    <p class="mt-5 text-slate-600 leading-relaxed">
+                        Creada para ampliar el acceso a herramientas tecnológicas, la sala cuenta con computadoras,
+                        pizarrones, WiFi de alta velocidad y un entorno pensado para estudiar y trabajar de forma más cómoda.
+                    </p>
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Es un espacio clave para quienes necesitan conectividad, equipamiento o simplemente un lugar adecuado para avanzar con tareas y trabajos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ESPACIO 4 ===== -->
+        <section class="py-16 px-4 bg-white">
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+                <div class="order-2 lg:order-1">
+                    <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Encuentro y bienestar</p>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Buffet, Salón Comedor y Sala de Estar</h2>
+                    <p class="mt-5 text-slate-600 leading-relaxed">
+                        Un lugar para comer, descansar, compartir y encontrarse.
+                        Este espacio cuenta con mesas, sillas, proyector, WiFi, dispenser de agua y condiciones para hacer más cómoda la estadía en la Facultad.
+                    </p>
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Además, seguimos trabajando para mejorar su funcionamiento, sumar propuestas y hacer de este sector un espacio cada vez más útil para la comunidad estudiantil.
+                    </p>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img src="imagenes/buffet-salon.jpg" alt="Buffet, Salón Comedor y Sala de Estar" class="w-full h-80 object-cover rounded-3xl shadow-lg border border-slate-200">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ESPACIO 5 ===== -->
+        <section class="py-16 px-4 bg-slate-50">
+            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+                <div>
+                    <img src="imagenes/glorieta.jpg" alt="Glorieta" class="w-full h-80 object-cover rounded-3xl shadow-lg border border-slate-200">
+                </div>
+                <div>
+                    <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Estudio y tranquilidad</p>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Glorieta</h2>
+                    <p class="mt-5 text-slate-600 leading-relaxed">
+                        La Glorieta nació como una respuesta a la necesidad de contar con más espacio para estudiar.
+                        Hoy es uno de los lugares más elegidos por quienes buscan tranquilidad y un ambiente cómodo para concentrarse.
+                    </p>
+                    <p class="mt-4 text-slate-600 leading-relaxed">
+                        Cuenta con mesas, sillas, WiFi, dispenser de agua y aire acondicionado,
+                        y forma parte de los espacios que sostienen la vida cotidiana del estudiantado.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+    <footer class="bg-granate-dark text-white px-4 py-12">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+            <div>
+                <h2 class="font-script text-xl text-pink-200">Franja Morada Observatorio</h2>
+                <p class="text-slate-300 text-sm mt-2">Facultad de Ciencias Astronómicas y Geofísicas · UNLP</p>
+            </div>
+            <div class="flex gap-5 text-sm flex-wrap">
+                <a href="index.html" class="hover:underline">Inicio</a>
+                <a href="quienes-somos.html" class="hover:underline">La Agrupación</a>
+                <a href="contacto.html" class="hover:underline">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPT MENÚ MÓVIL ===== -->
+    <script>
+        const menuButton = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuButton.addEventListener("click", () => {
+            const isOpen = mobileMenu.classList.toggle("hidden") === false;
+            menuButton.setAttribute("aria-expanded", String(isOpen));
+            menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
+        });
+    </script>
+</body>
+</html>
