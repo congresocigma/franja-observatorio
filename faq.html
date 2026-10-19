@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preguntas frecuentes sobre estudiar y vivir la Facultad de Ciencias Astronómicas y Geofísicas de la UNLP.">
+    <title>Preguntas Frecuentes | Franja Morada Observatorio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: {
+                granate: { DEFAULT: '#5c1233', dark: '#400c22', light: '#7a1943', accent: '#fbcfe8' }
+            } } }
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: Inter, sans-serif; }
+        .font-script { font-family: 'Playfair Display', serif; }
+        .nav-dropdown:hover .dropdown-menu,
+        .nav-dropdown:focus-within .dropdown-menu { display: block; }
+        details > summary { list-style: none; cursor: pointer; }
+        details > summary::-webkit-details-marker { display: none; }
+        .faq-item[hidden], .faq-group[hidden] { display: none !important; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+<header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-24 gap-4">
+<a aria-label="Ir al inicio" class="shrink-0" href="index.html">
+<img alt="Franja Morada Observatorio" class="h-24 w-auto object-contain" src="logo-franja.png"/>
+</a>
+<nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
+<a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
+       Inicio
+      </a>
+<div class="relative nav-dropdown group" data-election-nav="">
+<button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
+        Elecciones 2026
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
+         Información general
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
+         ¿Qué son las elecciones?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
+         ¿Quiénes pueden votar?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
+         Consultar padrón
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
+         Doble empadronamiento
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
+         Nuestra lista 2026
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
+         Preguntas frecuentes
+        </a>
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        La Agrupación
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
+         Quiénes Somos
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
+         Qué Hacemos
+        </a>
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        Estudiantes
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<!-- Información para ingresantes y carreras -->
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="ingresantes.html">
+         Ingresantes 2027
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="carreras.html">
+         Carreras y Tecnicaturas
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="aproba.html">
+         Aprobá con la Franja
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
+         Guía de Trámites
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
+         Becas y Beneficios
+        </a>
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        Facultad y Vida Prof.
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
+         Espacios del Centro
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="vinculacion.html">
+         Vinculación y Viajes
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
+         Congresos
+        </a>
+</div>
+</div>
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
+       FAQ
+      </a>
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
+       Contacto
+      </a>
+</nav>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
+<i aria-hidden="true" class="fa-solid fa-bars">
+</i>
+</button>
+</div>
+</div>
+<!-- Navegación para celulares -->
+<nav aria-label="Navegación móvil" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
+<a class="block px-3 py-2" href="index.html">
+     Inicio
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
+     Preguntas frecuentes
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
+     Nuestra lista 2026
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
+     Doble empadronamiento
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
+     Consultar padrón
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
+     ¿Quiénes pueden votar?
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
+     ¿Qué son las elecciones?
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
+     Información general
+    </a>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Elecciones 2026
+    </p>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     La Agrupación
+    </p>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
+     Quiénes Somos
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
+     Qué Hacemos
+    </a>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Estudiantes
+    </p>
+<!-- Información para ingresantes y carreras -->
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="ingresantes.html">
+     Ingresantes 2027
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="carreras.html">
+     Carreras y Tecnicaturas
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="aproba.html">
+     Aprobá con la Franja
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
+     Guía de Trámites
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
+     Becas y Beneficios
+    </a>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Facultad y Vida Prof.
+    </p>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
+     Espacios del Centro
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="vinculacion.html">
+     Vinculación y Viajes
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
+     Congresos
+    </a>
+<a class="block px-3 py-2" href="faq.html">
+     FAQ
+    </a>
+<a class="block px-3 py-2" href="contacto.html">
+     Contacto
+    </a>
+</nav>
+</header><main>
+    <!-- ===== PORTADA ===== -->
+    <section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark px-4 py-20 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-pink-200 text-xs font-bold uppercase tracking-[.2em]">Estudiantes · Información útil</p>
+            <h1 class="mt-4 text-4xl sm:text-6xl font-black">Preguntas frecuentes</h1>
+            <p class="mt-5 max-w-3xl mx-auto text-lg text-pink-100">Todo lo que necesitás saber para moverte por el Observatorio, en un solo lugar.</p>
+            <!-- Buscador: filtra las preguntas a medida que escribís. -->
+            <div class="mt-9 max-w-2xl mx-auto relative">
+                <label class="sr-only" for="faq-search">Buscar preguntas</label>
+                <i class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-slate-400" aria-hidden="true"></i>
+                <input id="faq-search" type="search" autocomplete="off" placeholder="Buscá sobre cursadas, becas, apuntes, trámites..." class="w-full py-4 pl-12 pr-5 text-slate-800 bg-white rounded-2xl shadow-lg focus:outline-none focus:ring-4 focus:ring-pink-300" />
+            </div>
+        </div>
+    </section>
+    <!-- ===== PREGUNTAS POR CATEGORÍA ===== -->
+    <section class="max-w-5xl mx-auto px-4 py-16">
+        <div class="space-y-12" id="faq-list">
+            <!-- Categoría 1: Vida académica -->
+            <section class="faq-group" id="faq-grupo-1">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-granate mb-5 flex items-center gap-3">
+                    <i class="fa-solid fa-graduation-cap text-xl" aria-hidden="true"></i>
+                    Vida académica
+                </h2>
+                <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden divide-y divide-slate-200">
+                    <details class="faq-item group" data-question="¿Qué diferencia hay entre aprobar una cursada, promocionar y rendir un final?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Qué diferencia hay entre aprobar una cursada, promocionar y rendir un final?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Aprobar la cursada significa cumplir sus requisitos y, cuando corresponde, quedar habilitado para rendir el examen final. Si la materia tiene promoción directa y cumplís sus condiciones, podés aprobar sin rendir final. Las modalidades dependen de cada asignatura.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Cómo me inscribo a las materias y los finales?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Cómo me inscribo a las materias y los finales?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Las inscripciones se realizan habitualmente desde SIU-Guaraní, durante las fechas establecidas por la Facultad. Revisá el calendario y las indicaciones de cada materia.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Qué es el PRAE?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Qué es el PRAE?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Es el Programa de Rendimiento Académico y Egreso. Puede ofrecer condiciones académicas específicas para determinadas materias, según su implementación. Consultá la normativa vigente para saber cuándo corresponde.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Dónde consulto las correlatividades de mi carrera?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Dónde consulto las correlatividades de mi carrera?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Podés consultar los planes de estudio oficiales de la Facultad. En la sección Carreras y Tecnicaturas de esta web vas a encontrar accesos para orientarte.</p>
+                            <a href="carreras.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Carreras y Tecnicaturas <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                </div>
+            </section>
+            <!-- Categoría 2: Apoyo para estudiar -->
+            <section class="faq-group" id="faq-grupo-2">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-granate mb-5 flex items-center gap-3">
+                    <i class="fa-solid fa-book-open text-xl" aria-hidden="true"></i>
+                    Apoyo para estudiar
+                </h2>
+                <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden divide-y divide-slate-200">
+                    <details class="faq-item group" data-question="¿Dónde consigo apuntes, parciales y finales viejos?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Dónde consigo apuntes, parciales y finales viejos?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>En Nube Morada podés encontrar materiales de estudio compartidos para distintas materias.</p>
+                            <a href="aproba.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Ir a Aprobá con la Franja <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿La Franja ofrece clases de apoyo?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿La Franja ofrece clases de apoyo?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Sí. Se organizan actividades de acompañamiento académico y hay clases y resoluciones grabadas en el canal de YouTube de Franja Morada Observatorio.</p>
+                            <a href="aproba.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Ver clases y recursos <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Dónde puedo estudiar dentro de la Facultad?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Dónde puedo estudiar dentro de la Facultad?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Podés usar diferentes espacios del Centro de Estudiantes, como el CEGMA, la Sala Informatizada Conjunta y la Glorieta. Conocelos en Espacios del Centro.</p>
+                            <a href="espacios.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Ver Espacios del Centro <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                </div>
+            </section>
+            <!-- Categoría 3: Trámites y bienestar -->
+            <section class="faq-group" id="faq-grupo-3">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-granate mb-5 flex items-center gap-3">
+                    <i class="fa-solid fa-clipboard-list text-xl" aria-hidden="true"></i>
+                    Trámites y bienestar
+                </h2>
+                <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden divide-y divide-slate-200">
+                    <details class="faq-item group" data-question="¿Dónde solicito un certificado de alumno regular?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Dónde solicito un certificado de alumno regular?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Consultá las opciones disponibles en SIU-Guaraní y, si necesitás ayuda, escribí al Departamento de Alumnos.</p>
+                            <a href="tramites.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Guía de Trámites <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Qué becas puedo solicitar?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Qué becas puedo solicitar?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>La UNLP y la FCAG ofrecen programas de apoyo estudiantil. Sus requisitos, fechas y modalidades dependen de cada convocatoria; consultá Becas y Beneficios para conocer las opciones.</p>
+                            <a href="becas.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Becas y Beneficios <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Con quién hablo si tengo un problema administrativo?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Con quién hablo si tengo un problema administrativo?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Para trámites académicos podés escribir a alumnos@fcaglp.unlp.edu.ar. También podés contactar a Franja Morada Observatorio para que te ayudemos a identificar el área correspondiente.</p>
+                            <a href="contacto.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Ir a Contacto <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                </div>
+            </section>
+            <!-- Categoría 4: Vida en el Observatorio -->
+            <section class="faq-group" id="faq-grupo-4">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-granate mb-5 flex items-center gap-3">
+                    <i class="fa-solid fa-users text-xl" aria-hidden="true"></i>
+                    Vida en el Observatorio
+                </h2>
+                <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden divide-y divide-slate-200">
+                    <details class="faq-item group" data-question="¿Dónde queda el Centro de Estudiantes?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Dónde queda el Centro de Estudiantes?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>El CEGMA cuenta con espacios dentro de la Facultad. Visitá Espacios del Centro para conocer los lugares y sus servicios.</p>
+                            <a href="espacios.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Conocer los espacios <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Hay buffet o lugar para almorzar?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Hay buffet o lugar para almorzar?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Sí. La Facultad cuenta con el Buffet La Viruta y espacios de comedor y encuentro estudiantil.</p>
+                            <a href="espacios.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Conocer el buffet <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                    <details class="faq-item group" data-question="¿Cómo puedo participar en actividades y congresos?">
+                        <summary class="flex items-center justify-between gap-5 px-6 py-5 font-semibold text-slate-800 hover:bg-pink-50 transition">
+                            <span>¿Cómo puedo participar en actividades y congresos?</span>
+                            <i class="fa-solid fa-chevron-down text-granate group-open:rotate-180 transition-transform" aria-hidden="true"></i>
+                        </summary>
+                        <div class="px-6 pb-6 text-sm sm:text-base leading-relaxed text-slate-600">
+                            <p>Seguinos en redes para enterarte de convocatorias, charlas, visitas y congresos como CIGMA y CONECTAR.</p>
+                            <a href="congresos.html" class="inline-flex mt-4 font-bold text-granate hover:underline">Ver Congresos <i class="fa-solid fa-arrow-right ml-2 mt-1 text-xs" aria-hidden="true"></i></a>
+                        </div>
+                    </details>
+                </div>
+            </section>
+        </div>
+        <div id="faq-no-results" class="hidden text-center bg-white border border-slate-200 rounded-2xl p-8 text-slate-600" role="status">No encontramos preguntas que coincidan con tu búsqueda.</div>
+    </section>
+    <!-- ===== INVITACIÓN A CONTACTAR ===== -->
+    <section class="px-4 py-14 bg-pink-50">
+        <div class="max-w-5xl mx-auto rounded-3xl bg-white border border-pink-200 p-8 sm:p-12 text-center">
+            <h2 class="text-3xl font-extrabold text-granate">¿No encontraste lo que buscabas?</h2>
+            <p class="mt-4 max-w-2xl mx-auto text-slate-600">Si tenés una duda o no sabés por dónde empezar, escribinos. Estamos para acompañarte durante toda tu carrera.</p>
+            <div class="flex flex-wrap justify-center gap-3 mt-7">
+                <a href="https://www.instagram.com/franjamoradaobservatorio/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-granate text-white font-bold hover:bg-granate-light transition"><i class="fa-brands fa-instagram" aria-hidden="true"></i> Escribinos por Instagram</a>
+                <a href="contacto.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-granate text-granate font-bold hover:bg-pink-50 transition">Otros contactos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="bg-granate-dark text-white px-4 py-12">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+        <div>
+            <h2 class="font-script text-xl text-pink-200">Franja Morada Observatorio</h2>
+            <p class="text-slate-300 text-sm mt-2">Facultad de Ciencias Astronómicas y Geofísicas · UNLP</p>
+        </div>
+        <div class="flex flex-wrap gap-5 text-sm">
+            <a href="index.html" class="hover:underline">Inicio</a>
+            <a href="carreras.html" class="hover:underline">Carreras</a>
+            <a href="ingresantes.html" class="hover:underline">Ingresantes</a>
+            <a href="contacto.html" class="hover:underline">Contacto</a>
+        </div>
+    </div>
+</footer>
+<script>
+    // ===== MENÚ MÓVIL =====
+    const menuButton = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuButton.addEventListener('click', () => {
+        const isOpen = !mobileMenu.classList.toggle('hidden');
+        menuButton.setAttribute('aria-expanded', String(isOpen));
+        menuButton.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+    });
+
+    // ===== FILTRO DE PREGUNTAS =====
+    const faqSearch = document.getElementById('faq-search');
+    const faqItems = [...document.querySelectorAll('.faq-item')];
+    const faqGroups = [...document.querySelectorAll('.faq-group')];
+    const noResults = document.getElementById('faq-no-results');
+
+    function normalizeText(text) {
+        return text.toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    faqSearch.addEventListener('input', () => {
+        const query = normalizeText(faqSearch.value.trim());
+        let visibleCount = 0;
+        faqItems.forEach(item => {
+            const matches = normalizeText(item.textContent).includes(query);
+            item.hidden = !matches;
+            if (matches) visibleCount++;
+        });
+        faqGroups.forEach(group => {
+            group.hidden = ![...group.querySelectorAll('.faq-item')].some(item => !item.hidden);
+        });
+        noResults.classList.toggle('hidden', visibleCount > 0);
+    });
+</script>
+</body>
+</html>
