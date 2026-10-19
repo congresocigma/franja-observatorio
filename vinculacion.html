@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="es" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Actividades de vinculación profesional y viajes académicos impulsados por Franja Morada Observatorio.">
-    <title>Vinculación y Viajes | Franja Morada Observatorio</title>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
+<html class="scroll-smooth" lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Actividades de vinculaci&oacute;n profesional y viajes acad&eacute;micos impulsados por Franja Morada Observatorio." name="description"/>
+  <title>
+   Vinculaci&oacute;n y Viajes | Franja Morada Observatorio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
             theme: {
                 extend: {
                     colors: {
@@ -22,13 +24,11 @@
                 }
             }
         };
-    </script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <style>
-        body {
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
             font-family: Inter, sans-serif;
         }
 
@@ -40,195 +40,381 @@
         .nav-dropdown:focus-within .dropdown-menu {
             display: block;
         }
-    </style>
-</head>
-<body class="bg-slate-50 text-slate-800 antialiased">
-    <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-24 gap-4">
-                <a href="index.html" aria-label="Ir al inicio" class="shrink-0">
-                    <img src="logo-franja.png" alt="Franja Morada Observatorio" class="h-24 w-auto object-contain">
-                </a>
-                <nav class="hidden lg:flex items-center gap-1 xl:gap-3" aria-label="Navegación principal">
-                    <a href="index.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Inicio</a>
-                    <a href="elecciones.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Elecciones 2026</a>
-                    <div class="relative nav-dropdown">
-                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light">
-                            La Agrupación
-                            <i class="fa-solid fa-chevron-down text-xs"></i>
-                        </button>
-                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-                            <a href="quienes-somos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Quiénes Somos</a>
-                            <a href="que-hacemos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Qué Hacemos</a>
-                        </div>
-                    </div>
-                    <div class="relative nav-dropdown">
-                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light">
-                            Estudiantes
-                            <i class="fa-solid fa-chevron-down text-xs"></i>
-                        </button>
-                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-                            
-                        <a href="ingresantes.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Ingresantes 2027</a>
-                        <a href="carreras.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Carreras y Tecnicaturas</a>
-<a href="aproba.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Aprobá con la Franja</a>
-                            <a href="tramites.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Guía de Trámites</a>
-                            <a href="becas.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Becas y Beneficios</a>
-                        </div>
-                    </div>
-                    <div class="relative nav-dropdown">
-                        <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 bg-granate-light">
-                            Facultad y Vida Prof.
-                            <i class="fa-solid fa-chevron-down text-xs"></i>
-                        </button>
-                        <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-                            <a href="espacios.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Espacios del Centro</a>
-                            <a href="vinculacion.html" class="block px-4 py-3 text-sm hover:bg-granate-light bg-granate-light">Vinculación y Viajes</a>
-                            <a href="congresos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Congresos</a>
-                        </div>
-                    </div>
-                    <a href="faq.html" class="px-3 py-2 text-sm rounded-md hover:bg-granate-light">FAQ</a>
-                    <a href="contacto.html" class="px-3 py-2 text-sm rounded-md hover:bg-granate-light">Contacto</a>
-                </nav>
-                <button id="menu-btn" type="button" class="lg:hidden p-2 text-xl" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
-        </div>
-        <nav id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto">
-            <a href="index.html" class="block px-3 py-2">Inicio</a>
-            <a href="elecciones.html" class="block px-3 py-2">Elecciones 2026</a>
-            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">La Agrupación</p>
-            <a href="quienes-somos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Quiénes Somos</a>
-            <a href="que-hacemos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Qué Hacemos</a>
-            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Estudiantes</p>
-            
-            <a href="ingresantes.html" class="block px-6 py-2 text-sm hover:bg-granate-light transition">Ingresantes 2027</a>
-            <a href="carreras.html" class="block px-6 py-2 text-sm hover:bg-granate-light transition">Carreras y Tecnicaturas</a>
-<a href="aproba.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Aprobá con la Franja</a>
-            <a href="tramites.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Guía de Trámites</a>
-            <a href="becas.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Becas y Beneficios</a>
-            <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">Facultad y Vida Prof.</p>
-            <a href="espacios.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Espacios del Centro</a>
-            <a href="vinculacion.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light bg-granate-light">Vinculación y Viajes</a>
-            <a href="congresos.html" class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light">Congresos</a>
-            <a href="faq.html" class="block px-3 py-2">FAQ</a>
-            <a href="contacto.html" class="block px-3 py-2">Contacto</a>
-        </nav>
-    </header>
-
-    <main>
-        <section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
-            <div class="max-w-6xl mx-auto">
-                <p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">Facultad y Vida Profesional · Vinculación y Viajes</p>
-                <h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">Vinculación y Viajes</h1>
-                <p class="mt-5 max-w-3xl text-lg sm:text-xl text-pink-100 leading-relaxed">
-                    Experiencias que conectan la formación académica con el mundo profesional y acercan a estudiantes a distintas realidades de nuestras carreras.
-                </p>
-            </div>
-        </section>
-
-        <div class="bg-white border-b border-slate-200">
-            <div class="max-w-6xl mx-auto px-4 py-4 flex gap-3 flex-wrap text-sm">
-                <a href="espacios.html" class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50">Espacios del Centro</a>
-                <a href="vinculacion.html" class="rounded-full px-4 py-2 font-semibold border bg-granate text-white border-granate">Vinculación y Viajes</a>
-                <a href="congresos.html" class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50">Congresos</a>
-            </div>
-        </div>
-
-        <section class="py-16 px-4 bg-white">
-            <div class="max-w-6xl mx-auto">
-                <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Formación integral</p>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Actividades de vinculación profesional</h2>
-                <p class="mt-5 max-w-4xl text-lg text-slate-600 leading-relaxed">
-                    Impulsamos actividades que fortalecen la formación académica y la conexión con el ámbito profesional,
-                    para que el paso por la Facultad también acerque experiencias prácticas, nuevas herramientas y redes de contacto.
-                </p>
-            </div>
-        </section>
-
-        <section class="py-16 px-4 bg-slate-50">
-            <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-                    <img src="imagenes/expo-empleo.jpg" alt="Expo Empleo" class="w-full h-56 object-cover">
-                    <div class="p-7">
-                        <h3 class="text-xl font-extrabold text-granate">Expo Empleo y jornadas temáticas</h3>
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Promovimos y acompañamos espacios de encuentro con el mundo laboral,
-                            como Expo Empleo y distintas jornadas vinculadas a temas estratégicos de nuestras carreras.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-                    <img src="imagenes/nomad-campo.jpg" alt="Jornadas de campo y experiencias prácticas" class="w-full h-56 object-cover">
-                    <div class="p-7">
-                        <h3 class="text-xl font-extrabold text-granate">Experiencias prácticas</h3>
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Impulsamos actividades que permiten conocer herramientas, metodologías y ámbitos reales de trabajo,
+   /* Navegación de Elecciones: visible al pasar el mouse, enfocar o activar el botón */
+.nav-dropdown:hover > .dropdown-menu, .nav-dropdown:focus-within > .dropdown-menu, .nav-dropdown.menu-open > .dropdown-menu { display: block; }
+  </style>
+ </head>
+ <body class="bg-slate-50 text-slate-800 antialiased">
+  <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-24 gap-4">
+     <a aria-label="Ir al inicio" class="shrink-0" href="index.html">
+      <img alt="Franja Morada Observatorio" class="h-24 w-auto object-contain" src="logo-franja.png"/>
+     </a>
+     <nav aria-label="Navegaci&oacute;n principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
+      <a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
+       Inicio
+      </a>
+      <div class="relative nav-dropdown group" data-election-nav="">
+       <button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
+        Elecciones 2026
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
+         Informaci&oacute;n general
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
+         &iquest;Qu&eacute; son las elecciones?
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
+         &iquest;Qui&eacute;nes pueden votar?
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
+         Consultar padr&oacute;n
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
+         Doble empadronamiento
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
+         Nuestra lista 2026
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
+         Preguntas frecuentes
+        </a>
+       </div>
+      </div>
+      <div class="relative nav-dropdown">
+       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        La Agrupaci&oacute;n
+        <i class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
+         Qui&eacute;nes Somos
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
+         Qu&eacute; Hacemos
+        </a>
+       </div>
+      </div>
+      <div class="relative nav-dropdown">
+       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        Estudiantes
+        <i class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
+         Ingresantes 2027
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+         Carreras y Tecnicaturas
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="aproba.html">
+         Aprob&aacute; con la Franja
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
+         Gu&iacute;a de Tr&aacute;mites
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
+         Becas y Beneficios
+        </a>
+       </div>
+      </div>
+      <div class="relative nav-dropdown">
+       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 bg-granate-light" type="button">
+        Facultad y Vida Prof.
+        <i class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
+         Espacios del Centro
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light bg-granate-light" href="vinculacion.html">
+         Vinculaci&oacute;n y Viajes
+        </a>
+        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
+         Congresos
+        </a>
+       </div>
+      </div>
+      <a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
+       FAQ
+      </a>
+      <a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
+       Contacto
+      </a>
+     </nav>
+     <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
+      <i class="fa-solid fa-bars">
+      </i>
+     </button>
+    </div>
+   </div>
+   <nav class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
+    <a class="block px-3 py-2" href="index.html">
+     Inicio
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
+     Preguntas frecuentes
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
+     Nuestra lista 2026
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
+     Doble empadronamiento
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
+     Consultar padr&oacute;n
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
+     &iquest;Qui&eacute;nes pueden votar?
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
+     &iquest;Qu&eacute; son las elecciones?
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
+     Informaci&oacute;n general
+    </a>
+    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Elecciones 2026
+    </p>
+    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     La Agrupaci&oacute;n
+    </p>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
+     Qui&eacute;nes Somos
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
+     Qu&eacute; Hacemos
+    </a>
+    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Estudiantes
+    </p>
+    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
+     Ingresantes 2027
+    </a>
+    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+     Carreras y Tecnicaturas
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="aproba.html">
+     Aprob&aacute; con la Franja
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
+     Gu&iacute;a de Tr&aacute;mites
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
+     Becas y Beneficios
+    </a>
+    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Facultad y Vida Prof.
+    </p>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
+     Espacios del Centro
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light bg-granate-light" href="vinculacion.html">
+     Vinculaci&oacute;n y Viajes
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
+     Congresos
+    </a>
+    <a class="block px-3 py-2" href="faq.html">
+     FAQ
+    </a>
+    <a class="block px-3 py-2" href="contacto.html">
+     Contacto
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
+    <div class="max-w-6xl mx-auto">
+     <p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">
+      Facultad y Vida Profesional &middot; Vinculaci&oacute;n y Viajes
+     </p>
+     <h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">
+      Vinculaci&oacute;n y Viajes
+     </h1>
+     <p class="mt-5 max-w-3xl text-lg sm:text-xl text-pink-100 leading-relaxed">
+      Experiencias que conectan la formaci&oacute;n acad&eacute;mica con el mundo profesional y acercan a estudiantes a distintas realidades de nuestras carreras.
+     </p>
+    </div>
+   </section>
+   <div class="bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex gap-3 flex-wrap text-sm">
+     <a class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50" href="espacios.html">
+      Espacios del Centro
+     </a>
+     <a class="rounded-full px-4 py-2 font-semibold border bg-granate text-white border-granate" href="vinculacion.html">
+      Vinculaci&oacute;n y Viajes
+     </a>
+     <a class="rounded-full px-4 py-2 font-semibold border bg-white text-granate border-pink-200 hover:bg-pink-50" href="congresos.html">
+      Congresos
+     </a>
+    </div>
+   </div>
+   <section class="py-16 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">
+      Formaci&oacute;n integral
+     </p>
+     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
+      Actividades de vinculaci&oacute;n profesional
+     </h2>
+     <p class="mt-5 max-w-4xl text-lg text-slate-600 leading-relaxed">
+      Impulsamos actividades que fortalecen la formaci&oacute;n acad&eacute;mica y la conexi&oacute;n con el &aacute;mbito profesional,
+                    para que el paso por la Facultad tambi&eacute;n acerque experiencias pr&aacute;cticas, nuevas herramientas y redes de contacto.
+     </p>
+    </div>
+   </section>
+   <section class="py-16 px-4 bg-slate-50">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+      <img alt="Expo Empleo" class="w-full h-56 object-cover" src="imagenes/expo-empleo.jpg"/>
+      <div class="p-7">
+       <h3 class="text-xl font-extrabold text-granate">
+        Expo Empleo y jornadas tem&aacute;ticas
+       </h3>
+       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+        Promovimos y acompa&ntilde;amos espacios de encuentro con el mundo laboral,
+                            como Expo Empleo y distintas jornadas vinculadas a temas estrat&eacute;gicos de nuestras carreras.
+       </p>
+      </div>
+     </article>
+     <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+      <img alt="Jornadas de campo y experiencias pr&aacute;cticas" class="w-full h-56 object-cover" src="imagenes/nomad-campo.jpg"/>
+      <div class="p-7">
+       <h3 class="text-xl font-extrabold text-granate">
+        Experiencias pr&aacute;cticas
+       </h3>
+       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+        Impulsamos actividades que permiten conocer herramientas, metodolog&iacute;as y &aacute;mbitos reales de trabajo,
                             acercando a estudiantes a experiencias concretas por fuera del aula.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-                    <img src="imagenes/charlas-profesionales.jpg" alt="Charlas con profesionales" class="w-full h-56 object-cover">
-                    <div class="p-7">
-                        <h3 class="text-xl font-extrabold text-granate">Charlas con profesionales</h3>
-                        <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-                            Generamos instancias para escuchar a profesionales de distintas áreas,
+       </p>
+      </div>
+     </article>
+     <article class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+      <img alt="Charlas con profesionales" class="w-full h-56 object-cover" src="imagenes/charlas-profesionales.jpg"/>
+      <div class="p-7">
+       <h3 class="text-xl font-extrabold text-granate">
+        Charlas con profesionales
+       </h3>
+       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+        Generamos instancias para escuchar a profesionales de distintas &aacute;reas,
                             conocer recorridos posibles y ampliar la mirada sobre las salidas laborales de nuestras carreras.
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section class="py-16 px-4 bg-white">
-            <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-                <div>
-                    <img src="imagenes/viajes-academicos.jpg" alt="Viajes académicos" class="w-full h-96 object-cover rounded-3xl shadow-lg border border-slate-200">
-                </div>
-                <div>
-                    <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">Aprender más allá del aula</p>
-                    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Viajes académicos</h2>
-                    <p class="mt-5 text-slate-600 leading-relaxed">
-                        Organizamos viajes y visitas técnicas para acercar a estudiantes a institutos, centros de investigación y encuentros académicos.
-                        Estas experiencias permiten conocer de cerca cómo trabajan profesionales de nuestras áreas y explorar distintas ramas de las carreras.
-                    </p>
-                    <ul class="mt-5 space-y-3 text-slate-600">
-                        <li class="flex gap-3"><i class="fa-solid fa-check text-granate mt-1"></i><span>Visitas al Instituto Argentino de Radioastronomía (IAR).</span></li>
-                        <li class="flex gap-3"><i class="fa-solid fa-check text-granate mt-1"></i><span>Recorridos por el Observatorio Argentino-Alemán de Geodesia (AGGO).</span></li>
-                        <li class="flex gap-3"><i class="fa-solid fa-check text-granate mt-1"></i><span>Actividades en la Planta de Desarrollo de Celdas de Litio.</span></li>
-                        <li class="flex gap-3"><i class="fa-solid fa-check text-granate mt-1"></i><span>Participación estudiantil en reuniones y encuentros académicos del país.</span></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-granate-dark text-white px-4 py-12">
-        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
-            <div>
-                <h2 class="font-script text-xl text-pink-200">Franja Morada Observatorio</h2>
-                <p class="text-slate-300 text-sm mt-2">Facultad de Ciencias Astronómicas y Geofísicas · UNLP</p>
-            </div>
-            <div class="flex gap-5 text-sm flex-wrap">
-                <a href="index.html" class="hover:underline">Inicio</a>
-                <a href="quienes-somos.html" class="hover:underline">La Agrupación</a>
-                <a href="contacto.html" class="hover:underline">Contacto</a>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        const menuButton = document.getElementById("menu-btn");
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="py-16 px-4 bg-white">
+    <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+     <div>
+      <img alt="Viajes acad&eacute;micos" class="w-full h-96 object-cover rounded-3xl shadow-lg border border-slate-200" src="imagenes/viajes-academicos.jpg"/>
+     </div>
+     <div>
+      <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">
+       Aprender m&aacute;s all&aacute; del aula
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
+       Viajes acad&eacute;micos
+      </h2>
+      <p class="mt-5 text-slate-600 leading-relaxed">
+       Organizamos viajes y visitas t&eacute;cnicas para acercar a estudiantes a institutos, centros de investigaci&oacute;n y encuentros acad&eacute;micos.
+                        Estas experiencias permiten conocer de cerca c&oacute;mo trabajan profesionales de nuestras &aacute;reas y explorar distintas ramas de las carreras.
+      </p>
+      <ul class="mt-5 space-y-3 text-slate-600">
+       <li class="flex gap-3">
+        <i class="fa-solid fa-check text-granate mt-1">
+        </i>
+        <span>
+         Visitas al Instituto Argentino de Radioastronom&iacute;a (IAR).
+        </span>
+       </li>
+       <li class="flex gap-3">
+        <i class="fa-solid fa-check text-granate mt-1">
+        </i>
+        <span>
+         Recorridos por el Observatorio Argentino-Alem&aacute;n de Geodesia (AGGO).
+        </span>
+       </li>
+       <li class="flex gap-3">
+        <i class="fa-solid fa-check text-granate mt-1">
+        </i>
+        <span>
+         Actividades en la Planta de Desarrollo de Celdas de Litio.
+        </span>
+       </li>
+       <li class="flex gap-3">
+        <i class="fa-solid fa-check text-granate mt-1">
+        </i>
+        <span>
+         Participaci&oacute;n estudiantil en reuniones y encuentros acad&eacute;micos del pa&iacute;s.
+        </span>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-granate-dark text-white px-4 py-12">
+   <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+    <div>
+     <h2 class="font-script text-xl text-pink-200">
+      Franja Morada Observatorio
+     </h2>
+     <p class="text-slate-300 text-sm mt-2">
+      Facultad de Ciencias Astron&oacute;micas y Geof&iacute;sicas &middot; UNLP
+     </p>
+    </div>
+    <div class="flex gap-5 text-sm flex-wrap">
+     <a class="hover:underline" href="index.html">
+      Inicio
+     </a>
+     <a class="hover:underline" href="quienes-somos.html">
+      La Agrupaci&oacute;n
+     </a>
+     <a class="hover:underline" href="contacto.html">
+      Contacto
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuButton = document.getElementById("menu-btn");
         const mobileMenu = document.getElementById("mobile-menu");
         menuButton.addEventListener("click", () => {
             const isOpen = mobileMenu.classList.toggle("hidden") === false;
             menuButton.setAttribute("aria-expanded", String(isOpen));
             menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
         });
-    </script>
-</body>
+  </script>
+  <script>
+   /* Permitir abrir y cerrar el menú Elecciones mediante clic, además de hover. */
+document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
+    const button = wrapper.querySelector('button');
+    button.addEventListener('click', function () {
+        const open = wrapper.classList.toggle('menu-open');
+        button.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('click', function (event) {
+        if (!wrapper.contains(event.target)) {
+            wrapper.classList.remove('menu-open');
+            button.setAttribute('aria-expanded', 'false');
+        }
+    });
+    wrapper.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            wrapper.classList.remove('menu-open');
+            button.setAttribute('aria-expanded', 'false');
+            button.focus();
+        }
+    });
+});
+  </script>
+ </body>
 </html>

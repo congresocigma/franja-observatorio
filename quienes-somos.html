@@ -16,6 +16,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
   <style>
    body{font-family:Inter,sans-serif}.font-script{font-family:'Playfair Display',serif}.nav-dropdown:hover .dropdown-menu,.nav-dropdown:focus-within .dropdown-menu{display:block}summary{cursor:pointer}summary::-webkit-details-marker{display:none}.soft-grid{background-image:radial-gradient(#7a194319 1px,transparent 1px);background-size:25px 25px}
+   /* Navegación de Elecciones: visible al pasar el mouse, enfocar o activar el botón */
+.nav-dropdown:hover > .dropdown-menu, .nav-dropdown:focus-within > .dropdown-menu, .nav-dropdown.menu-open > .dropdown-menu { display: block; }
   </style>
  </head>
  <body class="bg-slate-50 text-slate-800 antialiased">
@@ -29,9 +31,36 @@
       <a class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light" href="index.html">
        Inicio
       </a>
-      <a class="px-3 py-2 rounded-md text-sm font-medium hover:bg-granate-light" href="elecciones.html">
-       Elecciones 2026
-      </a>
+      <div class="relative nav-dropdown group" data-election-nav="">
+       <button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
+        Elecciones 2026
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+        </i>
+       </button>
+       <div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
+         Informaci&oacute;n general
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
+         &iquest;Qu&eacute; son las elecciones?
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
+         &iquest;Qui&eacute;nes pueden votar?
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
+         Consultar padr&oacute;n
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
+         Doble empadronamiento
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
+         Nuestra lista 2026
+        </a>
+        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
+         Preguntas frecuentes
+        </a>
+       </div>
+      </div>
       <div class="relative nav-dropdown">
        <button aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-bold flex items-center gap-2 bg-granate-light" type="button">
         La Agrupaci&oacute;n
@@ -54,10 +83,13 @@
         </i>
        </button>
        <div class="dropdown-menu absolute left-0 w-60 bg-granate-dark rounded-md shadow-xl py-2 hidden border border-granate-light">
-        
-                        <a href="ingresantes.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Ingresantes 2027</a>
-                        <a href="carreras.html" class="block px-4 py-2 text-sm hover:bg-granate-light transition">Carreras y Tecnicaturas</a>
-<a class="block px-4 py-2 text-sm hover:bg-granate-light" href="aproba.html">
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
+         Ingresantes 2027
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+         Carreras y Tecnicaturas
+        </a>
+        <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="aproba.html">
          Aprob&aacute; con la Franja
         </a>
         <a class="block px-4 py-2 text-sm hover:bg-granate-light" href="tramites.html">
@@ -103,9 +135,30 @@
     <a class="block px-3 py-2" href="index.html">
      Inicio
     </a>
-    <a class="block px-3 py-2" href="elecciones.html">
-     Elecciones 2026
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
+     Preguntas frecuentes
     </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
+     Nuestra lista 2026
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
+     Doble empadronamiento
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
+     Consultar padr&oacute;n
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
+     &iquest;Qui&eacute;nes pueden votar?
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
+     &iquest;Qu&eacute; son las elecciones?
+    </a>
+    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
+     Informaci&oacute;n general
+    </a>
+    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Elecciones 2026
+    </p>
     <p class="text-pink-200 text-xs uppercase tracking-wider font-bold pt-3 px-3">
      La Agrupaci&oacute;n
     </p>
@@ -118,10 +171,13 @@
     <p class="text-pink-200 text-xs uppercase tracking-wider font-bold pt-3 px-3">
      Estudiantes
     </p>
-    
-            <a href="ingresantes.html" class="block px-6 py-2 text-sm hover:bg-granate-light transition">Ingresantes 2027</a>
-            <a href="carreras.html" class="block px-6 py-2 text-sm hover:bg-granate-light transition">Carreras y Tecnicaturas</a>
-<a class="block px-6 py-2 text-sm" href="aproba.html">
+    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
+     Ingresantes 2027
+    </a>
+    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+     Carreras y Tecnicaturas
+    </a>
+    <a class="block px-6 py-2 text-sm" href="aproba.html">
      Aprob&aacute; con la Franja
     </a>
     <a class="block px-6 py-2 text-sm" href="tramites.html">
@@ -405,7 +461,29 @@
   <script>
    const b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');b.addEventListener('click',()=>{const open=m.classList.toggle('hidden')===false;b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú')});
   </script>
+  <script>
+   /* Permitir abrir y cerrar el menú Elecciones mediante clic, además de hover. */
+document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
+    const button = wrapper.querySelector('button');
+    button.addEventListener('click', function () {
+        const open = wrapper.classList.toggle('menu-open');
+        button.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('click', function (event) {
+        if (!wrapper.contains(event.target)) {
+            wrapper.classList.remove('menu-open');
+            button.setAttribute('aria-expanded', 'false');
+        }
+    });
+    wrapper.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            wrapper.classList.remove('menu-open');
+            button.setAttribute('aria-expanded', 'false');
+            button.focus();
+        }
+    });
+});
+  </script>
  </body>
  &lt;/html
 </html>
-
