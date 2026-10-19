@@ -23,6 +23,9 @@
  .
    /* Navegación de Elecciones: visible al pasar el mouse, enfocar o activar el botón */
 .nav-dropdown:hover > .dropdown-menu, .nav-dropdown:focus-within > .dropdown-menu, .nav-dropdown.menu-open > .dropdown-menu { display: block; }
+   /* FAQ: ocultar el marcador por defecto; usamos una flecha propia */
+        #preguntas-frecuentes summary::-webkit-details-marker { display: none; }
+        #preguntas-frecuentes summary { list-style: none; }
   </style>
  </head>
  <body class="bg-slate-50 text-slate-800 antialiased">
@@ -636,10 +639,12 @@
        Encontr&aacute; respuestas sobre requisitos, padrones y el d&iacute;a de la elecci&oacute;n.
       </p>
       <div class="mt-6 space-y-3">
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Por qu&eacute; es importante votar?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <div class="text-slate-600 mt-4 text-sm leading-relaxed space-y-4">
          <p>
           Votar es mucho m&aacute;s que elegir una lista o depositar una boleta en una urna.
@@ -667,11 +672,13 @@
             Y participar es una manera de hacerlo nuestro.
          </p>
         </div>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;C&oacute;mo s&eacute; si estoy habilitado para votar?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          Us&aacute; el
          <a class="text-granate underline font-semibold" href="#consulta-padron">
@@ -679,19 +686,23 @@
          </a>
          de esta p&aacute;gina o consult&aacute; el padr&oacute;n oficial. Cumplir con los requisitos acad&eacute;micos no garantiza por s&iacute; solo que figures en el padr&oacute;n. Si no aparec&eacute;s o encontr&aacute;s un error, comunicate con la Junta Electoral o con la Facultad para consultar las v&iacute;as y los plazos de reclamo.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Puedo votar si soy ingresante?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          S&iacute;, si ingresaste en 2026 y aprobaste al menos un parcial este a&ntilde;o, cumpl&iacute;s el requisito acad&eacute;mico indicado para votar en las elecciones de Centro de Estudiantes, Consejo Directivo y Consejo Superior. Verific&aacute; tambi&eacute;n tu inclusi&oacute;n en los padrones.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;D&oacute;nde, cu&aacute;ndo y en qu&eacute; horario se vota?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <div class="text-slate-600 mt-3 text-sm leading-relaxed space-y-3">
          <p>
           Las elecciones se realizar&aacute;n los
@@ -723,11 +734,13 @@
           </strong>
          </p>
         </div>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Qu&eacute; tengo que llevar para votar?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          Ten&eacute;s que presentar
          <strong>
@@ -739,19 +752,23 @@
          </strong>
          Si tu documento registrado es otro (pasaporte o c&eacute;dula), consult&aacute; anticipadamente con la Junta Electoral qu&eacute; original f&iacute;sico corresponde llevar.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Es obligatorio votar?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          S&iacute;. El voto estudiantil es obligatorio. Si no pod&eacute;s asistir, consult&aacute; con la Junta Electoral c&oacute;mo justificar tu ausencia y cu&aacute;les son los plazos correspondientes.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Cu&aacute;l es la diferencia entre Centro de Estudiantes, Consejo Directivo y Consejo Superior?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          El
          <strong>
@@ -767,19 +784,23 @@
          </strong>
          es un &oacute;rgano de gobierno de la UNLP y trata asuntos de alcance universitario.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Qu&eacute; pasa si no voy a votar?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          Para las elecciones obligatorias de representantes en los &oacute;rganos de cogobierno, la ausencia injustificada puede tener consecuencias previstas en la normativa universitaria. Si no pod&eacute;s concurrir, consult&aacute; con la Facultad c&oacute;mo y cu&aacute;ndo presentar una justificaci&oacute;n. Para Centro de Estudiantes, verific&aacute; las condiciones establecidas en su reglamento.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Puedo votar solamente al Centro de Estudiantes?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          S&iacute;. Si reun&iacute;s las condiciones para votar Centro de Estudiantes, pero no para votar Consejos, tu voto cuenta &uacute;nicamente para el Centro.
          <strong>
@@ -787,11 +808,13 @@
          </strong>
          , porque se utilizan sobres diferenciados seg&uacute;n la habilitaci&oacute;n electoral. Verific&aacute; tu condici&oacute;n antes de votar.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Qu&eacute; pasa si estoy inscripto en m&aacute;s de una carrera?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          Si est&aacute;s inscripto en
          <strong>
@@ -811,11 +834,13 @@
          </strong>
          antes de votar, con DNI f&iacute;sico o libreta estudiantil f&iacute;sica, para indicar d&oacute;nde votar&aacute;s representantes de claustro. Si curs&aacute;s dos carreras dentro de la misma facultad, no significa que puedas votar dos veces en esa elecci&oacute;n.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Se votan las tres representaciones el mismo d&iacute;a?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          Las tres elecciones se desarrollan durante las jornadas previstas del
          <strong>
@@ -823,11 +848,13 @@
          </strong>
          . Tu habilitaci&oacute;n puede variar seg&uacute;n el padr&oacute;n de cada una.
         </p>
-       </article>
-       <article class="border border-slate-200 rounded-xl p-5 bg-white">
-        <h3 class="font-bold text-granate text-base">
+       </details>
+       <details class="group border border-slate-200 rounded-xl p-5 bg-white">
+        <summary class="font-bold text-granate text-base flex justify-between items-center gap-4 cursor-pointer list-none">
          &iquest;Qu&eacute; significa cada condici&oacute;n del padr&oacute;n?
-        </h3>
+         <i aria-hidden="true" class="fa-solid fa-chevron-down text-granate transition-transform duration-200 group-open:rotate-180">
+         </i>
+        </summary>
         <p class="text-slate-600 mt-3 text-sm leading-relaxed">
          <strong>
           CUMPLE CONDICI&Oacute;N:
@@ -846,7 +873,7 @@
          </strong>
          seg&uacute;n el criterio indicado para esta gu&iacute;a, no vot&aacute;s (confirm&aacute; tu situaci&oacute;n si existe una discrepancia). Si aparece otra condici&oacute;n, consult&aacute; con la Junta Electoral.
         </p>
-       </article>
+       </details>
       </div>
       <p class="mt-6 text-xs text-slate-500">
        Informaci&oacute;n orientativa para las elecciones 2026. Antes de votar, consult&aacute; los padrones, el cronograma y las disposiciones oficiales de la FCAG y la UNLP.
