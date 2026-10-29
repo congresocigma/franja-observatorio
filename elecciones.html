@@ -156,34 +156,34 @@
     // Tomás Cabrera y Uriel Agustín Vilaró aparecen en dos categorías y reutilizan su foto.
     const candidaturas={
       centro:[
-        {cargo:'1° vocal titular',nombre:'Tomás Cabrera',foto:'fotos/centro-01-tomas-cabrera.jpg'},
-        {cargo:'2° vocal titular',nombre:'Mia Aylen Moyano',foto:'fotos/centro-02-mia-aylen-moyano.jpg'},
-        {cargo:'3° vocal titular',nombre:'Uriel Agustín Vilaró',foto:'fotos/centro-03-uriel-agustin-vilaro.jpg'},
-        {cargo:'4° vocal titular',nombre:'Tobías Joel Duarte',foto:'fotos/centro-04-tobias-joel-duarte.jpg'},
-        {cargo:'5° vocal titular',nombre:'Sofía Petrocelli',foto:'fotos/centro-05-sofia-petrocelli.jpg'},
-        {cargo:'6° vocal titular',nombre:'Martín Daniel Chandía Atencio',foto:'fotos/centro-06-martin-daniel-chandia-atencio.jpg'},
-        {cargo:'7° vocal titular',nombre:'Mora Cayre Álvarez',foto:'fotos/centro-07-mora-cayre-alvarez.jpg'},
-        {cargo:'8° vocal titular',nombre:'Aroa Cecilia Silveti',foto:'fotos/centro-08-aroa-cecilia-silveti.jpg'},
-        {cargo:'9° vocal titular',nombre:'Valentín Pare Oriel',foto:'fotos/centro-09-valentin-pare-oriel.jpg'},
-        {cargo:'Vocal suplente',nombre:'Luciana Terrein Martínez',foto:'fotos/centro-10-luciana-terrein-martinez.jpg'}
+        {cargo:'1° vocal titular',nombre:'Tomás Cabrera',foto:'centro-01-tomas-cabrera.jpg'},
+        {cargo:'2° vocal titular',nombre:'Mia Aylen Moyano',foto:'centro-02-mia-aylen-moyano.jpg'},
+        {cargo:'3° vocal titular',nombre:'Uriel Agustín Vilaró',foto:'centro-03-uriel-agustin-vilaro.jpg'},
+        {cargo:'4° vocal titular',nombre:'Tobías Joel Duarte',foto:'centro-04-tobias-joel-duarte.jpg'},
+        {cargo:'5° vocal titular',nombre:'Sofía Petrocelli',foto:'centro-05-sofia-petrocelli.jpg'},
+        {cargo:'6° vocal titular',nombre:'Martín Daniel Chandía Atencio',foto:'centro-06-martin-daniel-chandia-atencio.jpg'},
+        {cargo:'7° vocal titular',nombre:'Mora Cayre Álvarez',foto:'centro-07-mora-cayre-alvarez.jpg'},
+        {cargo:'8° vocal titular',nombre:'Aroa Cecilia Silveti',foto:'centro-08-aroa-cecilia-silveti.jpg'},
+        {cargo:'9° vocal titular',nombre:'Valentín Pare Oriel',foto:'centro-09-valentin-pare-oriel.jpg'},
+        {cargo:'Vocal suplente',nombre:'Luciana Terrein Martínez',foto:'centro-10-luciana-terrein-martinez.jpg'}
       ],
       directivoTitulares:[
-        {cargo:'Titular',nombre:'Magalí Schmitz',foto:'fotos/consejo-01-magali-schmitz.jpg'},
-        {cargo:'Titular',nombre:'Matías Terpolilli',foto:'fotos/consejo-02-matias-terpolilli.jpg'},
-        {cargo:'Titular',nombre:'Martín Digby Godfrey Brand',foto:'fotos/consejo-03-martin-digby-godfrey-brand.jpg'},
-        {cargo:'Titular',nombre:'Ignacio Francisco Gómez',foto:'fotos/consejo-04-ignacio-francisco-gomez.jpg'},
-        {cargo:'Titular',nombre:'Rocío Milagros García',foto:'fotos/consejo-05-rocio-milagros-garcia.jpg'}
+        {cargo:'Titular',nombre:'Magalí Schmitz',foto:'consejo-01-magali-schmitz.jpg'},
+        {cargo:'Titular',nombre:'Matías Terpolilli',foto:'consejo-02-matias-terpolilli.jpg'},
+        {cargo:'Titular',nombre:'Martín Digby Godfrey Brand',foto:'consejo-03-martin-digby-godfrey-brand.jpg'},
+        {cargo:'Titular',nombre:'Ignacio Francisco Gómez',foto:'consejo-04-ignacio-francisco-gomez.jpg'},
+        {cargo:'Titular',nombre:'Rocío Milagros García',foto:'consejo-05-rocio-milagros-garcia.jpg'}
       ],
       directivoSuplentes:[
-        {cargo:'Suplente',nombre:'Mateo Nicolas Enríquez',foto:'fotos/consejo-06-mateo-nicolas-enriquez.jpg'},
-        {cargo:'Suplente',nombre:'María Delfina Barranquero',foto:'fotos/consejo-07-maria-delfina-barranquero.jpg'},
-        {cargo:'Suplente',nombre:'Julieta Montefiori',foto:'fotos/consejo-08-julieta-montefiori.jpg'},
-        {cargo:'Suplente',nombre:'Tomás Cabrera',foto:'fotos/centro-01-tomas-cabrera.jpg'},
-        {cargo:'Suplente',nombre:'Uriel Agustín Vilaró',foto:'fotos/centro-03-uriel-agustin-vilaro.jpg'}
+        {cargo:'Suplente',nombre:'Mateo Nicolas Enríquez',foto:'consejo-06-mateo-nicolas-enriquez.jpg'},
+        {cargo:'Suplente',nombre:'María Delfina Barranquero',foto:'consejo-07-maria-delfina-barranquero.jpg'},
+        {cargo:'Suplente',nombre:'Julieta Montefiori',foto:'consejo-08-julieta-montefiori.jpg'},
+        {cargo:'Suplente',nombre:'Tomás Cabrera',foto:'centro-01-tomas-cabrera.jpg'},
+        {cargo:'Suplente',nombre:'Uriel Agustín Vilaró',foto:'centro-03-uriel-agustin-vilaro.jpg'}
       ],
       superior:[
-        {cargo:'Titular',nombre:'Aldana Algañarás',foto:'fotos/superior-01-aldana-alganaras.jpg'},
-        {cargo:'Suplente',nombre:'Sara Delvechio',foto:'fotos/superior-02-sara-delvechio.jpg'}
+        {cargo:'Titular',nombre:'Aldana Algañarás',foto:'superior-01-aldana-alganaras.jpg'},
+        {cargo:'Suplente',nombre:'Sara Delvechio',foto:'superior-02-sara-delvechio.jpg'}
       ]
     };
     function renderCards(id,items){const cont=document.getElementById(id);items.forEach(persona=>{const article=document.createElement('article');article.className='bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition';const photo=document.createElement('div');photo.className='aspect-[4/5] bg-gradient-to-br from-pink-100 via-slate-100 to-pink-50 flex items-center justify-center text-granate/30 text-5xl';if(persona.foto){const img=document.createElement('img');img.src=persona.foto;img.alt=persona.nombre?`Foto de ${persona.nombre}`:'Foto de candidatura';img.className='w-full h-full object-cover';img.onerror=()=>{photo.innerHTML='<i class="fa-solid fa-user"></i>'};photo.appendChild(img)}else{photo.innerHTML='<i class="fa-solid fa-user"></i>'}const info=document.createElement('div');info.className='p-4';const cargo=document.createElement('p');cargo.className='text-xs uppercase tracking-wider text-granate font-extrabold';cargo.textContent=persona.cargo;const nombre=document.createElement('p');nombre.className='mt-2 font-semibold text-sm text-slate-700 min-h-10';nombre.textContent=persona.nombre||'Próximamente';info.append(cargo,nombre);article.append(photo,info);cont.appendChild(article)})}
