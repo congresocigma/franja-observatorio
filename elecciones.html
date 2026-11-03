@@ -768,21 +768,31 @@
     document.addEventListener('DOMContentLoaded', () => {
 
       // ==========================================
-      // 1. LÓGICA DEL BUSCADOR DE PADRÓN (DESDE padron.json)
+      // 1. CONSULTA DEL PADRÓN 2026
       // ==========================================
       let datosPadron = null;
-
       const padronForm = document.getElementById('padron-form');
       const box = document.getElementById('padron-respuesta');
 
-      if (padronForm) {
-        padronForm.addEventListener('submit', async function(e) {
+      // Los documentos del PDF tienen ceros a la izquierda (DNI-0047478626).
+      // Comparamos por sus dígitos sin ceros iniciales.
+      const normalizarDni = valor => {
+        const digitos = String(valor ?? '').replace(/\D/g, '');
+        return digitos.replace(/^0+/, '') || '0';
+      };
+
+      const agregarLinea = (texto, clases = '') => {
+        const linea = document.createElement('p');
+        linea.className = clases;
+        linea.textContent = texto;
+        box.appendChild(linea);
+      };
+
+      if (padronForm && box) {
+        padronForm.addEventListener('submit', async (e) => {
           e.preventDefault();
-
-          const dniInput = document.getElementById('dni-padron');
-          const dni = dniInput.value.trim().replace(/[.\s-]/g, '');
-
-          box.classList.remove('hidden');
+          const valor = document.getElementById('dni-padron').value.trim();
+          const dni = valor.replace(/[.\s-]/g, '');
           box.className = 'mt-5 rounded-xl p-5 text-sm leading-relaxed bg-slate-100 text-slate-700 block';
           box.textContent = 'Consultando padrón…';
 
@@ -793,85 +803,65 @@
           }
 
           try {
-            // Cargar el JSON solo una vez y cachearlo en memoria
             if (!datosPadron) {
-              const res = await fetch('padron.json');
-              if (!res.ok) {
-                throw new Error('No se pudo cargar el archivo del padrón.');
-              }
-              datosPadron = await res.json();
+              const respuesta = await fetch('padron.json', { cache: 'no-store' });
+              if (!respuesta.ok) throw new Error('No se pudo cargar padron.json');
+              const contenido = await respuesta.json();
+              if (!Array.isArray(contenido)) throw new Error('El padrón debe ser una lista JSON');
+              datosPadron = contenido;
             }
 
-            // Buscar el DNI en el objeto padron.json
-            const registro = datosPadron[dni];
-
-            const estados = {
-              'CUMPLE CONDICION': [
-                'CUMPLE CONDICIÓN',
-                'Votás Centro de Estudiantes, Consejo Directivo y Consejo Superior.'
-              ],
-              'INGRESANTE CUMPLE': [
-                'INGRESANTE CUMPLE',
-                'Votás Centro de Estudiantes, Consejo Directivo y Consejo Superior.'
-              ],
-              'NO CUMPLE': [
-                'NO CUMPLE',
-                'Tenés que consultar si estás habilitado para votar Centro de Estudiantes. Para votar Centro, debés haber aprobado una cursada o un parcial entre noviembre de 2024 y octubre de 2026 y figurar en el padrón correspondiente.'
-              ],
-              'INGRESANTE': [
-                'INGRESANTE',
-                'Según los criterios indicados para esta guía, no votás. Si existe alguna discrepancia con tu situación, consultá con la Junta Electoral.'
-              ],
-              'EGRESADO': [
-                'EGRESADO',
-                'Consultá con la Junta Electoral para confirmar tu situación.'
-              ],
-              'REVISAR': [
-                'REVISAR',
-                'Tu condición requiere verificación en el padrón oficial.'
-              ]
-            };
+            const coincidencias = datosPadron.filter(persona => {
+              // La consulta por DNI no debe confundir pasaportes, CI u otros documentos.
+              const documento = String(persona.documento ?? '');
+              if (!documento.toUpperCase().startsWith('DNI-')) return false;
+              return normalizarDni(documento) === normalizarDni(dni);
+            });
 
             box.replaceChildren();
-
-            if (registro) {
-              const estadoCodigo = registro.estado || 'REVISAR';
-              const actual = estados[estadoCodigo] || [
-                String(estadoCodigo).replace(/_/g, ' '),
-                'Consultá con la Junta Electoral.'
-              ];
-
-              const titulo = document.createElement('p');
-              titulo.className = 'font-extrabold text-granate text-lg mb-1';
-              titulo.textContent = 'Condición en el padrón: ' + actual[0];
-
-              if (registro.numeroPadron) {
-                const num = document.createElement('p');
-                num.className = 'text-xs text-slate-500 font-semibold mb-2';
-                num.textContent = 'Número en el padrón: #' + registro.numeroPadron;
-                box.appendChild(num);
-              }
-
-              const explicacion = document.createElement('p');
-              explicacion.textContent = actual[1];
-
-              box.append(titulo, explicacion);
-            } else {
+            if (!coincidencias.length) {
               box.className = 'mt-5 rounded-xl p-5 text-sm leading-relaxed bg-amber-50 text-amber-900 border border-amber-200 block';
-
-              const titulo = document.createElement('p');
-              titulo.className = 'font-extrabold text-amber-900 text-lg mb-2';
-              titulo.textContent = 'NO ENCONTRADO EN PADRÓN';
-
-              const explicacion = document.createElement('p');
-              explicacion.textContent = 'No encontramos tu DNI en el padrón cargado. Verificá tu inscripción con la Junta Electoral.';
-
-              box.append(titulo, explicacion);
+              agregarLinea('NO ENCONTRADO EN PADRÓN', 'font-extrabold text-lg mb-2');
+              agregarLinea('No encontramos tu DNI en el padrón cargado. Verificá tu inscripción con la Junta Electoral.');
+              return;
             }
 
-          } catch (err) {
+            // Si el PDF trae una persona repetida, mostrar todos sus números de orden.
+            const persona = coincidencias[0];
+            const estado = String(persona.estado ?? '').trim().toUpperCase();
+            const vota = persona.vota ?? {};
+            const votaTodas = Boolean(vota.consejoDirectivo && vota.consejoSuperior && vota.centroEstudiantes);
+            const votaCentro = Boolean(vota.centroEstudiantes) && !votaTodas;
+            const numeros = [...new Set(coincidencias.map(p => p.numeroPadron ?? p.orden).filter(n => n != null))];
+
+            box.className = 'mt-5 rounded-xl p-5 text-sm leading-relaxed border block ' +
+              (votaTodas || votaCentro ? 'bg-green-50 text-green-900 border-green-200' : 'bg-amber-50 text-amber-900 border-amber-200');
+
+            agregarLinea('¡Hola, ' + String(persona.nombre ?? '').trim() + '!', 'font-extrabold text-granate text-lg mb-3');
+
+            if (votaTodas) {
+              agregarLinea(estado === 'INGRESANTE CUMPLE' ? 'Tu condición es: INGRESANTE CUMPLE.' : 'Tu condición es: CUMPLE CONDICIÓN.', 'font-bold mb-1');
+              agregarLinea('Estás habilitado/a para votar Consejo Directivo, Consejo Superior y Centro de Estudiantes.');
+            } else if (votaCentro) {
+              agregarLinea('Tu condición es: HABILITADO/A SOLO PARA CENTRO DE ESTUDIANTES.', 'font-bold mb-1');
+              agregarLinea('Podés votar Centro de Estudiantes, pero no Consejo Directivo ni Consejo Superior.');
+            } else if (estado === 'INGRESANTE') {
+              agregarLinea('Tu condición es: INGRESANTE.', 'font-bold mb-1');
+              agregarLinea('No estás habilitado/a para votar ninguna de las tres categorías.');
+            } else if (estado === 'EGRESADO') {
+              agregarLinea('Tu condición es: EGRESADO.', 'font-bold mb-1');
+              agregarLinea('No estás habilitado/a para votar ninguna de las tres categorías.');
+            } else {
+              agregarLinea('Tu condición es: NO CUMPLE.', 'font-bold mb-1');
+              agregarLinea('No estás habilitado/a para votar ninguna de las tres categorías.');
+            }
+
+            agregarLinea('Tu número de padrón es: ' + numeros.join(' y ') + '.', 'font-extrabold mt-3');
+            agregarLinea('Información orientativa. Ante cualquier diferencia, consultá con la Junta Electoral.', 'text-xs mt-3');
+          } catch (error) {
+            console.error('Error al consultar el padrón:', error);
             box.className = 'mt-5 rounded-xl p-5 text-sm leading-relaxed bg-red-50 text-red-700 border border-red-200 block';
-            box.textContent = 'No se pudo realizar la consulta. Verificá que padron.json esté subido correctamente. Consultá los padrones oficiales.';
+            box.textContent = 'No se pudo cargar el padrón. Comprobá que padron.json esté en la misma carpeta que elecciones.html.';
           }
         });
       }
