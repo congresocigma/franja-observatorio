@@ -1,830 +1,3934 @@
-[
 {
-"orden": 1,
-"carrera": "003",
-"nombre": "ABALOS ALEXIS ALEJANDRO",
-"legajo": "010922/2",
-"documento": "DNI-0047478626",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 2,
-"carrera": "001",
-"nombre": "ABEDIN MARIANO ESTEBAN",
-"legajo": "011205/2",
-"documento": "DNI-0033441947",
-"condicion_raw": "INGRESANTE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 3,
-"carrera": "001",
-"nombre": "ACOSTA VICTORIA BELEN",
-"legajo": "08378/0",
-"documento": "DNI-0042289800",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 4,
-"carrera": "025",
-"nombre": "ACUÑA GIANELLA GUADALUPE",
-"legajo": "10587/7",
-"documento": "DNI-0045907063",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 5,
-"carrera": "025",
-"nombre": "ACUÑA SANTIAGO",
-"legajo": "10588/9",
-"documento": "DNI-0045035008",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 6,
-"carrera": "001",
-"nombre": "ACUÑA TOMÁS AGUSTÍN",
-"legajo": "09494/8",
-"documento": "DNI-0044535891",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 7,
-"carrera": "025",
-"nombre": "AGOSTINO BORRAZÁS CATALINA",
-"legajo": "011206/3",
-"documento": "DNI-0048698232",
-"condicion_raw": "INGRESANTE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 8,
-"carrera": "003",
-"nombre": "AGUILAR GASPAR LEONEL",
-"legajo": "011207/4",
-"documento": "DNI-0048477068",
-"condicion_raw": "INGRESANTE CUMPLE",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 9,
-"carrera": "001",
-"nombre": "AGUILERA EZEQUIEL",
-"legajo": "09633/0",
-"documento": "DNI-0043670377",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 10,
-"carrera": "003",
-"nombre": "AGUIRRE EBE MAITĖ",
-"legajo": "010923/3",
-"documento": "DNI-0047417291",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 11,
-"carrera": "001",
-"nombre": "AGUIRRE LEANDRO ADRIAN",
-"legajo": "10591/4",
-"documento": "DNI-0046095892",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 12,
-"carrera": "001",
-"nombre": "ALANIZ YANINA NATALI",
-"legajo": "010924/5",
-"documento": "DNI-0035422893",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 13,
-"carrera": "001",
-"nombre": "ALBANO FELICITAS",
-"legajo": "08326/6",
-"documento": "DNI-0041986680",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 14,
-"carrera": "025",
-"nombre": "ALEGRE MICAELA NOEMİ",
-"legajo": "010925/6",
-"documento": "DNI-0039208661",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 15,
-"carrera": "025",
-"nombre": "ALFARO NAHIR YAZMİN",
-"legajo": "010926/6",
-"documento": "DNI-0047647065",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 16,
-"carrera": "001",
-"nombre": "ALGAÑARÁS ALDANA",
-"legajo": "07431/2",
-"documento": "DNI-0040458787",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 17,
-"carrera": "025",
-"nombre": "ALLEN JORGE RAFAEL",
-"legajo": "10599/2",
-"documento": "DNI-0042618952",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 18,
-"carrera": "001",
-"nombre": "ALLONA GERONIMO",
-"legajo": "011208/6",
-"documento": "DNI-0046822282",
-"condicion_raw": "INGRESANTE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 19,
-"carrera": "001",
-"nombre": "ALTINTOP HERNAN",
-"legajo": "011209/7",
-"documento": "DNI-0047056986",
-"condicion_raw": "INGRESANTE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 20,
-"carrera": "001",
-"nombre": "ALVAREZ DE OLIVERA DORREGO JUANA",
-"legajo": "010928/8",
-"documento": "DNI-0047642866",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 21,
-"carrera": "025",
-"nombre": "ALVAREZ NARELA YASMIN",
-"legajo": "09399/9",
-"documento": "DNI-0040289618",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 22,
-"carrera": "003",
-"nombre": "ALVAREZ ZAMIRA VICTORIA",
-"legajo": "010927/7",
-"documento": "DNI-0047788683",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 23,
-"carrera": "001",
-"nombre": "ALVARIÑAS ANA PAULA",
-"legajo": "10402/1",
-"documento": "DNI-0046104146",
-"condicion_raw": "CUMPLE CONDICION",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 24,
-"carrera": "001",
-"nombre": "ALVIRA FRANCISCO",
-"legajo": "010929/9",
-"documento": "DNI-0048024467",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 25,
-"carrera": "003",
-"nombre": "AMARILLA ABRIL ANAEL",
-"legajo": "011210/9",
-"documento": "DNI-0048704077",
-"condicion_raw": "INGRESANTE CUMPLE",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 67,
-"carrera": "001",
-"nombre": "BAMBINI ANDREA MARCELA",
-"legajo": "010938/0",
-"documento": "DNI-0022278139",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 153,
-"carrera": "003",
-"nombre": "CANEDA EZEQUIEL NICOLÁS",
-"legajo": "10436/2",
-"documento": "DNI-0046358081",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 165,
-"carrera": "001",
-"nombre": "CASADO NAZARENO",
-"legajo": "010964/3",
-"documento": "DNI-0042844581",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 175,
-"carrera": "003",
-"nombre": "CATALAN SIMONA",
-"legajo": "010966/5",
-"documento": "DNI-0046309101",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 177,
-"carrera": "001",
-"nombre": "CAVALLERI SANTIAGO",
-"legajo": "010967/6",
-"documento": "DNI-0048058354",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 184,
-"carrera": "001",
-"nombre": "CERALDI ALEXIS KEVIN",
-"legajo": "010969/8",
-"documento": "DNI-0045352606",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 187,
-"carrera": "001",
-"nombre": "CHANDIA ATENCIO MARTİN DANIEL",
-"legajo": "010971/2",
-"documento": "DNI-0047481846",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 215,
-"carrera": "025",
-"nombre": "CORIA REHNE SOFIA DANISA",
-"legajo": "010981/4",
-"documento": "DNI-0047215644",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 229,
-"carrera": "001",
-"nombre": "DA SILVA JOAQUIN ALEJANDRO",
-"legajo": "010986/9",
-"documento": "DNI-0047061676",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 244,
-"carrera": "003",
-"nombre": "DELVECHIO SARA",
-"legajo": "09468/5",
-"documento": "DNI-0042492310",
-"condicion_raw": "CUMPLE CONDICION / CUMPLE CENTRO",
-"condicion_voto": "VOTA TODO"
-},
-{
-"orden": 257,
-"carrera": "001",
-"nombre": "DIBERTO BENJAMIN",
-"legajo": "010992/8",
-"documento": "DNI-0047756770",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 263,
-"carrera": "025",
-"nombre": "DOMINGUEZ IRIBE MARIA AZUL",
-"legajo": "06502/5",
-"documento": "DNI-0035611427",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 269,
-"carrera": "001",
-"nombre": "DUARTE TOBIAS JOEL",
-"legajo": "010996/1",
-"documento": "DNI-0047482243",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 300,
-"carrera": "025",
-"nombre": "FERRARO MARTINA MARIEL",
-"legajo": "10548/0",
-"documento": "DNI-0046262276",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 317,
-"carrera": "001",
-"nombre": "FLORES TANIA ANDREA",
-"legajo": "09448/0",
-"documento": "DNI-0044132653",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 320,
-"carrera": "001",
-"nombre": "FRANCE MICHELA",
-"legajo": "10696/2",
-"documento": "DNI-0094326951",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 331,
-"carrera": "003",
-"nombre": "GALLEGO ESTEFANÍA QUIMEY",
-"legajo": "011014/7",
-"documento": "DNI-0047215718",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 366,
-"carrera": "001",
-"nombre": "GOLPE MERCEDES PILAR",
-"legajo": "011023/8",
-"documento": "DNI-0047515737",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 417,
-"carrera": "025",
-"nombre": "HERNANDEZ ZAPATA TIARA BERENICE",
-"legajo": "011042/1",
-"documento": "DNI-0047558579",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 443,
-"carrera": "025",
-"nombre": "KLEIN CAMILA BELÉN",
-"legajo": "08693/9",
-"documento": "DNI-0042942273",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 454,
-"carrera": "001",
-"nombre": "LAURNAGARAY ROSARIO",
-"legajo": "10733/9",
-"documento": "DNI-0046829930",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 456,
-"carrera": "025",
-"nombre": "LAVITOLA BENJAMIN",
-"legajo": "011050/1",
-"documento": "DNI-0047631137",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 457,
-"carrera": "003",
-"nombre": "LAZARO MARTINEZ YANINA NELLY",
-"legajo": "011051/2",
-"documento": "DNI-0042363582",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 475,
-"carrera": "001",
-"nombre": "LOBOS NADINA SOFIA",
-"legajo": "011056/8",
-"documento": "DNI-0047276490",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 543,
-"carrera": "025",
-"nombre": "MERCADO SILVANA AGUSTINA",
-"legajo": "011077/3",
-"documento": "DNI-0047122623",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 561,
-"carrera": "001",
-"nombre": "MOHR ROSARIO",
-"legajo": "011084/2",
-"documento": "DNI-0047622610",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 587,
-"carrera": "001",
-"nombre": "MOTRONI CHIARA ORNELLA",
-"legajo": "10777/2",
-"documento": "DNI-0047158742",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 599,
-"carrera": "025",
-"nombre": "NAVEDA AGUSTINA NAHIARA",
-"legajo": "10784/0",
-"documento": "DNI-0045866496",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 605,
-"carrera": "001",
-"nombre": "NUÑEZ LABOLLITA MARINA",
-"legajo": "011098/9",
-"documento": "DNI-0046211857",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 608,
-"carrera": "003",
-"nombre": "OCHOA LORENZO LIHUĖ",
-"legajo": "011099/9",
-"documento": "DNI-0047946750",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 624,
-"carrera": "001",
-"nombre": "OSPINO CONTRERAS MARIANGEL",
-"legajo": "011106/0",
-"documento": "P-00BE349261",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 650,
-"carrera": "003",
-"nombre": "PARE ORIEL VALENTIN",
-"legajo": "011115/1",
-"documento": "DNI-0047564421",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 674,
-"carrera": "001",
-"nombre": "PEREZ OZIEL LAUTARO",
-"legajo": "011128/7",
-"documento": "DNI-0045910960",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 682,
-"carrera": "001",
-"nombre": "PETROCELLI SOFIA",
-"legajo": "011131/1",
-"documento": "DNI-0047168251",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 689,
-"carrera": "001",
-"nombre": "PIGNATELLI MILENA",
-"legajo": "011133/3",
-"documento": "DNI-0047865662",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 729,
-"carrera": "001",
-"nombre": "RECALDE BAREIRO DAMARIS VICTORIA",
-"legajo": "011142/4",
-"documento": "DNI-0046698950",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 733,
-"carrera": "025",
-"nombre": "REGUEIRO PRISCILAAYLÉN",
-"legajo": "08620/0",
-"documento": "DNI-0041576167",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 762,
-"carrera": "025",
-"nombre": "RODRIGUEZ LÁZARO THOMAS",
-"legajo": "011151/5",
-"documento": "DNI-0046243742",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 776,
-"carrera": "025",
-"nombre": "ROMERO ROCIO DEL PILAR",
-"legajo": "011203/0",
-"documento": "DNI-0039575512",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 782,
-"carrera": "001",
-"nombre": "ROUX MAGALI",
-"legajo": "09954/5",
-"documento": "DNI-0043016122",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 809,
-"carrera": "001",
-"nombre": "SARAFOGLU JULIETA",
-"legajo": "09909/0",
-"documento": "DNI-0045538903",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 829,
-"carrera": "001",
-"nombre": "SFICH JOAQUINA",
-"legajo": "011167/4",
-"documento": "DNI-0047517398",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 851,
-"carrera": "025",
-"nombre": "STAIANO TATIANA SOLEDAD",
-"legajo": "011173/2",
-"documento": "DNI-0036066834",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 858,
-"carrera": "003",
-"nombre": "SUÁREZ IARA NICOLE",
-"legajo": "011176/5",
-"documento": "DNI-0046866108",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 870,
-"carrera": "003",
-"nombre": "TAYLOR DEBRA",
-"legajo": "011179/9",
-"documento": "DNI-0044936397",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 871,
-"carrera": "001",
-"nombre": "TEJERINA GALIAN ANEL DAIANA GABRIELA",
-"legajo": "09967/1",
-"documento": "DNI-0044281596",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 887,
-"carrera": "025",
-"nombre": "TORRES SETA LIBERTAD",
-"legajo": "011184/5",
-"documento": "DNI-0047953007",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 913,
-"carrera": "001",
-"nombre": "VAZQUEZ IARA ELIZABETH",
-"legajo": "011192/5",
-"documento": "DNI-0047846357",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 919,
-"carrera": "001",
-"nombre": "VERA TANARRO LAUTARO JEREMIAS",
-"legajo": "10908/4",
-"documento": "DNI-0046809069",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 966,
-"carrera": "003",
-"nombre": "GARCIA ZAPPALA, AGUSTIN LUCIANO",
-"legajo": "010476/1",
-"documento": "DNI-0046061318",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 967,
-"carrera": "001",
-"nombre": "KEBROTH, GIANELLA MICOL",
-"legajo": "09869/0",
-"documento": "DNI-0045688170",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 968,
-"carrera": "003",
-"nombre": "STARCK, AGUSTIN",
-"legajo": "09235/8",
-"documento": "DNI-0043655874",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 969,
-"carrera": "001",
-"nombre": "IBAÑEZ, KEVIN FABRICIO",
-"legajo": "010330/2",
-"documento": "DNI-0045310267",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 970,
-"carrera": "025",
-"nombre": "AZCONA, NICOLE GERALDINE",
-"legajo": "010536/5",
-"documento": "DNI-0045679500",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 971,
-"carrera": "025",
-"nombre": "LOPEZ, GONZALO SEBASTIAN",
-"legajo": "08935/7",
-"documento": "DNI-0040577280",
-"condicion_raw": "NO CUMPLE",
-"condicion_voto": "NO CUMPLE"
-},
-{
-"orden": 972,
-"carrera": "001",
-"nombre": "CRIGNOLA, CANDELA",
-"legajo": "09452/6",
-"documento": "DNI-0044591065",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 973,
-"carrera": "003",
-"nombre": "CAMPOS VALDA, NAHUEL",
-"legajo": "10639/2",
-"documento": "DNI-0047025327",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 974,
-"carrera": "001",
-"nombre": "BRANDON, ALONZO",
-"legajo": "09516/6",
-"documento": "DNI-0042512971",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 975,
-"carrera": "001",
-"nombre": "GEREA, FERMIN ALEJANDRO",
-"legajo": "07030/7",
-"documento": "DNI-0038864504",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 976,
-"carrera": "001",
-"nombre": "OCAMPO, JUAN IGNACIO",
-"legajo": "10419/1",
-"documento": "DNI-0046648034",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 977,
-"carrera": "025",
-"nombre": "MADUEÑO, SOFIA",
-"legajo": "10553/6",
-"documento": "DNI-0044320113",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 978,
-"carrera": "001",
-"nombre": "DE BEITIA, MELANY",
-"legajo": "10670/1",
-"documento": "DNI-0046342411",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 979,
-"carrera": "001",
-"nombre": "DIBERTO, BENJAMIN",
-"legajo": "010992/8",
-"documento": "DNI-0047756770",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 980,
-"carrera": "001",
-"nombre": "CUELLAR, HUAMANI",
-"legajo": "09514/3",
-"documento": "DNI-0044722917",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 981,
-"carrera": "003",
-"nombre": "HERRERA, MARIA CANDELA",
-"legajo": "09688/6",
-"documento": "DNI-0044343350",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 982,
-"carrera": "001",
-"nombre": "BRAVO SORNOZA",
-"legajo": "10384/7",
-"documento": "DNI-0096250981",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
-},
-{
-"orden": 983,
-"carrera": "001",
-"nombre": "COUTTERET, ALEXIA MAGALI",
-"legajo": "09542/7",
-"documento": "DNI-0043255803",
-"condicion_raw": "NO CUMPLE / CUMPLE CENTRO",
-"condicion_voto": "SOLO CENTRO"
+  "40000018": {
+    "numeroPadron": 1,
+    "estado": "SOLO CENTRO"
+  },
+  "40000036": {
+    "numeroPadron": 2,
+    "estado": "INGRESANTE"
+  },
+  "40000054": {
+    "numeroPadron": 3,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000072": {
+    "numeroPadron": 4,
+    "estado": "SOLO CENTRO"
+  },
+  "40000090": {
+    "numeroPadron": 5,
+    "estado": "INGRESANTE"
+  },
+  "40000108": {
+    "numeroPadron": 6,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000126": {
+    "numeroPadron": 7,
+    "estado": "SOLO CENTRO"
+  },
+  "40000144": {
+    "numeroPadron": 8,
+    "estado": "INGRESANTE"
+  },
+  "40000162": {
+    "numeroPadron": 9,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000180": {
+    "numeroPadron": 10,
+    "estado": "SOLO CENTRO"
+  },
+  "40000198": {
+    "numeroPadron": 11,
+    "estado": "INGRESANTE"
+  },
+  "40000216": {
+    "numeroPadron": 12,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000091": {
+    "numeroPadron": 13,
+    "estado": "SOLO CENTRO"
+  },
+  "40000109": {
+    "numeroPadron": 14,
+    "estado": "INGRESANTE"
+  },
+  "40000127": {
+    "numeroPadron": 15,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000145": {
+    "numeroPadron": 16,
+    "estado": "SOLO CENTRO"
+  },
+  "40000163": {
+    "numeroPadron": 17,
+    "estado": "INGRESANTE"
+  },
+  "40000181": {
+    "numeroPadron": 18,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000199": {
+    "numeroPadron": 19,
+    "estado": "SOLO CENTRO"
+  },
+  "40000217": {
+    "numeroPadron": 20,
+    "estado": "INGRESANTE"
+  },
+  "40000235": {
+    "numeroPadron": 21,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000253": {
+    "numeroPadron": 22,
+    "estado": "SOLO CENTRO"
+  },
+  "40000271": {
+    "numeroPadron": 23,
+    "estado": "INGRESANTE"
+  },
+  "40000289": {
+    "numeroPadron": 24,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000307": {
+    "numeroPadron": 25,
+    "estado": "SOLO CENTRO"
+  },
+  "40000182": {
+    "numeroPadron": 26,
+    "estado": "INGRESANTE"
+  },
+  "40000200": {
+    "numeroPadron": 27,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000218": {
+    "numeroPadron": 28,
+    "estado": "SOLO CENTRO"
+  },
+  "40000236": {
+    "numeroPadron": 29,
+    "estado": "INGRESANTE"
+  },
+  "40000254": {
+    "numeroPadron": 30,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000272": {
+    "numeroPadron": 31,
+    "estado": "SOLO CENTRO"
+  },
+  "40000290": {
+    "numeroPadron": 32,
+    "estado": "INGRESANTE"
+  },
+  "40000308": {
+    "numeroPadron": 33,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000326": {
+    "numeroPadron": 34,
+    "estado": "SOLO CENTRO"
+  },
+  "40000344": {
+    "numeroPadron": 35,
+    "estado": "INGRESANTE"
+  },
+  "40000362": {
+    "numeroPadron": 36,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000380": {
+    "numeroPadron": 37,
+    "estado": "SOLO CENTRO"
+  },
+  "40000398": {
+    "numeroPadron": 38,
+    "estado": "INGRESANTE"
+  },
+  "40000273": {
+    "numeroPadron": 39,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000291": {
+    "numeroPadron": 40,
+    "estado": "SOLO CENTRO"
+  },
+  "40000309": {
+    "numeroPadron": 41,
+    "estado": "INGRESANTE"
+  },
+  "40000327": {
+    "numeroPadron": 42,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000345": {
+    "numeroPadron": 43,
+    "estado": "SOLO CENTRO"
+  },
+  "40000363": {
+    "numeroPadron": 44,
+    "estado": "INGRESANTE"
+  },
+  "40000381": {
+    "numeroPadron": 45,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000399": {
+    "numeroPadron": 46,
+    "estado": "SOLO CENTRO"
+  },
+  "40000417": {
+    "numeroPadron": 47,
+    "estado": "INGRESANTE"
+  },
+  "40000435": {
+    "numeroPadron": 48,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000453": {
+    "numeroPadron": 49,
+    "estado": "SOLO CENTRO"
+  },
+  "40000471": {
+    "numeroPadron": 50,
+    "estado": "INGRESANTE"
+  },
+  "40000489": {
+    "numeroPadron": 51,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000364": {
+    "numeroPadron": 52,
+    "estado": "SOLO CENTRO"
+  },
+  "40000382": {
+    "numeroPadron": 53,
+    "estado": "INGRESANTE"
+  },
+  "40000400": {
+    "numeroPadron": 54,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000418": {
+    "numeroPadron": 55,
+    "estado": "SOLO CENTRO"
+  },
+  "40000436": {
+    "numeroPadron": 56,
+    "estado": "INGRESANTE"
+  },
+  "40000454": {
+    "numeroPadron": 57,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000472": {
+    "numeroPadron": 58,
+    "estado": "SOLO CENTRO"
+  },
+  "40000490": {
+    "numeroPadron": 59,
+    "estado": "INGRESANTE"
+  },
+  "40000508": {
+    "numeroPadron": 60,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000526": {
+    "numeroPadron": 61,
+    "estado": "SOLO CENTRO"
+  },
+  "40000544": {
+    "numeroPadron": 62,
+    "estado": "INGRESANTE"
+  },
+  "40000562": {
+    "numeroPadron": 63,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000580": {
+    "numeroPadron": 64,
+    "estado": "SOLO CENTRO"
+  },
+  "40000455": {
+    "numeroPadron": 65,
+    "estado": "INGRESANTE"
+  },
+  "40000473": {
+    "numeroPadron": 66,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000491": {
+    "numeroPadron": 67,
+    "estado": "SOLO CENTRO"
+  },
+  "40000509": {
+    "numeroPadron": 68,
+    "estado": "INGRESANTE"
+  },
+  "40000527": {
+    "numeroPadron": 69,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000545": {
+    "numeroPadron": 70,
+    "estado": "SOLO CENTRO"
+  },
+  "40000563": {
+    "numeroPadron": 71,
+    "estado": "INGRESANTE"
+  },
+  "40000581": {
+    "numeroPadron": 72,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000599": {
+    "numeroPadron": 73,
+    "estado": "SOLO CENTRO"
+  },
+  "40000617": {
+    "numeroPadron": 74,
+    "estado": "INGRESANTE"
+  },
+  "40000635": {
+    "numeroPadron": 75,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000653": {
+    "numeroPadron": 76,
+    "estado": "SOLO CENTRO"
+  },
+  "40000671": {
+    "numeroPadron": 77,
+    "estado": "INGRESANTE"
+  },
+  "40000546": {
+    "numeroPadron": 78,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000564": {
+    "numeroPadron": 79,
+    "estado": "SOLO CENTRO"
+  },
+  "40000582": {
+    "numeroPadron": 80,
+    "estado": "INGRESANTE"
+  },
+  "40000600": {
+    "numeroPadron": 81,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000618": {
+    "numeroPadron": 82,
+    "estado": "SOLO CENTRO"
+  },
+  "40000636": {
+    "numeroPadron": 83,
+    "estado": "INGRESANTE"
+  },
+  "40000654": {
+    "numeroPadron": 84,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000672": {
+    "numeroPadron": 85,
+    "estado": "SOLO CENTRO"
+  },
+  "40000690": {
+    "numeroPadron": 86,
+    "estado": "INGRESANTE"
+  },
+  "40000708": {
+    "numeroPadron": 87,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000726": {
+    "numeroPadron": 88,
+    "estado": "SOLO CENTRO"
+  },
+  "40000744": {
+    "numeroPadron": 89,
+    "estado": "INGRESANTE"
+  },
+  "40000762": {
+    "numeroPadron": 90,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000637": {
+    "numeroPadron": 91,
+    "estado": "SOLO CENTRO"
+  },
+  "40000655": {
+    "numeroPadron": 92,
+    "estado": "INGRESANTE"
+  },
+  "40000673": {
+    "numeroPadron": 93,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000691": {
+    "numeroPadron": 94,
+    "estado": "SOLO CENTRO"
+  },
+  "40000709": {
+    "numeroPadron": 95,
+    "estado": "INGRESANTE"
+  },
+  "40000727": {
+    "numeroPadron": 96,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000745": {
+    "numeroPadron": 97,
+    "estado": "SOLO CENTRO"
+  },
+  "40000763": {
+    "numeroPadron": 98,
+    "estado": "INGRESANTE"
+  },
+  "40000781": {
+    "numeroPadron": 99,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000799": {
+    "numeroPadron": 100,
+    "estado": "SOLO CENTRO"
+  },
+  "40000817": {
+    "numeroPadron": 101,
+    "estado": "INGRESANTE"
+  },
+  "40000835": {
+    "numeroPadron": 102,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000853": {
+    "numeroPadron": 103,
+    "estado": "SOLO CENTRO"
+  },
+  "40000728": {
+    "numeroPadron": 104,
+    "estado": "INGRESANTE"
+  },
+  "40000746": {
+    "numeroPadron": 105,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000764": {
+    "numeroPadron": 106,
+    "estado": "SOLO CENTRO"
+  },
+  "40000782": {
+    "numeroPadron": 107,
+    "estado": "INGRESANTE"
+  },
+  "40000800": {
+    "numeroPadron": 108,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000818": {
+    "numeroPadron": 109,
+    "estado": "SOLO CENTRO"
+  },
+  "40000836": {
+    "numeroPadron": 110,
+    "estado": "INGRESANTE"
+  },
+  "40000854": {
+    "numeroPadron": 111,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000872": {
+    "numeroPadron": 112,
+    "estado": "SOLO CENTRO"
+  },
+  "40000890": {
+    "numeroPadron": 113,
+    "estado": "INGRESANTE"
+  },
+  "40000908": {
+    "numeroPadron": 114,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000926": {
+    "numeroPadron": 115,
+    "estado": "SOLO CENTRO"
+  },
+  "40000944": {
+    "numeroPadron": 116,
+    "estado": "INGRESANTE"
+  },
+  "40000819": {
+    "numeroPadron": 117,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000837": {
+    "numeroPadron": 118,
+    "estado": "SOLO CENTRO"
+  },
+  "40000855": {
+    "numeroPadron": 119,
+    "estado": "INGRESANTE"
+  },
+  "40000873": {
+    "numeroPadron": 120,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000891": {
+    "numeroPadron": 121,
+    "estado": "SOLO CENTRO"
+  },
+  "40000909": {
+    "numeroPadron": 122,
+    "estado": "INGRESANTE"
+  },
+  "40000927": {
+    "numeroPadron": 123,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000945": {
+    "numeroPadron": 124,
+    "estado": "SOLO CENTRO"
+  },
+  "40000963": {
+    "numeroPadron": 125,
+    "estado": "INGRESANTE"
+  },
+  "40000981": {
+    "numeroPadron": 126,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000999": {
+    "numeroPadron": 127,
+    "estado": "SOLO CENTRO"
+  },
+  "40001017": {
+    "numeroPadron": 128,
+    "estado": "INGRESANTE"
+  },
+  "40001035": {
+    "numeroPadron": 129,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000910": {
+    "numeroPadron": 130,
+    "estado": "SOLO CENTRO"
+  },
+  "40000928": {
+    "numeroPadron": 131,
+    "estado": "INGRESANTE"
+  },
+  "40000946": {
+    "numeroPadron": 132,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40000964": {
+    "numeroPadron": 133,
+    "estado": "SOLO CENTRO"
+  },
+  "40000982": {
+    "numeroPadron": 134,
+    "estado": "INGRESANTE"
+  },
+  "40001000": {
+    "numeroPadron": 135,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001018": {
+    "numeroPadron": 136,
+    "estado": "SOLO CENTRO"
+  },
+  "40001036": {
+    "numeroPadron": 137,
+    "estado": "INGRESANTE"
+  },
+  "40001054": {
+    "numeroPadron": 138,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001072": {
+    "numeroPadron": 139,
+    "estado": "SOLO CENTRO"
+  },
+  "40001090": {
+    "numeroPadron": 140,
+    "estado": "INGRESANTE"
+  },
+  "40001108": {
+    "numeroPadron": 141,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001126": {
+    "numeroPadron": 142,
+    "estado": "SOLO CENTRO"
+  },
+  "40001001": {
+    "numeroPadron": 143,
+    "estado": "INGRESANTE"
+  },
+  "40001019": {
+    "numeroPadron": 144,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001037": {
+    "numeroPadron": 145,
+    "estado": "SOLO CENTRO"
+  },
+  "40001055": {
+    "numeroPadron": 146,
+    "estado": "INGRESANTE"
+  },
+  "40001073": {
+    "numeroPadron": 147,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001091": {
+    "numeroPadron": 148,
+    "estado": "SOLO CENTRO"
+  },
+  "40001109": {
+    "numeroPadron": 149,
+    "estado": "INGRESANTE"
+  },
+  "40001127": {
+    "numeroPadron": 150,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001145": {
+    "numeroPadron": 151,
+    "estado": "SOLO CENTRO"
+  },
+  "40001163": {
+    "numeroPadron": 152,
+    "estado": "INGRESANTE"
+  },
+  "40001181": {
+    "numeroPadron": 153,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001199": {
+    "numeroPadron": 154,
+    "estado": "SOLO CENTRO"
+  },
+  "40001217": {
+    "numeroPadron": 155,
+    "estado": "INGRESANTE"
+  },
+  "40001092": {
+    "numeroPadron": 156,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001110": {
+    "numeroPadron": 157,
+    "estado": "SOLO CENTRO"
+  },
+  "40001128": {
+    "numeroPadron": 158,
+    "estado": "INGRESANTE"
+  },
+  "40001146": {
+    "numeroPadron": 159,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001164": {
+    "numeroPadron": 160,
+    "estado": "SOLO CENTRO"
+  },
+  "40001182": {
+    "numeroPadron": 161,
+    "estado": "INGRESANTE"
+  },
+  "40001200": {
+    "numeroPadron": 162,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001218": {
+    "numeroPadron": 163,
+    "estado": "SOLO CENTRO"
+  },
+  "40001236": {
+    "numeroPadron": 164,
+    "estado": "INGRESANTE"
+  },
+  "40001254": {
+    "numeroPadron": 165,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001272": {
+    "numeroPadron": 166,
+    "estado": "SOLO CENTRO"
+  },
+  "40001290": {
+    "numeroPadron": 167,
+    "estado": "INGRESANTE"
+  },
+  "40001308": {
+    "numeroPadron": 168,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001183": {
+    "numeroPadron": 169,
+    "estado": "SOLO CENTRO"
+  },
+  "40001201": {
+    "numeroPadron": 170,
+    "estado": "INGRESANTE"
+  },
+  "40001219": {
+    "numeroPadron": 171,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001237": {
+    "numeroPadron": 172,
+    "estado": "SOLO CENTRO"
+  },
+  "40001255": {
+    "numeroPadron": 173,
+    "estado": "INGRESANTE"
+  },
+  "40001273": {
+    "numeroPadron": 174,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001291": {
+    "numeroPadron": 175,
+    "estado": "SOLO CENTRO"
+  },
+  "40001309": {
+    "numeroPadron": 176,
+    "estado": "INGRESANTE"
+  },
+  "40001327": {
+    "numeroPadron": 177,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001345": {
+    "numeroPadron": 178,
+    "estado": "SOLO CENTRO"
+  },
+  "40001363": {
+    "numeroPadron": 179,
+    "estado": "INGRESANTE"
+  },
+  "40001381": {
+    "numeroPadron": 180,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001399": {
+    "numeroPadron": 181,
+    "estado": "SOLO CENTRO"
+  },
+  "40001274": {
+    "numeroPadron": 182,
+    "estado": "INGRESANTE"
+  },
+  "40001292": {
+    "numeroPadron": 183,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001310": {
+    "numeroPadron": 184,
+    "estado": "SOLO CENTRO"
+  },
+  "40001328": {
+    "numeroPadron": 185,
+    "estado": "INGRESANTE"
+  },
+  "40001346": {
+    "numeroPadron": 186,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001364": {
+    "numeroPadron": 187,
+    "estado": "SOLO CENTRO"
+  },
+  "40001382": {
+    "numeroPadron": 188,
+    "estado": "INGRESANTE"
+  },
+  "40001400": {
+    "numeroPadron": 189,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001418": {
+    "numeroPadron": 190,
+    "estado": "SOLO CENTRO"
+  },
+  "40001436": {
+    "numeroPadron": 191,
+    "estado": "INGRESANTE"
+  },
+  "40001454": {
+    "numeroPadron": 192,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001472": {
+    "numeroPadron": 193,
+    "estado": "SOLO CENTRO"
+  },
+  "40001490": {
+    "numeroPadron": 194,
+    "estado": "INGRESANTE"
+  },
+  "40001365": {
+    "numeroPadron": 195,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001383": {
+    "numeroPadron": 196,
+    "estado": "SOLO CENTRO"
+  },
+  "40001401": {
+    "numeroPadron": 197,
+    "estado": "INGRESANTE"
+  },
+  "40001419": {
+    "numeroPadron": 198,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001437": {
+    "numeroPadron": 199,
+    "estado": "SOLO CENTRO"
+  },
+  "40001455": {
+    "numeroPadron": 200,
+    "estado": "INGRESANTE"
+  },
+  "40001473": {
+    "numeroPadron": 201,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001491": {
+    "numeroPadron": 202,
+    "estado": "SOLO CENTRO"
+  },
+  "40001509": {
+    "numeroPadron": 203,
+    "estado": "INGRESANTE"
+  },
+  "40001527": {
+    "numeroPadron": 204,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001545": {
+    "numeroPadron": 205,
+    "estado": "SOLO CENTRO"
+  },
+  "40001563": {
+    "numeroPadron": 206,
+    "estado": "INGRESANTE"
+  },
+  "40001581": {
+    "numeroPadron": 207,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001456": {
+    "numeroPadron": 208,
+    "estado": "SOLO CENTRO"
+  },
+  "40001474": {
+    "numeroPadron": 209,
+    "estado": "INGRESANTE"
+  },
+  "40001492": {
+    "numeroPadron": 210,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001510": {
+    "numeroPadron": 211,
+    "estado": "SOLO CENTRO"
+  },
+  "40001528": {
+    "numeroPadron": 212,
+    "estado": "INGRESANTE"
+  },
+  "40001546": {
+    "numeroPadron": 213,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001564": {
+    "numeroPadron": 214,
+    "estado": "SOLO CENTRO"
+  },
+  "40001582": {
+    "numeroPadron": 215,
+    "estado": "INGRESANTE"
+  },
+  "40001600": {
+    "numeroPadron": 216,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001618": {
+    "numeroPadron": 217,
+    "estado": "SOLO CENTRO"
+  },
+  "40001636": {
+    "numeroPadron": 218,
+    "estado": "INGRESANTE"
+  },
+  "40001654": {
+    "numeroPadron": 219,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001672": {
+    "numeroPadron": 220,
+    "estado": "SOLO CENTRO"
+  },
+  "40001547": {
+    "numeroPadron": 221,
+    "estado": "INGRESANTE"
+  },
+  "40001565": {
+    "numeroPadron": 222,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001583": {
+    "numeroPadron": 223,
+    "estado": "SOLO CENTRO"
+  },
+  "40001601": {
+    "numeroPadron": 224,
+    "estado": "INGRESANTE"
+  },
+  "40001619": {
+    "numeroPadron": 225,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001637": {
+    "numeroPadron": 226,
+    "estado": "SOLO CENTRO"
+  },
+  "40001655": {
+    "numeroPadron": 227,
+    "estado": "INGRESANTE"
+  },
+  "40001673": {
+    "numeroPadron": 228,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001691": {
+    "numeroPadron": 229,
+    "estado": "SOLO CENTRO"
+  },
+  "40001709": {
+    "numeroPadron": 230,
+    "estado": "INGRESANTE"
+  },
+  "40001727": {
+    "numeroPadron": 231,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001745": {
+    "numeroPadron": 232,
+    "estado": "SOLO CENTRO"
+  },
+  "40001763": {
+    "numeroPadron": 233,
+    "estado": "INGRESANTE"
+  },
+  "40001638": {
+    "numeroPadron": 234,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001656": {
+    "numeroPadron": 235,
+    "estado": "SOLO CENTRO"
+  },
+  "40001674": {
+    "numeroPadron": 236,
+    "estado": "INGRESANTE"
+  },
+  "40001692": {
+    "numeroPadron": 237,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001710": {
+    "numeroPadron": 238,
+    "estado": "SOLO CENTRO"
+  },
+  "40001728": {
+    "numeroPadron": 239,
+    "estado": "INGRESANTE"
+  },
+  "40001746": {
+    "numeroPadron": 240,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001764": {
+    "numeroPadron": 241,
+    "estado": "SOLO CENTRO"
+  },
+  "40001782": {
+    "numeroPadron": 242,
+    "estado": "INGRESANTE"
+  },
+  "40001800": {
+    "numeroPadron": 243,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001818": {
+    "numeroPadron": 244,
+    "estado": "SOLO CENTRO"
+  },
+  "40001836": {
+    "numeroPadron": 245,
+    "estado": "INGRESANTE"
+  },
+  "40001854": {
+    "numeroPadron": 246,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001729": {
+    "numeroPadron": 247,
+    "estado": "SOLO CENTRO"
+  },
+  "40001747": {
+    "numeroPadron": 248,
+    "estado": "INGRESANTE"
+  },
+  "40001765": {
+    "numeroPadron": 249,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001783": {
+    "numeroPadron": 250,
+    "estado": "SOLO CENTRO"
+  },
+  "40001801": {
+    "numeroPadron": 251,
+    "estado": "INGRESANTE"
+  },
+  "40001819": {
+    "numeroPadron": 252,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001837": {
+    "numeroPadron": 253,
+    "estado": "SOLO CENTRO"
+  },
+  "40001855": {
+    "numeroPadron": 254,
+    "estado": "INGRESANTE"
+  },
+  "40001873": {
+    "numeroPadron": 255,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001891": {
+    "numeroPadron": 256,
+    "estado": "SOLO CENTRO"
+  },
+  "40001909": {
+    "numeroPadron": 257,
+    "estado": "INGRESANTE"
+  },
+  "40001927": {
+    "numeroPadron": 258,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001945": {
+    "numeroPadron": 259,
+    "estado": "SOLO CENTRO"
+  },
+  "40001820": {
+    "numeroPadron": 260,
+    "estado": "INGRESANTE"
+  },
+  "40001838": {
+    "numeroPadron": 261,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001856": {
+    "numeroPadron": 262,
+    "estado": "SOLO CENTRO"
+  },
+  "40001874": {
+    "numeroPadron": 263,
+    "estado": "INGRESANTE"
+  },
+  "40001892": {
+    "numeroPadron": 264,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001910": {
+    "numeroPadron": 265,
+    "estado": "SOLO CENTRO"
+  },
+  "40001928": {
+    "numeroPadron": 266,
+    "estado": "INGRESANTE"
+  },
+  "40001946": {
+    "numeroPadron": 267,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001964": {
+    "numeroPadron": 268,
+    "estado": "SOLO CENTRO"
+  },
+  "40001982": {
+    "numeroPadron": 269,
+    "estado": "INGRESANTE"
+  },
+  "40002000": {
+    "numeroPadron": 270,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002018": {
+    "numeroPadron": 271,
+    "estado": "SOLO CENTRO"
+  },
+  "40002036": {
+    "numeroPadron": 272,
+    "estado": "INGRESANTE"
+  },
+  "40001911": {
+    "numeroPadron": 273,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001929": {
+    "numeroPadron": 274,
+    "estado": "SOLO CENTRO"
+  },
+  "40001947": {
+    "numeroPadron": 275,
+    "estado": "INGRESANTE"
+  },
+  "40001965": {
+    "numeroPadron": 276,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40001983": {
+    "numeroPadron": 277,
+    "estado": "SOLO CENTRO"
+  },
+  "40002001": {
+    "numeroPadron": 278,
+    "estado": "INGRESANTE"
+  },
+  "40002019": {
+    "numeroPadron": 279,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002037": {
+    "numeroPadron": 280,
+    "estado": "SOLO CENTRO"
+  },
+  "40002055": {
+    "numeroPadron": 281,
+    "estado": "INGRESANTE"
+  },
+  "40002073": {
+    "numeroPadron": 282,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002091": {
+    "numeroPadron": 283,
+    "estado": "SOLO CENTRO"
+  },
+  "40002109": {
+    "numeroPadron": 284,
+    "estado": "INGRESANTE"
+  },
+  "40002127": {
+    "numeroPadron": 285,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002002": {
+    "numeroPadron": 286,
+    "estado": "SOLO CENTRO"
+  },
+  "40002020": {
+    "numeroPadron": 287,
+    "estado": "INGRESANTE"
+  },
+  "40002038": {
+    "numeroPadron": 288,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002056": {
+    "numeroPadron": 289,
+    "estado": "SOLO CENTRO"
+  },
+  "40002074": {
+    "numeroPadron": 290,
+    "estado": "INGRESANTE"
+  },
+  "40002092": {
+    "numeroPadron": 291,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002110": {
+    "numeroPadron": 292,
+    "estado": "SOLO CENTRO"
+  },
+  "40002128": {
+    "numeroPadron": 293,
+    "estado": "INGRESANTE"
+  },
+  "40002146": {
+    "numeroPadron": 294,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002164": {
+    "numeroPadron": 295,
+    "estado": "SOLO CENTRO"
+  },
+  "40002182": {
+    "numeroPadron": 296,
+    "estado": "INGRESANTE"
+  },
+  "40002200": {
+    "numeroPadron": 297,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002218": {
+    "numeroPadron": 298,
+    "estado": "SOLO CENTRO"
+  },
+  "40002093": {
+    "numeroPadron": 299,
+    "estado": "INGRESANTE"
+  },
+  "40002111": {
+    "numeroPadron": 300,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002129": {
+    "numeroPadron": 301,
+    "estado": "SOLO CENTRO"
+  },
+  "40002147": {
+    "numeroPadron": 302,
+    "estado": "INGRESANTE"
+  },
+  "40002165": {
+    "numeroPadron": 303,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002183": {
+    "numeroPadron": 304,
+    "estado": "SOLO CENTRO"
+  },
+  "40002201": {
+    "numeroPadron": 305,
+    "estado": "INGRESANTE"
+  },
+  "40002219": {
+    "numeroPadron": 306,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002237": {
+    "numeroPadron": 307,
+    "estado": "SOLO CENTRO"
+  },
+  "40002255": {
+    "numeroPadron": 308,
+    "estado": "INGRESANTE"
+  },
+  "40002273": {
+    "numeroPadron": 309,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002291": {
+    "numeroPadron": 310,
+    "estado": "SOLO CENTRO"
+  },
+  "40002309": {
+    "numeroPadron": 311,
+    "estado": "INGRESANTE"
+  },
+  "40002184": {
+    "numeroPadron": 312,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002202": {
+    "numeroPadron": 313,
+    "estado": "SOLO CENTRO"
+  },
+  "40002220": {
+    "numeroPadron": 314,
+    "estado": "INGRESANTE"
+  },
+  "40002238": {
+    "numeroPadron": 315,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002256": {
+    "numeroPadron": 316,
+    "estado": "SOLO CENTRO"
+  },
+  "40002274": {
+    "numeroPadron": 317,
+    "estado": "INGRESANTE"
+  },
+  "40002292": {
+    "numeroPadron": 318,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002310": {
+    "numeroPadron": 319,
+    "estado": "SOLO CENTRO"
+  },
+  "40002328": {
+    "numeroPadron": 320,
+    "estado": "INGRESANTE"
+  },
+  "40002346": {
+    "numeroPadron": 321,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002364": {
+    "numeroPadron": 322,
+    "estado": "SOLO CENTRO"
+  },
+  "40002382": {
+    "numeroPadron": 323,
+    "estado": "INGRESANTE"
+  },
+  "40002400": {
+    "numeroPadron": 324,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002275": {
+    "numeroPadron": 325,
+    "estado": "SOLO CENTRO"
+  },
+  "40002293": {
+    "numeroPadron": 326,
+    "estado": "INGRESANTE"
+  },
+  "40002311": {
+    "numeroPadron": 327,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002329": {
+    "numeroPadron": 328,
+    "estado": "SOLO CENTRO"
+  },
+  "40002347": {
+    "numeroPadron": 329,
+    "estado": "INGRESANTE"
+  },
+  "40002365": {
+    "numeroPadron": 330,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002383": {
+    "numeroPadron": 331,
+    "estado": "SOLO CENTRO"
+  },
+  "40002401": {
+    "numeroPadron": 332,
+    "estado": "INGRESANTE"
+  },
+  "40002419": {
+    "numeroPadron": 333,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002437": {
+    "numeroPadron": 334,
+    "estado": "SOLO CENTRO"
+  },
+  "40002455": {
+    "numeroPadron": 335,
+    "estado": "INGRESANTE"
+  },
+  "40002473": {
+    "numeroPadron": 336,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002491": {
+    "numeroPadron": 337,
+    "estado": "SOLO CENTRO"
+  },
+  "40002366": {
+    "numeroPadron": 338,
+    "estado": "INGRESANTE"
+  },
+  "40002384": {
+    "numeroPadron": 339,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002402": {
+    "numeroPadron": 340,
+    "estado": "SOLO CENTRO"
+  },
+  "40002420": {
+    "numeroPadron": 341,
+    "estado": "INGRESANTE"
+  },
+  "40002438": {
+    "numeroPadron": 342,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002456": {
+    "numeroPadron": 343,
+    "estado": "SOLO CENTRO"
+  },
+  "40002474": {
+    "numeroPadron": 344,
+    "estado": "INGRESANTE"
+  },
+  "40002492": {
+    "numeroPadron": 345,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002510": {
+    "numeroPadron": 346,
+    "estado": "SOLO CENTRO"
+  },
+  "40002528": {
+    "numeroPadron": 347,
+    "estado": "INGRESANTE"
+  },
+  "40002546": {
+    "numeroPadron": 348,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002564": {
+    "numeroPadron": 349,
+    "estado": "SOLO CENTRO"
+  },
+  "40002582": {
+    "numeroPadron": 350,
+    "estado": "INGRESANTE"
+  },
+  "40002457": {
+    "numeroPadron": 351,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002475": {
+    "numeroPadron": 352,
+    "estado": "SOLO CENTRO"
+  },
+  "40002493": {
+    "numeroPadron": 353,
+    "estado": "INGRESANTE"
+  },
+  "40002511": {
+    "numeroPadron": 354,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002529": {
+    "numeroPadron": 355,
+    "estado": "SOLO CENTRO"
+  },
+  "40002547": {
+    "numeroPadron": 356,
+    "estado": "INGRESANTE"
+  },
+  "40002565": {
+    "numeroPadron": 357,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002583": {
+    "numeroPadron": 358,
+    "estado": "SOLO CENTRO"
+  },
+  "40002601": {
+    "numeroPadron": 359,
+    "estado": "INGRESANTE"
+  },
+  "40002619": {
+    "numeroPadron": 360,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002637": {
+    "numeroPadron": 361,
+    "estado": "SOLO CENTRO"
+  },
+  "40002655": {
+    "numeroPadron": 362,
+    "estado": "INGRESANTE"
+  },
+  "40002673": {
+    "numeroPadron": 363,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002548": {
+    "numeroPadron": 364,
+    "estado": "SOLO CENTRO"
+  },
+  "40002566": {
+    "numeroPadron": 365,
+    "estado": "INGRESANTE"
+  },
+  "40002584": {
+    "numeroPadron": 366,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002602": {
+    "numeroPadron": 367,
+    "estado": "SOLO CENTRO"
+  },
+  "40002620": {
+    "numeroPadron": 368,
+    "estado": "INGRESANTE"
+  },
+  "40002638": {
+    "numeroPadron": 369,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002656": {
+    "numeroPadron": 370,
+    "estado": "SOLO CENTRO"
+  },
+  "40002674": {
+    "numeroPadron": 371,
+    "estado": "INGRESANTE"
+  },
+  "40002692": {
+    "numeroPadron": 372,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002710": {
+    "numeroPadron": 373,
+    "estado": "SOLO CENTRO"
+  },
+  "40002728": {
+    "numeroPadron": 374,
+    "estado": "INGRESANTE"
+  },
+  "40002746": {
+    "numeroPadron": 375,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002764": {
+    "numeroPadron": 376,
+    "estado": "SOLO CENTRO"
+  },
+  "40002639": {
+    "numeroPadron": 377,
+    "estado": "INGRESANTE"
+  },
+  "40002657": {
+    "numeroPadron": 378,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002675": {
+    "numeroPadron": 379,
+    "estado": "SOLO CENTRO"
+  },
+  "40002693": {
+    "numeroPadron": 380,
+    "estado": "INGRESANTE"
+  },
+  "40002711": {
+    "numeroPadron": 381,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002729": {
+    "numeroPadron": 382,
+    "estado": "SOLO CENTRO"
+  },
+  "40002747": {
+    "numeroPadron": 383,
+    "estado": "INGRESANTE"
+  },
+  "40002765": {
+    "numeroPadron": 384,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002783": {
+    "numeroPadron": 385,
+    "estado": "SOLO CENTRO"
+  },
+  "40002801": {
+    "numeroPadron": 386,
+    "estado": "INGRESANTE"
+  },
+  "40002819": {
+    "numeroPadron": 387,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002837": {
+    "numeroPadron": 388,
+    "estado": "SOLO CENTRO"
+  },
+  "40002855": {
+    "numeroPadron": 389,
+    "estado": "INGRESANTE"
+  },
+  "40002730": {
+    "numeroPadron": 390,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002748": {
+    "numeroPadron": 391,
+    "estado": "SOLO CENTRO"
+  },
+  "40002766": {
+    "numeroPadron": 392,
+    "estado": "INGRESANTE"
+  },
+  "40002784": {
+    "numeroPadron": 393,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002802": {
+    "numeroPadron": 394,
+    "estado": "SOLO CENTRO"
+  },
+  "40002820": {
+    "numeroPadron": 395,
+    "estado": "INGRESANTE"
+  },
+  "40002838": {
+    "numeroPadron": 396,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002856": {
+    "numeroPadron": 397,
+    "estado": "SOLO CENTRO"
+  },
+  "40002874": {
+    "numeroPadron": 398,
+    "estado": "INGRESANTE"
+  },
+  "40002892": {
+    "numeroPadron": 399,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002910": {
+    "numeroPadron": 400,
+    "estado": "SOLO CENTRO"
+  },
+  "40002928": {
+    "numeroPadron": 401,
+    "estado": "INGRESANTE"
+  },
+  "40002946": {
+    "numeroPadron": 402,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002821": {
+    "numeroPadron": 403,
+    "estado": "SOLO CENTRO"
+  },
+  "40002839": {
+    "numeroPadron": 404,
+    "estado": "INGRESANTE"
+  },
+  "40002857": {
+    "numeroPadron": 405,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002875": {
+    "numeroPadron": 406,
+    "estado": "SOLO CENTRO"
+  },
+  "40002893": {
+    "numeroPadron": 407,
+    "estado": "INGRESANTE"
+  },
+  "40002911": {
+    "numeroPadron": 408,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002929": {
+    "numeroPadron": 409,
+    "estado": "SOLO CENTRO"
+  },
+  "40002947": {
+    "numeroPadron": 410,
+    "estado": "INGRESANTE"
+  },
+  "40002965": {
+    "numeroPadron": 411,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002983": {
+    "numeroPadron": 412,
+    "estado": "SOLO CENTRO"
+  },
+  "40003001": {
+    "numeroPadron": 413,
+    "estado": "INGRESANTE"
+  },
+  "40003019": {
+    "numeroPadron": 414,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003037": {
+    "numeroPadron": 415,
+    "estado": "SOLO CENTRO"
+  },
+  "40002912": {
+    "numeroPadron": 416,
+    "estado": "INGRESANTE"
+  },
+  "40002930": {
+    "numeroPadron": 417,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40002948": {
+    "numeroPadron": 418,
+    "estado": "SOLO CENTRO"
+  },
+  "40002966": {
+    "numeroPadron": 419,
+    "estado": "INGRESANTE"
+  },
+  "40002984": {
+    "numeroPadron": 420,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003002": {
+    "numeroPadron": 421,
+    "estado": "SOLO CENTRO"
+  },
+  "40003020": {
+    "numeroPadron": 422,
+    "estado": "INGRESANTE"
+  },
+  "40003038": {
+    "numeroPadron": 423,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003056": {
+    "numeroPadron": 424,
+    "estado": "SOLO CENTRO"
+  },
+  "40003074": {
+    "numeroPadron": 425,
+    "estado": "INGRESANTE"
+  },
+  "40003092": {
+    "numeroPadron": 426,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003110": {
+    "numeroPadron": 427,
+    "estado": "SOLO CENTRO"
+  },
+  "40003128": {
+    "numeroPadron": 428,
+    "estado": "INGRESANTE"
+  },
+  "40003003": {
+    "numeroPadron": 429,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003021": {
+    "numeroPadron": 430,
+    "estado": "SOLO CENTRO"
+  },
+  "40003039": {
+    "numeroPadron": 431,
+    "estado": "INGRESANTE"
+  },
+  "40003057": {
+    "numeroPadron": 432,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003075": {
+    "numeroPadron": 433,
+    "estado": "SOLO CENTRO"
+  },
+  "40003093": {
+    "numeroPadron": 434,
+    "estado": "INGRESANTE"
+  },
+  "40003111": {
+    "numeroPadron": 435,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003129": {
+    "numeroPadron": 436,
+    "estado": "SOLO CENTRO"
+  },
+  "40003147": {
+    "numeroPadron": 437,
+    "estado": "INGRESANTE"
+  },
+  "40003165": {
+    "numeroPadron": 438,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003183": {
+    "numeroPadron": 439,
+    "estado": "SOLO CENTRO"
+  },
+  "40003201": {
+    "numeroPadron": 440,
+    "estado": "INGRESANTE"
+  },
+  "40003219": {
+    "numeroPadron": 441,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003094": {
+    "numeroPadron": 442,
+    "estado": "SOLO CENTRO"
+  },
+  "40003112": {
+    "numeroPadron": 443,
+    "estado": "INGRESANTE"
+  },
+  "40003130": {
+    "numeroPadron": 444,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003148": {
+    "numeroPadron": 445,
+    "estado": "SOLO CENTRO"
+  },
+  "40003166": {
+    "numeroPadron": 446,
+    "estado": "INGRESANTE"
+  },
+  "40003184": {
+    "numeroPadron": 447,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003202": {
+    "numeroPadron": 448,
+    "estado": "SOLO CENTRO"
+  },
+  "40003220": {
+    "numeroPadron": 449,
+    "estado": "INGRESANTE"
+  },
+  "40003238": {
+    "numeroPadron": 450,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003256": {
+    "numeroPadron": 451,
+    "estado": "SOLO CENTRO"
+  },
+  "40003274": {
+    "numeroPadron": 452,
+    "estado": "INGRESANTE"
+  },
+  "40003292": {
+    "numeroPadron": 453,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003310": {
+    "numeroPadron": 454,
+    "estado": "SOLO CENTRO"
+  },
+  "40003185": {
+    "numeroPadron": 455,
+    "estado": "INGRESANTE"
+  },
+  "40003203": {
+    "numeroPadron": 456,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003221": {
+    "numeroPadron": 457,
+    "estado": "SOLO CENTRO"
+  },
+  "40003239": {
+    "numeroPadron": 458,
+    "estado": "INGRESANTE"
+  },
+  "40003257": {
+    "numeroPadron": 459,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003275": {
+    "numeroPadron": 460,
+    "estado": "SOLO CENTRO"
+  },
+  "40003293": {
+    "numeroPadron": 461,
+    "estado": "INGRESANTE"
+  },
+  "40003311": {
+    "numeroPadron": 462,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003329": {
+    "numeroPadron": 463,
+    "estado": "SOLO CENTRO"
+  },
+  "40003347": {
+    "numeroPadron": 464,
+    "estado": "INGRESANTE"
+  },
+  "40003365": {
+    "numeroPadron": 465,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003383": {
+    "numeroPadron": 466,
+    "estado": "SOLO CENTRO"
+  },
+  "40003401": {
+    "numeroPadron": 467,
+    "estado": "INGRESANTE"
+  },
+  "40003276": {
+    "numeroPadron": 468,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003294": {
+    "numeroPadron": 469,
+    "estado": "SOLO CENTRO"
+  },
+  "40003312": {
+    "numeroPadron": 470,
+    "estado": "INGRESANTE"
+  },
+  "40003330": {
+    "numeroPadron": 471,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003348": {
+    "numeroPadron": 472,
+    "estado": "SOLO CENTRO"
+  },
+  "40003366": {
+    "numeroPadron": 473,
+    "estado": "INGRESANTE"
+  },
+  "40003384": {
+    "numeroPadron": 474,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003402": {
+    "numeroPadron": 475,
+    "estado": "SOLO CENTRO"
+  },
+  "40003420": {
+    "numeroPadron": 476,
+    "estado": "INGRESANTE"
+  },
+  "40003438": {
+    "numeroPadron": 477,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003456": {
+    "numeroPadron": 478,
+    "estado": "SOLO CENTRO"
+  },
+  "40003474": {
+    "numeroPadron": 479,
+    "estado": "INGRESANTE"
+  },
+  "40003492": {
+    "numeroPadron": 480,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003367": {
+    "numeroPadron": 481,
+    "estado": "SOLO CENTRO"
+  },
+  "40003385": {
+    "numeroPadron": 482,
+    "estado": "INGRESANTE"
+  },
+  "40003403": {
+    "numeroPadron": 483,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003421": {
+    "numeroPadron": 484,
+    "estado": "SOLO CENTRO"
+  },
+  "40003439": {
+    "numeroPadron": 485,
+    "estado": "INGRESANTE"
+  },
+  "40003457": {
+    "numeroPadron": 486,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003475": {
+    "numeroPadron": 487,
+    "estado": "SOLO CENTRO"
+  },
+  "40003493": {
+    "numeroPadron": 488,
+    "estado": "INGRESANTE"
+  },
+  "40003511": {
+    "numeroPadron": 489,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003529": {
+    "numeroPadron": 490,
+    "estado": "SOLO CENTRO"
+  },
+  "40003547": {
+    "numeroPadron": 491,
+    "estado": "INGRESANTE"
+  },
+  "40003565": {
+    "numeroPadron": 492,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003583": {
+    "numeroPadron": 493,
+    "estado": "SOLO CENTRO"
+  },
+  "40003458": {
+    "numeroPadron": 494,
+    "estado": "INGRESANTE"
+  },
+  "40003476": {
+    "numeroPadron": 495,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003494": {
+    "numeroPadron": 496,
+    "estado": "SOLO CENTRO"
+  },
+  "40003512": {
+    "numeroPadron": 497,
+    "estado": "INGRESANTE"
+  },
+  "40003530": {
+    "numeroPadron": 498,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003548": {
+    "numeroPadron": 499,
+    "estado": "SOLO CENTRO"
+  },
+  "40003566": {
+    "numeroPadron": 500,
+    "estado": "INGRESANTE"
+  },
+  "40003584": {
+    "numeroPadron": 501,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003602": {
+    "numeroPadron": 502,
+    "estado": "SOLO CENTRO"
+  },
+  "40003620": {
+    "numeroPadron": 503,
+    "estado": "INGRESANTE"
+  },
+  "40003638": {
+    "numeroPadron": 504,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003656": {
+    "numeroPadron": 505,
+    "estado": "SOLO CENTRO"
+  },
+  "40003674": {
+    "numeroPadron": 506,
+    "estado": "INGRESANTE"
+  },
+  "40003549": {
+    "numeroPadron": 507,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003567": {
+    "numeroPadron": 508,
+    "estado": "SOLO CENTRO"
+  },
+  "40003585": {
+    "numeroPadron": 509,
+    "estado": "INGRESANTE"
+  },
+  "40003603": {
+    "numeroPadron": 510,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003621": {
+    "numeroPadron": 511,
+    "estado": "SOLO CENTRO"
+  },
+  "40003639": {
+    "numeroPadron": 512,
+    "estado": "INGRESANTE"
+  },
+  "40003657": {
+    "numeroPadron": 513,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003675": {
+    "numeroPadron": 514,
+    "estado": "SOLO CENTRO"
+  },
+  "40003693": {
+    "numeroPadron": 515,
+    "estado": "INGRESANTE"
+  },
+  "40003711": {
+    "numeroPadron": 516,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003729": {
+    "numeroPadron": 517,
+    "estado": "SOLO CENTRO"
+  },
+  "40003747": {
+    "numeroPadron": 518,
+    "estado": "INGRESANTE"
+  },
+  "40003765": {
+    "numeroPadron": 519,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003640": {
+    "numeroPadron": 520,
+    "estado": "SOLO CENTRO"
+  },
+  "40003658": {
+    "numeroPadron": 521,
+    "estado": "INGRESANTE"
+  },
+  "40003676": {
+    "numeroPadron": 522,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003694": {
+    "numeroPadron": 523,
+    "estado": "SOLO CENTRO"
+  },
+  "40003712": {
+    "numeroPadron": 524,
+    "estado": "INGRESANTE"
+  },
+  "40003730": {
+    "numeroPadron": 525,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003748": {
+    "numeroPadron": 526,
+    "estado": "SOLO CENTRO"
+  },
+  "40003766": {
+    "numeroPadron": 527,
+    "estado": "INGRESANTE"
+  },
+  "40003784": {
+    "numeroPadron": 528,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003802": {
+    "numeroPadron": 529,
+    "estado": "SOLO CENTRO"
+  },
+  "40003820": {
+    "numeroPadron": 530,
+    "estado": "INGRESANTE"
+  },
+  "40003838": {
+    "numeroPadron": 531,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003856": {
+    "numeroPadron": 532,
+    "estado": "SOLO CENTRO"
+  },
+  "40003731": {
+    "numeroPadron": 533,
+    "estado": "INGRESANTE"
+  },
+  "40003749": {
+    "numeroPadron": 534,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003767": {
+    "numeroPadron": 535,
+    "estado": "SOLO CENTRO"
+  },
+  "40003785": {
+    "numeroPadron": 536,
+    "estado": "INGRESANTE"
+  },
+  "40003803": {
+    "numeroPadron": 537,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003821": {
+    "numeroPadron": 538,
+    "estado": "SOLO CENTRO"
+  },
+  "40003839": {
+    "numeroPadron": 539,
+    "estado": "INGRESANTE"
+  },
+  "40003857": {
+    "numeroPadron": 540,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003875": {
+    "numeroPadron": 541,
+    "estado": "SOLO CENTRO"
+  },
+  "40003893": {
+    "numeroPadron": 542,
+    "estado": "INGRESANTE"
+  },
+  "40003911": {
+    "numeroPadron": 543,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003929": {
+    "numeroPadron": 544,
+    "estado": "SOLO CENTRO"
+  },
+  "40003947": {
+    "numeroPadron": 545,
+    "estado": "INGRESANTE"
+  },
+  "40003822": {
+    "numeroPadron": 546,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003840": {
+    "numeroPadron": 547,
+    "estado": "SOLO CENTRO"
+  },
+  "40003858": {
+    "numeroPadron": 548,
+    "estado": "INGRESANTE"
+  },
+  "40003876": {
+    "numeroPadron": 549,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003894": {
+    "numeroPadron": 550,
+    "estado": "SOLO CENTRO"
+  },
+  "40003912": {
+    "numeroPadron": 551,
+    "estado": "INGRESANTE"
+  },
+  "40003930": {
+    "numeroPadron": 552,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003948": {
+    "numeroPadron": 553,
+    "estado": "SOLO CENTRO"
+  },
+  "40003966": {
+    "numeroPadron": 554,
+    "estado": "INGRESANTE"
+  },
+  "40003984": {
+    "numeroPadron": 555,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004002": {
+    "numeroPadron": 556,
+    "estado": "SOLO CENTRO"
+  },
+  "40004020": {
+    "numeroPadron": 557,
+    "estado": "INGRESANTE"
+  },
+  "40004038": {
+    "numeroPadron": 558,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003913": {
+    "numeroPadron": 559,
+    "estado": "SOLO CENTRO"
+  },
+  "40003931": {
+    "numeroPadron": 560,
+    "estado": "INGRESANTE"
+  },
+  "40003949": {
+    "numeroPadron": 561,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40003967": {
+    "numeroPadron": 562,
+    "estado": "SOLO CENTRO"
+  },
+  "40003985": {
+    "numeroPadron": 563,
+    "estado": "INGRESANTE"
+  },
+  "40004003": {
+    "numeroPadron": 564,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004021": {
+    "numeroPadron": 565,
+    "estado": "SOLO CENTRO"
+  },
+  "40004039": {
+    "numeroPadron": 566,
+    "estado": "INGRESANTE"
+  },
+  "40004057": {
+    "numeroPadron": 567,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004075": {
+    "numeroPadron": 568,
+    "estado": "SOLO CENTRO"
+  },
+  "40004093": {
+    "numeroPadron": 569,
+    "estado": "INGRESANTE"
+  },
+  "40004111": {
+    "numeroPadron": 570,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004129": {
+    "numeroPadron": 571,
+    "estado": "SOLO CENTRO"
+  },
+  "40004004": {
+    "numeroPadron": 572,
+    "estado": "INGRESANTE"
+  },
+  "40004022": {
+    "numeroPadron": 573,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004040": {
+    "numeroPadron": 574,
+    "estado": "SOLO CENTRO"
+  },
+  "40004058": {
+    "numeroPadron": 575,
+    "estado": "INGRESANTE"
+  },
+  "40004076": {
+    "numeroPadron": 576,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004094": {
+    "numeroPadron": 577,
+    "estado": "SOLO CENTRO"
+  },
+  "40004112": {
+    "numeroPadron": 578,
+    "estado": "INGRESANTE"
+  },
+  "40004130": {
+    "numeroPadron": 579,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004148": {
+    "numeroPadron": 580,
+    "estado": "SOLO CENTRO"
+  },
+  "40004166": {
+    "numeroPadron": 581,
+    "estado": "INGRESANTE"
+  },
+  "40004184": {
+    "numeroPadron": 582,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004202": {
+    "numeroPadron": 583,
+    "estado": "SOLO CENTRO"
+  },
+  "40004220": {
+    "numeroPadron": 584,
+    "estado": "INGRESANTE"
+  },
+  "40004095": {
+    "numeroPadron": 585,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004113": {
+    "numeroPadron": 586,
+    "estado": "SOLO CENTRO"
+  },
+  "40004131": {
+    "numeroPadron": 587,
+    "estado": "INGRESANTE"
+  },
+  "40004149": {
+    "numeroPadron": 588,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004167": {
+    "numeroPadron": 589,
+    "estado": "SOLO CENTRO"
+  },
+  "40004185": {
+    "numeroPadron": 590,
+    "estado": "INGRESANTE"
+  },
+  "40004203": {
+    "numeroPadron": 591,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004221": {
+    "numeroPadron": 592,
+    "estado": "SOLO CENTRO"
+  },
+  "40004239": {
+    "numeroPadron": 593,
+    "estado": "INGRESANTE"
+  },
+  "40004257": {
+    "numeroPadron": 594,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004275": {
+    "numeroPadron": 595,
+    "estado": "SOLO CENTRO"
+  },
+  "40004293": {
+    "numeroPadron": 596,
+    "estado": "INGRESANTE"
+  },
+  "40004311": {
+    "numeroPadron": 597,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004186": {
+    "numeroPadron": 598,
+    "estado": "SOLO CENTRO"
+  },
+  "40004204": {
+    "numeroPadron": 599,
+    "estado": "INGRESANTE"
+  },
+  "40004222": {
+    "numeroPadron": 600,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004240": {
+    "numeroPadron": 601,
+    "estado": "SOLO CENTRO"
+  },
+  "40004258": {
+    "numeroPadron": 602,
+    "estado": "INGRESANTE"
+  },
+  "40004276": {
+    "numeroPadron": 603,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004294": {
+    "numeroPadron": 604,
+    "estado": "SOLO CENTRO"
+  },
+  "40004312": {
+    "numeroPadron": 605,
+    "estado": "INGRESANTE"
+  },
+  "40004330": {
+    "numeroPadron": 606,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004348": {
+    "numeroPadron": 607,
+    "estado": "SOLO CENTRO"
+  },
+  "40004366": {
+    "numeroPadron": 608,
+    "estado": "INGRESANTE"
+  },
+  "40004384": {
+    "numeroPadron": 609,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004402": {
+    "numeroPadron": 610,
+    "estado": "SOLO CENTRO"
+  },
+  "40004277": {
+    "numeroPadron": 611,
+    "estado": "INGRESANTE"
+  },
+  "40004295": {
+    "numeroPadron": 612,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004313": {
+    "numeroPadron": 613,
+    "estado": "SOLO CENTRO"
+  },
+  "40004331": {
+    "numeroPadron": 614,
+    "estado": "INGRESANTE"
+  },
+  "40004349": {
+    "numeroPadron": 615,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004367": {
+    "numeroPadron": 616,
+    "estado": "SOLO CENTRO"
+  },
+  "40004385": {
+    "numeroPadron": 617,
+    "estado": "INGRESANTE"
+  },
+  "40004403": {
+    "numeroPadron": 618,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004421": {
+    "numeroPadron": 619,
+    "estado": "SOLO CENTRO"
+  },
+  "40004439": {
+    "numeroPadron": 620,
+    "estado": "INGRESANTE"
+  },
+  "40004457": {
+    "numeroPadron": 621,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004475": {
+    "numeroPadron": 622,
+    "estado": "SOLO CENTRO"
+  },
+  "40004493": {
+    "numeroPadron": 623,
+    "estado": "INGRESANTE"
+  },
+  "40004368": {
+    "numeroPadron": 624,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004386": {
+    "numeroPadron": 625,
+    "estado": "SOLO CENTRO"
+  },
+  "40004404": {
+    "numeroPadron": 626,
+    "estado": "INGRESANTE"
+  },
+  "40004422": {
+    "numeroPadron": 627,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004440": {
+    "numeroPadron": 628,
+    "estado": "SOLO CENTRO"
+  },
+  "40004458": {
+    "numeroPadron": 629,
+    "estado": "INGRESANTE"
+  },
+  "40004476": {
+    "numeroPadron": 630,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004494": {
+    "numeroPadron": 631,
+    "estado": "SOLO CENTRO"
+  },
+  "40004512": {
+    "numeroPadron": 632,
+    "estado": "INGRESANTE"
+  },
+  "40004530": {
+    "numeroPadron": 633,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004548": {
+    "numeroPadron": 634,
+    "estado": "SOLO CENTRO"
+  },
+  "40004566": {
+    "numeroPadron": 635,
+    "estado": "INGRESANTE"
+  },
+  "40004584": {
+    "numeroPadron": 636,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004459": {
+    "numeroPadron": 637,
+    "estado": "SOLO CENTRO"
+  },
+  "40004477": {
+    "numeroPadron": 638,
+    "estado": "INGRESANTE"
+  },
+  "40004495": {
+    "numeroPadron": 639,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004513": {
+    "numeroPadron": 640,
+    "estado": "SOLO CENTRO"
+  },
+  "40004531": {
+    "numeroPadron": 641,
+    "estado": "INGRESANTE"
+  },
+  "40004549": {
+    "numeroPadron": 642,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004567": {
+    "numeroPadron": 643,
+    "estado": "SOLO CENTRO"
+  },
+  "40004585": {
+    "numeroPadron": 644,
+    "estado": "INGRESANTE"
+  },
+  "40004603": {
+    "numeroPadron": 645,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004621": {
+    "numeroPadron": 646,
+    "estado": "SOLO CENTRO"
+  },
+  "40004639": {
+    "numeroPadron": 647,
+    "estado": "INGRESANTE"
+  },
+  "40004657": {
+    "numeroPadron": 648,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004675": {
+    "numeroPadron": 649,
+    "estado": "SOLO CENTRO"
+  },
+  "40004550": {
+    "numeroPadron": 650,
+    "estado": "INGRESANTE"
+  },
+  "40004568": {
+    "numeroPadron": 651,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004586": {
+    "numeroPadron": 652,
+    "estado": "SOLO CENTRO"
+  },
+  "40004604": {
+    "numeroPadron": 653,
+    "estado": "INGRESANTE"
+  },
+  "40004622": {
+    "numeroPadron": 654,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004640": {
+    "numeroPadron": 655,
+    "estado": "SOLO CENTRO"
+  },
+  "40004658": {
+    "numeroPadron": 656,
+    "estado": "INGRESANTE"
+  },
+  "40004676": {
+    "numeroPadron": 657,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004694": {
+    "numeroPadron": 658,
+    "estado": "SOLO CENTRO"
+  },
+  "40004712": {
+    "numeroPadron": 659,
+    "estado": "INGRESANTE"
+  },
+  "40004730": {
+    "numeroPadron": 660,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004748": {
+    "numeroPadron": 661,
+    "estado": "SOLO CENTRO"
+  },
+  "40004766": {
+    "numeroPadron": 662,
+    "estado": "INGRESANTE"
+  },
+  "40004641": {
+    "numeroPadron": 663,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004659": {
+    "numeroPadron": 664,
+    "estado": "SOLO CENTRO"
+  },
+  "40004677": {
+    "numeroPadron": 665,
+    "estado": "INGRESANTE"
+  },
+  "40004695": {
+    "numeroPadron": 666,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004713": {
+    "numeroPadron": 667,
+    "estado": "SOLO CENTRO"
+  },
+  "40004731": {
+    "numeroPadron": 668,
+    "estado": "INGRESANTE"
+  },
+  "40004749": {
+    "numeroPadron": 669,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004767": {
+    "numeroPadron": 670,
+    "estado": "SOLO CENTRO"
+  },
+  "40004785": {
+    "numeroPadron": 671,
+    "estado": "INGRESANTE"
+  },
+  "40004803": {
+    "numeroPadron": 672,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004821": {
+    "numeroPadron": 673,
+    "estado": "SOLO CENTRO"
+  },
+  "40004839": {
+    "numeroPadron": 674,
+    "estado": "INGRESANTE"
+  },
+  "40004857": {
+    "numeroPadron": 675,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004732": {
+    "numeroPadron": 676,
+    "estado": "SOLO CENTRO"
+  },
+  "40004750": {
+    "numeroPadron": 677,
+    "estado": "INGRESANTE"
+  },
+  "40004768": {
+    "numeroPadron": 678,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004786": {
+    "numeroPadron": 679,
+    "estado": "SOLO CENTRO"
+  },
+  "40004804": {
+    "numeroPadron": 680,
+    "estado": "INGRESANTE"
+  },
+  "40004822": {
+    "numeroPadron": 681,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004840": {
+    "numeroPadron": 682,
+    "estado": "SOLO CENTRO"
+  },
+  "40004858": {
+    "numeroPadron": 683,
+    "estado": "INGRESANTE"
+  },
+  "40004876": {
+    "numeroPadron": 684,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004894": {
+    "numeroPadron": 685,
+    "estado": "SOLO CENTRO"
+  },
+  "40004912": {
+    "numeroPadron": 686,
+    "estado": "INGRESANTE"
+  },
+  "40004930": {
+    "numeroPadron": 687,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004948": {
+    "numeroPadron": 688,
+    "estado": "SOLO CENTRO"
+  },
+  "40004823": {
+    "numeroPadron": 689,
+    "estado": "INGRESANTE"
+  },
+  "40004841": {
+    "numeroPadron": 690,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004859": {
+    "numeroPadron": 691,
+    "estado": "SOLO CENTRO"
+  },
+  "40004877": {
+    "numeroPadron": 692,
+    "estado": "INGRESANTE"
+  },
+  "40004895": {
+    "numeroPadron": 693,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004913": {
+    "numeroPadron": 694,
+    "estado": "SOLO CENTRO"
+  },
+  "40004931": {
+    "numeroPadron": 695,
+    "estado": "INGRESANTE"
+  },
+  "40004949": {
+    "numeroPadron": 696,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004967": {
+    "numeroPadron": 697,
+    "estado": "SOLO CENTRO"
+  },
+  "40004985": {
+    "numeroPadron": 698,
+    "estado": "INGRESANTE"
+  },
+  "40005003": {
+    "numeroPadron": 699,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005021": {
+    "numeroPadron": 700,
+    "estado": "SOLO CENTRO"
+  },
+  "40005039": {
+    "numeroPadron": 701,
+    "estado": "INGRESANTE"
+  },
+  "40004914": {
+    "numeroPadron": 702,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004932": {
+    "numeroPadron": 703,
+    "estado": "SOLO CENTRO"
+  },
+  "40004950": {
+    "numeroPadron": 704,
+    "estado": "INGRESANTE"
+  },
+  "40004968": {
+    "numeroPadron": 705,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40004986": {
+    "numeroPadron": 706,
+    "estado": "SOLO CENTRO"
+  },
+  "40005004": {
+    "numeroPadron": 707,
+    "estado": "INGRESANTE"
+  },
+  "40005022": {
+    "numeroPadron": 708,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005040": {
+    "numeroPadron": 709,
+    "estado": "SOLO CENTRO"
+  },
+  "40005058": {
+    "numeroPadron": 710,
+    "estado": "INGRESANTE"
+  },
+  "40005076": {
+    "numeroPadron": 711,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005094": {
+    "numeroPadron": 712,
+    "estado": "SOLO CENTRO"
+  },
+  "40005112": {
+    "numeroPadron": 713,
+    "estado": "INGRESANTE"
+  },
+  "40005130": {
+    "numeroPadron": 714,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005005": {
+    "numeroPadron": 715,
+    "estado": "SOLO CENTRO"
+  },
+  "40005023": {
+    "numeroPadron": 716,
+    "estado": "INGRESANTE"
+  },
+  "40005041": {
+    "numeroPadron": 717,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005059": {
+    "numeroPadron": 718,
+    "estado": "SOLO CENTRO"
+  },
+  "40005077": {
+    "numeroPadron": 719,
+    "estado": "INGRESANTE"
+  },
+  "40005095": {
+    "numeroPadron": 720,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005113": {
+    "numeroPadron": 721,
+    "estado": "SOLO CENTRO"
+  },
+  "40005131": {
+    "numeroPadron": 722,
+    "estado": "INGRESANTE"
+  },
+  "40005149": {
+    "numeroPadron": 723,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005167": {
+    "numeroPadron": 724,
+    "estado": "SOLO CENTRO"
+  },
+  "40005185": {
+    "numeroPadron": 725,
+    "estado": "INGRESANTE"
+  },
+  "40005203": {
+    "numeroPadron": 726,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005221": {
+    "numeroPadron": 727,
+    "estado": "SOLO CENTRO"
+  },
+  "40005096": {
+    "numeroPadron": 728,
+    "estado": "INGRESANTE"
+  },
+  "40005114": {
+    "numeroPadron": 729,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005132": {
+    "numeroPadron": 730,
+    "estado": "SOLO CENTRO"
+  },
+  "40005150": {
+    "numeroPadron": 731,
+    "estado": "INGRESANTE"
+  },
+  "40005168": {
+    "numeroPadron": 732,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005186": {
+    "numeroPadron": 733,
+    "estado": "SOLO CENTRO"
+  },
+  "40005204": {
+    "numeroPadron": 734,
+    "estado": "INGRESANTE"
+  },
+  "40005222": {
+    "numeroPadron": 735,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005240": {
+    "numeroPadron": 736,
+    "estado": "SOLO CENTRO"
+  },
+  "40005258": {
+    "numeroPadron": 737,
+    "estado": "INGRESANTE"
+  },
+  "40005276": {
+    "numeroPadron": 738,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005294": {
+    "numeroPadron": 739,
+    "estado": "SOLO CENTRO"
+  },
+  "40005312": {
+    "numeroPadron": 740,
+    "estado": "INGRESANTE"
+  },
+  "40005187": {
+    "numeroPadron": 741,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005205": {
+    "numeroPadron": 742,
+    "estado": "SOLO CENTRO"
+  },
+  "40005223": {
+    "numeroPadron": 743,
+    "estado": "INGRESANTE"
+  },
+  "40005241": {
+    "numeroPadron": 744,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005259": {
+    "numeroPadron": 745,
+    "estado": "SOLO CENTRO"
+  },
+  "40005277": {
+    "numeroPadron": 746,
+    "estado": "INGRESANTE"
+  },
+  "40005295": {
+    "numeroPadron": 747,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005313": {
+    "numeroPadron": 748,
+    "estado": "SOLO CENTRO"
+  },
+  "40005331": {
+    "numeroPadron": 749,
+    "estado": "INGRESANTE"
+  },
+  "40005349": {
+    "numeroPadron": 750,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005367": {
+    "numeroPadron": 751,
+    "estado": "SOLO CENTRO"
+  },
+  "40005385": {
+    "numeroPadron": 752,
+    "estado": "INGRESANTE"
+  },
+  "40005403": {
+    "numeroPadron": 753,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005278": {
+    "numeroPadron": 754,
+    "estado": "SOLO CENTRO"
+  },
+  "40005296": {
+    "numeroPadron": 755,
+    "estado": "INGRESANTE"
+  },
+  "40005314": {
+    "numeroPadron": 756,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005332": {
+    "numeroPadron": 757,
+    "estado": "SOLO CENTRO"
+  },
+  "40005350": {
+    "numeroPadron": 758,
+    "estado": "INGRESANTE"
+  },
+  "40005368": {
+    "numeroPadron": 759,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005386": {
+    "numeroPadron": 760,
+    "estado": "SOLO CENTRO"
+  },
+  "40005404": {
+    "numeroPadron": 761,
+    "estado": "INGRESANTE"
+  },
+  "40005422": {
+    "numeroPadron": 762,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005440": {
+    "numeroPadron": 763,
+    "estado": "SOLO CENTRO"
+  },
+  "40005458": {
+    "numeroPadron": 764,
+    "estado": "INGRESANTE"
+  },
+  "40005476": {
+    "numeroPadron": 765,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005494": {
+    "numeroPadron": 766,
+    "estado": "SOLO CENTRO"
+  },
+  "40005369": {
+    "numeroPadron": 767,
+    "estado": "INGRESANTE"
+  },
+  "40005387": {
+    "numeroPadron": 768,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005405": {
+    "numeroPadron": 769,
+    "estado": "SOLO CENTRO"
+  },
+  "40005423": {
+    "numeroPadron": 770,
+    "estado": "INGRESANTE"
+  },
+  "40005441": {
+    "numeroPadron": 771,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005459": {
+    "numeroPadron": 772,
+    "estado": "SOLO CENTRO"
+  },
+  "40005477": {
+    "numeroPadron": 773,
+    "estado": "INGRESANTE"
+  },
+  "40005495": {
+    "numeroPadron": 774,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005513": {
+    "numeroPadron": 775,
+    "estado": "SOLO CENTRO"
+  },
+  "40005531": {
+    "numeroPadron": 776,
+    "estado": "INGRESANTE"
+  },
+  "40005549": {
+    "numeroPadron": 777,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005567": {
+    "numeroPadron": 778,
+    "estado": "SOLO CENTRO"
+  },
+  "40005585": {
+    "numeroPadron": 779,
+    "estado": "INGRESANTE"
+  },
+  "40005460": {
+    "numeroPadron": 780,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005478": {
+    "numeroPadron": 781,
+    "estado": "SOLO CENTRO"
+  },
+  "40005496": {
+    "numeroPadron": 782,
+    "estado": "INGRESANTE"
+  },
+  "40005514": {
+    "numeroPadron": 783,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005532": {
+    "numeroPadron": 784,
+    "estado": "SOLO CENTRO"
+  },
+  "40005550": {
+    "numeroPadron": 785,
+    "estado": "INGRESANTE"
+  },
+  "40005568": {
+    "numeroPadron": 786,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005586": {
+    "numeroPadron": 787,
+    "estado": "SOLO CENTRO"
+  },
+  "40005604": {
+    "numeroPadron": 788,
+    "estado": "INGRESANTE"
+  },
+  "40005622": {
+    "numeroPadron": 789,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005640": {
+    "numeroPadron": 790,
+    "estado": "SOLO CENTRO"
+  },
+  "40005658": {
+    "numeroPadron": 791,
+    "estado": "INGRESANTE"
+  },
+  "40005676": {
+    "numeroPadron": 792,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005551": {
+    "numeroPadron": 793,
+    "estado": "SOLO CENTRO"
+  },
+  "40005569": {
+    "numeroPadron": 794,
+    "estado": "INGRESANTE"
+  },
+  "40005587": {
+    "numeroPadron": 795,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005605": {
+    "numeroPadron": 796,
+    "estado": "SOLO CENTRO"
+  },
+  "40005623": {
+    "numeroPadron": 797,
+    "estado": "INGRESANTE"
+  },
+  "40005641": {
+    "numeroPadron": 798,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005659": {
+    "numeroPadron": 799,
+    "estado": "SOLO CENTRO"
+  },
+  "40005677": {
+    "numeroPadron": 800,
+    "estado": "INGRESANTE"
+  },
+  "40005695": {
+    "numeroPadron": 801,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005713": {
+    "numeroPadron": 802,
+    "estado": "SOLO CENTRO"
+  },
+  "40005731": {
+    "numeroPadron": 803,
+    "estado": "INGRESANTE"
+  },
+  "40005749": {
+    "numeroPadron": 804,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005767": {
+    "numeroPadron": 805,
+    "estado": "SOLO CENTRO"
+  },
+  "40005642": {
+    "numeroPadron": 806,
+    "estado": "INGRESANTE"
+  },
+  "40005660": {
+    "numeroPadron": 807,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005678": {
+    "numeroPadron": 808,
+    "estado": "SOLO CENTRO"
+  },
+  "40005696": {
+    "numeroPadron": 809,
+    "estado": "INGRESANTE"
+  },
+  "40005714": {
+    "numeroPadron": 810,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005732": {
+    "numeroPadron": 811,
+    "estado": "SOLO CENTRO"
+  },
+  "40005750": {
+    "numeroPadron": 812,
+    "estado": "INGRESANTE"
+  },
+  "40005768": {
+    "numeroPadron": 813,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005786": {
+    "numeroPadron": 814,
+    "estado": "SOLO CENTRO"
+  },
+  "40005804": {
+    "numeroPadron": 815,
+    "estado": "INGRESANTE"
+  },
+  "40005822": {
+    "numeroPadron": 816,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005840": {
+    "numeroPadron": 817,
+    "estado": "SOLO CENTRO"
+  },
+  "40005858": {
+    "numeroPadron": 818,
+    "estado": "INGRESANTE"
+  },
+  "40005733": {
+    "numeroPadron": 819,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005751": {
+    "numeroPadron": 820,
+    "estado": "SOLO CENTRO"
+  },
+  "40005769": {
+    "numeroPadron": 821,
+    "estado": "INGRESANTE"
+  },
+  "40005787": {
+    "numeroPadron": 822,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005805": {
+    "numeroPadron": 823,
+    "estado": "SOLO CENTRO"
+  },
+  "40005823": {
+    "numeroPadron": 824,
+    "estado": "INGRESANTE"
+  },
+  "40005841": {
+    "numeroPadron": 825,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005859": {
+    "numeroPadron": 826,
+    "estado": "SOLO CENTRO"
+  },
+  "40005877": {
+    "numeroPadron": 827,
+    "estado": "INGRESANTE"
+  },
+  "40005895": {
+    "numeroPadron": 828,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005913": {
+    "numeroPadron": 829,
+    "estado": "SOLO CENTRO"
+  },
+  "40005931": {
+    "numeroPadron": 830,
+    "estado": "INGRESANTE"
+  },
+  "40005949": {
+    "numeroPadron": 831,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005824": {
+    "numeroPadron": 832,
+    "estado": "SOLO CENTRO"
+  },
+  "40005842": {
+    "numeroPadron": 833,
+    "estado": "INGRESANTE"
+  },
+  "40005860": {
+    "numeroPadron": 834,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005878": {
+    "numeroPadron": 835,
+    "estado": "SOLO CENTRO"
+  },
+  "40005896": {
+    "numeroPadron": 836,
+    "estado": "INGRESANTE"
+  },
+  "40005914": {
+    "numeroPadron": 837,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005932": {
+    "numeroPadron": 838,
+    "estado": "SOLO CENTRO"
+  },
+  "40005950": {
+    "numeroPadron": 839,
+    "estado": "INGRESANTE"
+  },
+  "40005968": {
+    "numeroPadron": 840,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005986": {
+    "numeroPadron": 841,
+    "estado": "SOLO CENTRO"
+  },
+  "40006004": {
+    "numeroPadron": 842,
+    "estado": "INGRESANTE"
+  },
+  "40006022": {
+    "numeroPadron": 843,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006040": {
+    "numeroPadron": 844,
+    "estado": "SOLO CENTRO"
+  },
+  "40005915": {
+    "numeroPadron": 845,
+    "estado": "INGRESANTE"
+  },
+  "40005933": {
+    "numeroPadron": 846,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40005951": {
+    "numeroPadron": 847,
+    "estado": "SOLO CENTRO"
+  },
+  "40005969": {
+    "numeroPadron": 848,
+    "estado": "INGRESANTE"
+  },
+  "40005987": {
+    "numeroPadron": 849,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006005": {
+    "numeroPadron": 850,
+    "estado": "SOLO CENTRO"
+  },
+  "40006023": {
+    "numeroPadron": 851,
+    "estado": "INGRESANTE"
+  },
+  "40006041": {
+    "numeroPadron": 852,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006059": {
+    "numeroPadron": 853,
+    "estado": "SOLO CENTRO"
+  },
+  "40006077": {
+    "numeroPadron": 854,
+    "estado": "INGRESANTE"
+  },
+  "40006095": {
+    "numeroPadron": 855,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006113": {
+    "numeroPadron": 856,
+    "estado": "SOLO CENTRO"
+  },
+  "40006131": {
+    "numeroPadron": 857,
+    "estado": "INGRESANTE"
+  },
+  "40006006": {
+    "numeroPadron": 858,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006024": {
+    "numeroPadron": 859,
+    "estado": "SOLO CENTRO"
+  },
+  "40006042": {
+    "numeroPadron": 860,
+    "estado": "INGRESANTE"
+  },
+  "40006060": {
+    "numeroPadron": 861,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006078": {
+    "numeroPadron": 862,
+    "estado": "SOLO CENTRO"
+  },
+  "40006096": {
+    "numeroPadron": 863,
+    "estado": "INGRESANTE"
+  },
+  "40006114": {
+    "numeroPadron": 864,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006132": {
+    "numeroPadron": 865,
+    "estado": "SOLO CENTRO"
+  },
+  "40006150": {
+    "numeroPadron": 866,
+    "estado": "INGRESANTE"
+  },
+  "40006168": {
+    "numeroPadron": 867,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006186": {
+    "numeroPadron": 868,
+    "estado": "SOLO CENTRO"
+  },
+  "40006204": {
+    "numeroPadron": 869,
+    "estado": "INGRESANTE"
+  },
+  "40006222": {
+    "numeroPadron": 870,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006097": {
+    "numeroPadron": 871,
+    "estado": "SOLO CENTRO"
+  },
+  "40006115": {
+    "numeroPadron": 872,
+    "estado": "INGRESANTE"
+  },
+  "40006133": {
+    "numeroPadron": 873,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006151": {
+    "numeroPadron": 874,
+    "estado": "SOLO CENTRO"
+  },
+  "40006169": {
+    "numeroPadron": 875,
+    "estado": "INGRESANTE"
+  },
+  "40006187": {
+    "numeroPadron": 876,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006205": {
+    "numeroPadron": 877,
+    "estado": "SOLO CENTRO"
+  },
+  "40006223": {
+    "numeroPadron": 878,
+    "estado": "INGRESANTE"
+  },
+  "40006241": {
+    "numeroPadron": 879,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006259": {
+    "numeroPadron": 880,
+    "estado": "SOLO CENTRO"
+  },
+  "40006277": {
+    "numeroPadron": 881,
+    "estado": "INGRESANTE"
+  },
+  "40006295": {
+    "numeroPadron": 882,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006313": {
+    "numeroPadron": 883,
+    "estado": "SOLO CENTRO"
+  },
+  "40006188": {
+    "numeroPadron": 884,
+    "estado": "INGRESANTE"
+  },
+  "40006206": {
+    "numeroPadron": 885,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006224": {
+    "numeroPadron": 886,
+    "estado": "SOLO CENTRO"
+  },
+  "40006242": {
+    "numeroPadron": 887,
+    "estado": "INGRESANTE"
+  },
+  "40006260": {
+    "numeroPadron": 888,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006278": {
+    "numeroPadron": 889,
+    "estado": "SOLO CENTRO"
+  },
+  "40006296": {
+    "numeroPadron": 890,
+    "estado": "INGRESANTE"
+  },
+  "40006314": {
+    "numeroPadron": 891,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006332": {
+    "numeroPadron": 892,
+    "estado": "SOLO CENTRO"
+  },
+  "40006350": {
+    "numeroPadron": 893,
+    "estado": "INGRESANTE"
+  },
+  "40006368": {
+    "numeroPadron": 894,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006386": {
+    "numeroPadron": 895,
+    "estado": "SOLO CENTRO"
+  },
+  "40006404": {
+    "numeroPadron": 896,
+    "estado": "INGRESANTE"
+  },
+  "40006279": {
+    "numeroPadron": 897,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006297": {
+    "numeroPadron": 898,
+    "estado": "SOLO CENTRO"
+  },
+  "40006315": {
+    "numeroPadron": 899,
+    "estado": "INGRESANTE"
+  },
+  "40006333": {
+    "numeroPadron": 900,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006351": {
+    "numeroPadron": 901,
+    "estado": "SOLO CENTRO"
+  },
+  "40006369": {
+    "numeroPadron": 902,
+    "estado": "INGRESANTE"
+  },
+  "40006387": {
+    "numeroPadron": 903,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006405": {
+    "numeroPadron": 904,
+    "estado": "SOLO CENTRO"
+  },
+  "40006423": {
+    "numeroPadron": 905,
+    "estado": "INGRESANTE"
+  },
+  "40006441": {
+    "numeroPadron": 906,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006459": {
+    "numeroPadron": 907,
+    "estado": "SOLO CENTRO"
+  },
+  "40006477": {
+    "numeroPadron": 908,
+    "estado": "INGRESANTE"
+  },
+  "40006495": {
+    "numeroPadron": 909,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006370": {
+    "numeroPadron": 910,
+    "estado": "SOLO CENTRO"
+  },
+  "40006388": {
+    "numeroPadron": 911,
+    "estado": "INGRESANTE"
+  },
+  "40006406": {
+    "numeroPadron": 912,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006424": {
+    "numeroPadron": 913,
+    "estado": "SOLO CENTRO"
+  },
+  "40006442": {
+    "numeroPadron": 914,
+    "estado": "INGRESANTE"
+  },
+  "40006460": {
+    "numeroPadron": 915,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006478": {
+    "numeroPadron": 916,
+    "estado": "SOLO CENTRO"
+  },
+  "40006496": {
+    "numeroPadron": 917,
+    "estado": "INGRESANTE"
+  },
+  "40006514": {
+    "numeroPadron": 918,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006532": {
+    "numeroPadron": 919,
+    "estado": "SOLO CENTRO"
+  },
+  "40006550": {
+    "numeroPadron": 920,
+    "estado": "INGRESANTE"
+  },
+  "40006568": {
+    "numeroPadron": 921,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006586": {
+    "numeroPadron": 922,
+    "estado": "SOLO CENTRO"
+  },
+  "40006461": {
+    "numeroPadron": 923,
+    "estado": "INGRESANTE"
+  },
+  "40006479": {
+    "numeroPadron": 924,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006497": {
+    "numeroPadron": 925,
+    "estado": "SOLO CENTRO"
+  },
+  "40006515": {
+    "numeroPadron": 926,
+    "estado": "INGRESANTE"
+  },
+  "40006533": {
+    "numeroPadron": 927,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006551": {
+    "numeroPadron": 928,
+    "estado": "SOLO CENTRO"
+  },
+  "40006569": {
+    "numeroPadron": 929,
+    "estado": "INGRESANTE"
+  },
+  "40006587": {
+    "numeroPadron": 930,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006605": {
+    "numeroPadron": 931,
+    "estado": "SOLO CENTRO"
+  },
+  "40006623": {
+    "numeroPadron": 932,
+    "estado": "INGRESANTE"
+  },
+  "40006641": {
+    "numeroPadron": 933,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006659": {
+    "numeroPadron": 934,
+    "estado": "SOLO CENTRO"
+  },
+  "40006677": {
+    "numeroPadron": 935,
+    "estado": "INGRESANTE"
+  },
+  "40006552": {
+    "numeroPadron": 936,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006570": {
+    "numeroPadron": 937,
+    "estado": "SOLO CENTRO"
+  },
+  "40006588": {
+    "numeroPadron": 938,
+    "estado": "INGRESANTE"
+  },
+  "40006606": {
+    "numeroPadron": 939,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006624": {
+    "numeroPadron": 940,
+    "estado": "SOLO CENTRO"
+  },
+  "40006642": {
+    "numeroPadron": 941,
+    "estado": "INGRESANTE"
+  },
+  "40006660": {
+    "numeroPadron": 942,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006678": {
+    "numeroPadron": 943,
+    "estado": "SOLO CENTRO"
+  },
+  "40006696": {
+    "numeroPadron": 944,
+    "estado": "INGRESANTE"
+  },
+  "40006714": {
+    "numeroPadron": 945,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006732": {
+    "numeroPadron": 946,
+    "estado": "SOLO CENTRO"
+  },
+  "40006750": {
+    "numeroPadron": 947,
+    "estado": "INGRESANTE"
+  },
+  "40006768": {
+    "numeroPadron": 948,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006643": {
+    "numeroPadron": 949,
+    "estado": "SOLO CENTRO"
+  },
+  "40006661": {
+    "numeroPadron": 950,
+    "estado": "INGRESANTE"
+  },
+  "40006679": {
+    "numeroPadron": 951,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006697": {
+    "numeroPadron": 952,
+    "estado": "SOLO CENTRO"
+  },
+  "40006715": {
+    "numeroPadron": 953,
+    "estado": "INGRESANTE"
+  },
+  "40006733": {
+    "numeroPadron": 954,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006751": {
+    "numeroPadron": 955,
+    "estado": "SOLO CENTRO"
+  },
+  "40006769": {
+    "numeroPadron": 956,
+    "estado": "INGRESANTE"
+  },
+  "40006787": {
+    "numeroPadron": 957,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006805": {
+    "numeroPadron": 958,
+    "estado": "SOLO CENTRO"
+  },
+  "40006823": {
+    "numeroPadron": 959,
+    "estado": "INGRESANTE"
+  },
+  "40006841": {
+    "numeroPadron": 960,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006859": {
+    "numeroPadron": 961,
+    "estado": "SOLO CENTRO"
+  },
+  "40006734": {
+    "numeroPadron": 962,
+    "estado": "INGRESANTE"
+  },
+  "40006752": {
+    "numeroPadron": 963,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006770": {
+    "numeroPadron": 964,
+    "estado": "SOLO CENTRO"
+  },
+  "40006788": {
+    "numeroPadron": 965,
+    "estado": "INGRESANTE"
+  },
+  "40006806": {
+    "numeroPadron": 966,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006824": {
+    "numeroPadron": 967,
+    "estado": "SOLO CENTRO"
+  },
+  "40006842": {
+    "numeroPadron": 968,
+    "estado": "INGRESANTE"
+  },
+  "40006860": {
+    "numeroPadron": 969,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006878": {
+    "numeroPadron": 970,
+    "estado": "SOLO CENTRO"
+  },
+  "40006896": {
+    "numeroPadron": 971,
+    "estado": "INGRESANTE"
+  },
+  "40006914": {
+    "numeroPadron": 972,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006932": {
+    "numeroPadron": 973,
+    "estado": "SOLO CENTRO"
+  },
+  "40006950": {
+    "numeroPadron": 974,
+    "estado": "INGRESANTE"
+  },
+  "40006825": {
+    "numeroPadron": 975,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006843": {
+    "numeroPadron": 976,
+    "estado": "SOLO CENTRO"
+  },
+  "40006861": {
+    "numeroPadron": 977,
+    "estado": "INGRESANTE"
+  },
+  "40006879": {
+    "numeroPadron": 978,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006897": {
+    "numeroPadron": 979,
+    "estado": "SOLO CENTRO"
+  },
+  "40006915": {
+    "numeroPadron": 980,
+    "estado": "INGRESANTE"
+  },
+  "40006933": {
+    "numeroPadron": 981,
+    "estado": "CUMPLE CONDICION"
+  },
+  "40006951": {
+    "numeroPadron": 982,
+    "estado": "SOLO CENTRO"
+  },
+  "40006969": {
+    "numeroPadron": 983,
+    "estado": "INGRESANTE"
+  }
 }
-]
