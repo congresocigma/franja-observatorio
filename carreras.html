@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+
 <html class="scroll-smooth" lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <meta content="Congresos y encuentros acad&eacute;micos impulsados y acompa&ntilde;ados por Franja Morada Observatorio." name="description"/>
-  <title>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Congresos y encuentros académicos impulsados y acompañados por Franja Morada Observatorio." name="description"/>
+<title>
    Carreras y Tecnicaturas | Franja Morada Observatorio
   </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <script>
+<script src="https://cdn.tailwindcss.com">
+</script>
+<script>
    tailwind.config = {
             theme: {
                 extend: {
@@ -25,9 +26,9 @@
             }
         };
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
-  <style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
    body { font-family: Inter, sans-serif; }
         .font-script { font-family: "Playfair Display", serif; }
         .nav-dropdown:hover .dropdown-menu,
@@ -35,434 +36,425 @@
    /* Navegación de Elecciones: visible al pasar el mouse, enfocar o activar el botón */
 .nav-dropdown:hover > .dropdown-menu, .nav-dropdown:focus-within > .dropdown-menu, .nav-dropdown.menu-open > .dropdown-menu { display: block; }
   </style>
- </head>
- <body class="bg-slate-50 text-slate-800 antialiased">
-  <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
-   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-24 gap-4">
-     <a aria-label="Ir al inicio" class="shrink-0" href="index.html">
-      <img alt="Franja Morada Observatorio" class="h-16 w-auto object-contain" src="logo-franja.png"/>
-     </a>
-     <nav aria-label="Navegaci&oacute;n principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
-      <a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+<header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-24 gap-4">
+<a aria-label="Ir al inicio" class="shrink-0" href="index.html">
+<img alt="Franja Morada Observatorio" class="h-16 w-auto object-contain" src="logo-franja.png"/>
+</a>
+<nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
+<a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
        Inicio
-      </a>
-      <div class="relative nav-dropdown group" data-election-nav="">
-       <button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
-        Elecciones 2026
-        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
-         Informaci&oacute;n general
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
-         &iquest;Qu&eacute; son las elecciones?
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
-         &iquest;Qui&eacute;nes pueden votar?
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
-         Consultar padr&oacute;n
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
-         Doble empadronamiento
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
-         Nuestra lista 2026
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
-         Preguntas frecuentes
-        </a>
-       </div>
-      </div>
-      <div class="relative nav-dropdown">
-       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
-        La Agrupaci&oacute;n
+      </a><a class="px-3 py-2 rounded-md text-sm font-bold hover:bg-granate-light transition" href="ingresantes.html">Ingresantes 2027</a>
+
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        La Agrupación
         <i class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
-         Qui&eacute;nes Somos
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
+         Quiénes Somos
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
-         Qu&eacute; Hacemos
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
+         Qué Hacemos
         </a>
-       </div>
-      </div>
-      <div class="relative nav-dropdown">
-       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
         Estudiantes
         <i class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
-         Ingresantes 2027
-        </a>
-        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+
+<a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
          Carreras y Tecnicaturas
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="aproba.html">
-         Aprob&aacute; con la Franja
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="aproba.html">
+         Aprobá con la Franja
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
-         Gu&iacute;a de Tr&aacute;mites
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
+         Guía de Trámites
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
          Becas y Beneficios
         </a>
-       </div>
-      </div>
-      <div class="relative nav-dropdown">
-       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 bg-granate-light" type="button">
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 bg-granate-light" type="button">
         Facultad y Vida Prof.
         <i class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
          Espacios del Centro
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="vinculacion.html">
-         Vinculaci&oacute;n y Viajes
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="vinculacion.html">
+         Vinculación y Viajes
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
          Congresos
         </a>
-       </div>
-      </div>
-      <a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
+</div>
+</div>
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
        FAQ
       </a>
-      <a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
        Contacto
       </a>
-     </nav>
-     <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
-      <i class="fa-solid fa-bars">
-      </i>
-     </button>
-    </div>
-   </div>
-   <nav class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
-    <a class="block px-3 py-2" href="index.html">
+<div class="relative nav-dropdown group" data-election-nav="">
+<button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
+        Elecciones 2026
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
+         Información general
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
+         ¿Qué son las elecciones?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
+         ¿Quiénes pueden votar?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
+         Consultar padrón
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
+         Doble empadronamiento
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
+         Nuestra lista 2026
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
+         Preguntas frecuentes
+        </a>
+</div>
+</div></nav>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
+<i class="fa-solid fa-bars">
+</i>
+</button>
+</div>
+</div>
+<nav class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
+<a class="block px-3 py-2" href="index.html">
      Inicio
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
-     Preguntas frecuentes
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
-     Nuestra lista 2026
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
-     Doble empadronamiento
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
-     Consultar padr&oacute;n
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
-     &iquest;Qui&eacute;nes pueden votar?
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
-     &iquest;Qu&eacute; son las elecciones?
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
-     Informaci&oacute;n general
-    </a>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
-     Elecciones 2026
+    </a><a class="block px-3 py-3 rounded-md font-bold bg-granate-light/40 hover:bg-granate-light" href="ingresantes.html">🎓 Ingresantes 2027</a>
+
+
+
+
+
+
+
+
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     La Agrupación
     </p>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
-     La Agrupaci&oacute;n
-    </p>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
-     Qui&eacute;nes Somos
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
+     Quiénes Somos
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
-     Qu&eacute; Hacemos
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
+     Qué Hacemos
     </a>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
      Estudiantes
     </p>
-    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
-     Ingresantes 2027
-    </a>
-    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+
+<a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
      Carreras y Tecnicaturas
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="aproba.html">
-     Aprob&aacute; con la Franja
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="aproba.html">
+     Aprobá con la Franja
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
-     Gu&iacute;a de Tr&aacute;mites
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
+     Guía de Trámites
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
      Becas y Beneficios
     </a>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
      Facultad y Vida Prof.
     </p>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
      Espacios del Centro
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="vinculacion.html">
-     Vinculaci&oacute;n y Viajes
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="vinculacion.html">
+     Vinculación y Viajes
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
      Congresos
     </a>
-    <a class="block px-3 py-2" href="faq.html">
+<a class="block px-3 py-2" href="faq.html">
      FAQ
     </a>
-    <a class="block px-3 py-2" href="contacto.html">
+<a class="block px-3 py-2" href="contacto.html">
      Contacto
     </a>
-   </nav>
-  </header>
-  <main>
-   <!-- PRESENTACIÓN GENERAL -->
-   <section class="bg-gradient-to-br from-granate to-granate-dark text-white px-4 py-20">
-    <div class="max-w-6xl mx-auto">
-     <p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">
-      Estudiantes &middot; Formaci&oacute;n acad&eacute;mica
+<details class="group border-t border-white/10 mt-2 pt-2"><summary class="cursor-pointer px-3 py-3 font-semibold rounded-md hover:bg-granate-light">Elecciones 2026 ▾</summary><div class="pb-2"><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
+     Información general
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
+     ¿Qué son las elecciones?
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
+     ¿Quiénes pueden votar?
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
+     Consultar padrón
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
+     Doble empadronamiento
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
+     Nuestra lista 2026
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
+     Preguntas frecuentes
+    </a></div></details></nav>
+</header>
+<main>
+<!-- PRESENTACIÓN GENERAL -->
+<section class="bg-gradient-to-br from-granate to-granate-dark text-white px-4 py-20">
+<div class="max-w-6xl mx-auto">
+<p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">
+      Estudiantes · Formación académica
      </p>
-     <h1 class="mt-5 text-4xl sm:text-6xl font-black">
+<h1 class="mt-5 text-4xl sm:text-6xl font-black">
       Carreras y Tecnicaturas
      </h1>
-     <p class="mt-5 max-w-3xl text-lg text-pink-100">
-      Conoc&eacute; las carreras de nuestra Facultad, sus campos de estudio, la informaci&oacute;n oficial de los planes vigentes y las nuevas propuestas de formaci&oacute;n.
+<p class="mt-5 max-w-3xl text-lg text-pink-100">
+      Conocé las carreras de nuestra Facultad, sus campos de estudio, la información oficial de los planes vigentes y las nuevas propuestas de formación.
      </p>
-     <div class="mt-8 flex flex-wrap gap-3 text-sm font-bold">
-      <a class="bg-white text-granate px-5 py-3 rounded-full" href="#carreras">
+<div class="mt-8 flex flex-wrap gap-3 text-sm font-bold">
+<a class="bg-white text-granate px-5 py-3 rounded-full" href="#carreras">
        Las tres carreras
       </a>
-      <a class="border border-white/70 px-5 py-3 rounded-full" href="#tecnicaturas">
+<a class="border border-white/70 px-5 py-3 rounded-full" href="#tecnicaturas">
        Tecnicaturas
       </a>
-      <a class="border border-white/70 px-5 py-3 rounded-full" href="#planes">
-       Actualizaci&oacute;n de planes
+<a class="border border-white/70 px-5 py-3 rounded-full" href="#planes">
+       Actualización de planes
       </a>
-     </div>
-    </div>
-   </section>
-   <!-- CARRERAS DE LA FACULTAD -->
-   <section class="scroll-mt-28 max-w-6xl mx-auto px-4 py-16" id="carreras">
-    <p class="text-xs uppercase tracking-[.2em] text-granate font-bold">
+</div>
+</div>
+</section>
+<!-- CARRERAS DE LA FACULTAD -->
+<section class="scroll-mt-28 max-w-6xl mx-auto px-4 py-16" id="carreras">
+<p class="text-xs uppercase tracking-[.2em] text-granate font-bold">
      Oferta de grado
     </p>
-    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-2 mb-8">
+<h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-2 mb-8">
      Tres maneras de estudiar nuestro entorno y el universo
     </h2>
-    <div class="grid md:grid-cols-3 gap-5">
-     <article class="scroll-mt-32 bg-white border border-slate-200 rounded-3xl p-8 shadow-sm" id="geofisica">
-      <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl mb-5">
-       <i class="fa-solid fa-earth-americas">
-       </i>
-      </div>
-      <h3 class="text-2xl font-extrabold text-granate">
-       Geof&iacute;sica
+<div class="grid md:grid-cols-3 gap-5">
+<article class="scroll-mt-32 bg-white border border-slate-200 rounded-3xl p-8 shadow-sm" id="geofisica">
+<div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl mb-5">
+<i class="fa-solid fa-earth-americas">
+</i>
+</div>
+<h3 class="text-2xl font-extrabold text-granate">
+       Geofísica
       </h3>
-      <p class="mt-4 text-slate-600 leading-relaxed">
-       Estudia las propiedades f&iacute;sicas y los procesos de la Tierra mediante observaciones, mediciones y modelos. Sus aplicaciones abarcan el subsuelo, los recursos, los riesgos naturales y el ambiente.
+<p class="mt-4 text-slate-600 leading-relaxed">
+       Estudia las propiedades físicas y los procesos de la Tierra mediante observaciones, mediciones y modelos. Sus aplicaciones abarcan el subsuelo, los recursos, los riesgos naturales y el ambiente.
       </p>
-    <!-- Imagen del plan de estudios: subir a la carpeta imagenes -->
-    <figure class="mt-6">
-     <figcaption class="text-sm font-extrabold text-granate mb-3">Plan de estudios</figcaption>
-     <a href="imagenes/geofisica.jpg" target="_blank" rel="noopener noreferrer" title="Ver plan de estudios de Geofísica en tamaño completo" class="block group">
-      <img src="imagenes/geofisica.jpg" alt="Plan de estudios de Geofísica" loading="lazy" class="w-full h-auto max-h-[680px] object-contain object-top rounded-xl border border-slate-200 bg-slate-50 group-hover:shadow-lg transition" />
-     </a>
-     <p class="mt-2 text-xs text-slate-500">Hacé clic en la imagen para verla completa y ampliarla.</p>
-    </figure>
-
-      <a class="inline-flex items-center gap-2 mt-5 text-granate font-bold hover:underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/geofisica/" rel="noopener noreferrer" target="_blank">
-       Consultar informaci&oacute;n oficial
+<!-- Imagen del plan de estudios: subir a la carpeta imagenes -->
+<figure class="mt-6">
+<figcaption class="text-sm font-extrabold text-granate mb-3">Plan de estudios</figcaption>
+<a class="block group" href="imagenes/geofisica.jpg" rel="noopener noreferrer" target="_blank" title="Ver plan de estudios de Geofísica en tamaño completo">
+<img alt="Plan de estudios de Geofísica" class="w-full h-auto max-h-[680px] object-contain object-top rounded-xl border border-slate-200 bg-slate-50 group-hover:shadow-lg transition" loading="lazy" src="imagenes/geofisica.jpg"/>
+</a>
+<p class="mt-2 text-xs text-slate-500">Hacé clic en la imagen para verla completa y ampliarla.</p>
+</figure>
+<a class="inline-flex items-center gap-2 mt-5 text-granate font-bold hover:underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/geofisica/" rel="noopener noreferrer" target="_blank">
+       Consultar información oficial
        <i class="fa-solid fa-arrow-up-right-from-square text-xs">
-       </i>
-      </a>
-     </article>
-     <article class="scroll-mt-32 bg-white border border-slate-200 rounded-3xl p-8 shadow-sm" id="astronomia">
-      <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl mb-5">
-       <i class="fa-solid fa-star">
-       </i>
-      </div>
-      <h3 class="text-2xl font-extrabold text-granate">
-       Astronom&iacute;a
+</i>
+</a>
+</article>
+<article class="scroll-mt-32 bg-white border border-slate-200 rounded-3xl p-8 shadow-sm" id="astronomia">
+<div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl mb-5">
+<i class="fa-solid fa-star">
+</i>
+</div>
+<h3 class="text-2xl font-extrabold text-granate">
+       Astronomía
       </h3>
-      <p class="mt-4 text-slate-600 leading-relaxed">
-       Investiga los cuerpos celestes, sus propiedades, evoluci&oacute;n e interacciones: desde planetas y estrellas hasta galaxias y el universo. Combina observaci&oacute;n, teor&iacute;a y an&aacute;lisis de datos.
+<p class="mt-4 text-slate-600 leading-relaxed">
+       Investiga los cuerpos celestes, sus propiedades, evolución e interacciones: desde planetas y estrellas hasta galaxias y el universo. Combina observación, teoría y análisis de datos.
       </p>
-    <!-- Imagen del plan de estudios: subir a la carpeta imagenes -->
-    <figure class="mt-6">
-     <figcaption class="text-sm font-extrabold text-granate mb-3">Plan de estudios</figcaption>
-     <a href="imagenes/astronomia.jpg" target="_blank" rel="noopener noreferrer" title="Ver plan de estudios de Astronomía en tamaño completo" class="block group">
-      <img src="imagenes/astronomia.jpg" alt="Plan de estudios de Astronomía" loading="lazy" class="w-full h-auto max-h-[680px] object-contain object-top rounded-xl border border-slate-200 bg-slate-50 group-hover:shadow-lg transition" />
-     </a>
-     <p class="mt-2 text-xs text-slate-500">Hacé clic en la imagen para verla completa y ampliarla.</p>
-    </figure>
-
-      <a class="inline-flex items-center gap-2 mt-5 text-granate font-bold hover:underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/astronomia/" rel="noopener noreferrer" target="_blank">
-       Consultar informaci&oacute;n oficial
+<!-- Imagen del plan de estudios: subir a la carpeta imagenes -->
+<figure class="mt-6">
+<figcaption class="text-sm font-extrabold text-granate mb-3">Plan de estudios</figcaption>
+<a class="block group" href="imagenes/astronomia.jpg" rel="noopener noreferrer" target="_blank" title="Ver plan de estudios de Astronomía en tamaño completo">
+<img alt="Plan de estudios de Astronomía" class="w-full h-auto max-h-[680px] object-contain object-top rounded-xl border border-slate-200 bg-slate-50 group-hover:shadow-lg transition" loading="lazy" src="imagenes/astronomia.jpg"/>
+</a>
+<p class="mt-2 text-xs text-slate-500">Hacé clic en la imagen para verla completa y ampliarla.</p>
+</figure>
+<a class="inline-flex items-center gap-2 mt-5 text-granate font-bold hover:underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/astronomia/" rel="noopener noreferrer" target="_blank">
+       Consultar información oficial
        <i class="fa-solid fa-arrow-up-right-from-square text-xs">
-       </i>
-      </a>
-     </article>
-     <article class="scroll-mt-32 bg-white border border-slate-200 rounded-3xl p-8 shadow-sm" id="meteorologia">
-      <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl mb-5">
-       <i class="fa-solid fa-cloud-sun">
-       </i>
-      </div>
-      <h3 class="text-2xl font-extrabold text-granate">
-       Meteorolog&iacute;a y Ciencias de la Atm&oacute;sfera
+</i>
+</a>
+</article>
+<article class="scroll-mt-32 bg-white border border-slate-200 rounded-3xl p-8 shadow-sm" id="meteorologia">
+<div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-granate text-xl mb-5">
+<i class="fa-solid fa-cloud-sun">
+</i>
+</div>
+<h3 class="text-2xl font-extrabold text-granate">
+       Meteorología y Ciencias de la Atmósfera
       </h3>
-      <p class="mt-4 text-slate-600 leading-relaxed">
-       Analiza el comportamiento de la atm&oacute;sfera, el tiempo, el clima y su relaci&oacute;n con la sociedad. Utiliza mediciones, modelos y herramientas para estudiar fen&oacute;menos atmosf&eacute;ricos.
+<p class="mt-4 text-slate-600 leading-relaxed">
+       Analiza el comportamiento de la atmósfera, el tiempo, el clima y su relación con la sociedad. Utiliza mediciones, modelos y herramientas para estudiar fenómenos atmosféricos.
       </p>
-    <!-- Imagen del plan de estudios: subir a la carpeta imagenes -->
-    <figure class="mt-6">
-     <figcaption class="text-sm font-extrabold text-granate mb-3">Plan de estudios</figcaption>
-     <a href="imagenes/meteorologia.jpg" target="_blank" rel="noopener noreferrer" title="Ver plan de estudios de Meteorología y Ciencias de la Atmósfera en tamaño completo" class="block group">
-      <img src="imagenes/meteorologia.jpg" alt="Plan de estudios de Meteorología y Ciencias de la Atmósfera" loading="lazy" class="w-full h-auto max-h-[680px] object-contain object-top rounded-xl border border-slate-200 bg-slate-50 group-hover:shadow-lg transition" />
-     </a>
-     <p class="mt-2 text-xs text-slate-500">Hacé clic en la imagen para verla completa y ampliarla.</p>
-    </figure>
-
-      <a class="inline-flex items-center gap-2 mt-5 text-granate font-bold hover:underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/meteorologia/" rel="noopener noreferrer" target="_blank">
-       Consultar informaci&oacute;n oficial
+<!-- Imagen del plan de estudios: subir a la carpeta imagenes -->
+<figure class="mt-6">
+<figcaption class="text-sm font-extrabold text-granate mb-3">Plan de estudios</figcaption>
+<a class="block group" href="imagenes/meteorologia.jpg" rel="noopener noreferrer" target="_blank" title="Ver plan de estudios de Meteorología y Ciencias de la Atmósfera en tamaño completo">
+<img alt="Plan de estudios de Meteorología y Ciencias de la Atmósfera" class="w-full h-auto max-h-[680px] object-contain object-top rounded-xl border border-slate-200 bg-slate-50 group-hover:shadow-lg transition" loading="lazy" src="imagenes/meteorologia.jpg"/>
+</a>
+<p class="mt-2 text-xs text-slate-500">Hacé clic en la imagen para verla completa y ampliarla.</p>
+</figure>
+<a class="inline-flex items-center gap-2 mt-5 text-granate font-bold hover:underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/meteorologia/" rel="noopener noreferrer" target="_blank">
+       Consultar información oficial
        <i class="fa-solid fa-arrow-up-right-from-square text-xs">
-       </i>
-      </a>
-     </article>
-    </div>
-    <p class="mt-7 text-sm text-slate-500">
-     Los nombres formales de los t&iacute;tulos, las materias, correlatividades y programas deben consultarse en los planes oficiales publicados por la Facultad.
+</i>
+</a>
+</article>
+</div>
+<p class="mt-7 text-sm text-slate-500">
+     Los nombres formales de los títulos, las materias, correlatividades y programas deben consultarse en los planes oficiales publicados por la Facultad.
     </p>
-   </section>
-   <!-- ========================================================= -->
-   <!-- TECNICATURAS IMPULSADAS POR FRANJA MORADA OBSERVATORIO -->
-   <!-- ========================================================= -->
-   <section class="scroll-mt-28 bg-white px-4 py-16 border-y border-slate-200" id="tecnicaturas">
-    <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
-     <!-- Presentación del proyecto -->
-     <div>
-      <p class="text-xs uppercase tracking-[.2em] text-granate font-bold">
+</section>
+<!-- ========================================================= -->
+<!-- TECNICATURAS IMPULSADAS POR FRANJA MORADA OBSERVATORIO -->
+<!-- ========================================================= -->
+<section class="scroll-mt-28 bg-white px-4 py-16 border-y border-slate-200" id="tecnicaturas">
+<div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+<!-- Presentación del proyecto -->
+<div>
+<p class="text-xs uppercase tracking-[.2em] text-granate font-bold">
        Nuevas titulaciones
       </p>
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
+<h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
        Tecnicaturas
       </h2>
-      <p class="mt-5 text-slate-600 leading-relaxed">
-       Desde Franja Morada Observatorio, a trav&eacute;s de nuestra representaci&oacute;n estudiantil
-                    en el Consejo Directivo de la Facultad, impulsamos la creaci&oacute;n de cinco nuevas
-                    tecnicaturas para ampliar las oportunidades de formaci&oacute;n, certificaci&oacute;n acad&eacute;mica
-                    e inserci&oacute;n laboral de nuestros estudiantes.
+<p class="mt-5 text-slate-600 leading-relaxed">
+       Desde Franja Morada Observatorio, a través de nuestra representación estudiantil
+                    en el Consejo Directivo de la Facultad, impulsamos la creación de cinco nuevas
+                    tecnicaturas para ampliar las oportunidades de formación, certificación académica
+                    e inserción laboral de nuestros estudiantes.
       </p>
-      <p class="mt-4 text-slate-600 leading-relaxed">
+<p class="mt-4 text-slate-600 leading-relaxed">
        Estas titulaciones buscan reconocer conocimientos adquiridos durante las carreras
-                    y permitir acreditar trayectos formativos, abriendo nuevas posibilidades acad&eacute;micas
+                    y permitir acreditar trayectos formativos, abriendo nuevas posibilidades académicas
                     y profesionales.
       </p>
-      <p class="mt-4 text-slate-600 leading-relaxed">
-       Las tecnicaturas son: Ciencias de la Tierra y Ambiente, Georreferenciaci&oacute;n,
-                    Procesamiento de Se&ntilde;ales y Datos para Geof&iacute;sica, Redes Geod&eacute;sicas y
-                    C&aacute;lculo Cient&iacute;fico para Astronom&iacute;a.
+<p class="mt-4 text-slate-600 leading-relaxed">
+       Las tecnicaturas son: Ciencias de la Tierra y Ambiente, Georreferenciación,
+                    Procesamiento de Señales y Datos para Geofísica, Redes Geodésicas y
+                    Cálculo Científico para Astronomía.
       </p>
-     </div>
-     <!-- Estado del proyecto y planes compartidos -->
-     <div class="bg-pink-50 border border-pink-200 rounded-3xl p-8">
-      <h3 class="text-xl font-bold text-granate">
-       <i aria-hidden="true" class="fa-solid fa-circle-info mr-2">
-       </i>
-       Estado de implementaci&oacute;n
+</div>
+<!-- Estado del proyecto y planes compartidos -->
+<div class="bg-pink-50 border border-pink-200 rounded-3xl p-8">
+<h3 class="text-xl font-bold text-granate">
+<i aria-hidden="true" class="fa-solid fa-circle-info mr-2">
+</i>
+       Estado de implementación
       </h3>
-      <p class="mt-4 text-slate-700 leading-relaxed">
-       Las propuestas recibieron la aprobaci&oacute;n del Consejo Superior de la UNLP.
-                    Para su puesta en funcionamiento a&uacute;n se requiere completar las instancias
-                    de autorizaci&oacute;n nacional correspondientes.
+<p class="mt-4 text-slate-700 leading-relaxed">
+       Las propuestas recibieron la aprobación del Consejo Superior de la UNLP.
+                    Para su puesta en funcionamiento aún se requiere completar las instancias
+                    de autorización nacional correspondientes.
       </p>
-      <p class="mt-4 text-slate-700 leading-relaxed">
+<p class="mt-4 text-slate-700 leading-relaxed">
        Compartimos los planes de estudio de las cinco tecnicaturas en nuestra
-                    publicaci&oacute;n de Instagram, para que puedas conocer las propuestas.
+                    publicación de Instagram, para que puedas conocer las propuestas.
       </p>
-      <!-- Enlace a la publicación de Franja Morada con los planes de estudio -->
-      <a class="inline-flex items-center gap-2 mt-6 bg-granate text-white font-bold px-6 py-3 rounded-full hover:bg-granate-light transition" href="https://www.instagram.com/p/DHj5J2isKaf/" rel="noopener noreferrer" target="_blank">
-       <i aria-hidden="true" class="fa-brands fa-instagram">
-       </i>
+<!-- Enlace a la publicación de Franja Morada con los planes de estudio -->
+<a class="inline-flex items-center gap-2 mt-6 bg-granate text-white font-bold px-6 py-3 rounded-full hover:bg-granate-light transition" href="https://www.instagram.com/p/DHj5J2isKaf/" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-brands fa-instagram">
+</i>
        Ver los planes de estudio
        <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square text-xs">
-       </i>
-      </a>
-     </div>
-    </div>
-   </section>
-   <!-- REFORMA DE PLANES -->
-   <section class="scroll-mt-28 max-w-6xl mx-auto px-4 py-16" id="planes">
-    <p class="text-xs uppercase tracking-[.2em] text-granate font-bold">
-     Debate acad&eacute;mico
+</i>
+</a>
+</div>
+</div>
+</section>
+<!-- REFORMA DE PLANES -->
+<section class="scroll-mt-28 max-w-6xl mx-auto px-4 py-16" id="planes">
+<p class="text-xs uppercase tracking-[.2em] text-granate font-bold">
+     Debate académico
     </p>
-    <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
-     Actualizaci&oacute;n de los planes de estudio
+<h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
+     Actualización de los planes de estudio
     </h2>
-    <p class="mt-5 max-w-4xl text-slate-600 leading-relaxed">
-     La discusi&oacute;n sobre los planes de estudio busca revisar contenidos, incorporar herramientas actuales y pensar trayectorias formativas m&aacute;s acordes a los desaf&iacute;os cient&iacute;ficos y profesionales. La actualizaci&oacute;n exige debate y aprobaci&oacute;n en las instancias acad&eacute;micas correspondientes.
+<p class="mt-5 max-w-4xl text-slate-600 leading-relaxed">
+     La discusión sobre los planes de estudio busca revisar contenidos, incorporar herramientas actuales y pensar trayectorias formativas más acordes a los desafíos científicos y profesionales. La actualización exige debate y aprobación en las instancias académicas correspondientes.
     </p>
-    <div class="grid md:grid-cols-3 gap-5 mt-8">
-     <div class="bg-white border border-slate-200 p-6 rounded-2xl">
-      <h3 class="font-bold text-granate">
-       Actualizaci&oacute;n cient&iacute;fica
+<div class="grid md:grid-cols-3 gap-5 mt-8">
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">
+<h3 class="font-bold text-granate">
+       Actualización científica
       </h3>
-      <p class="text-sm text-slate-600 mt-2">
-       Nuevas tecnolog&iacute;as, programaci&oacute;n, an&aacute;lisis de datos y m&eacute;todos contempor&aacute;neos.
+<p class="text-sm text-slate-600 mt-2">
+       Nuevas tecnologías, programación, análisis de datos y métodos contemporáneos.
       </p>
-     </div>
-     <div class="bg-white border border-slate-200 p-6 rounded-2xl">
-      <h3 class="font-bold text-granate">
+</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">
+<h3 class="font-bold text-granate">
        Trayectorias estudiantiles
       </h3>
-      <p class="text-sm text-slate-600 mt-2">
+<p class="text-sm text-slate-600 mt-2">
        Cargas horarias, correlatividades y condiciones reales para avanzar en las carreras.
       </p>
-     </div>
-     <div class="bg-white border border-slate-200 p-6 rounded-2xl">
-      <h3 class="font-bold text-granate">
-       Participaci&oacute;n
+</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">
+<h3 class="font-bold text-granate">
+       Participación
       </h3>
-      <p class="text-sm text-slate-600 mt-2">
-       Instancias de di&aacute;logo para discutir qu&eacute; formaci&oacute;n queremos para los pr&oacute;ximos a&ntilde;os.
+<p class="text-sm text-slate-600 mt-2">
+       Instancias de diálogo para discutir qué formación queremos para los próximos años.
       </p>
-     </div>
-    </div>
-    <p class="text-sm text-slate-500 mt-6">
-     Este apartado informa sobre una propuesta de discusi&oacute;n; no reemplaza los planes de estudio vigentes.
+</div>
+</div>
+<p class="text-sm text-slate-500 mt-6">
+     Este apartado informa sobre una propuesta de discusión; no reemplaza los planes de estudio vigentes.
     </p>
-   </section>
-  </main>
-  <footer class="bg-granate-dark text-white px-4 py-12">
-   <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
-    <div>
-     <h2 class="font-script text-xl text-pink-200">
+</section>
+</main>
+<footer class="bg-granate-dark text-white px-4 py-12">
+<div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+<div>
+<h2 class="font-script text-xl text-pink-200">
       Franja Morada Observatorio
      </h2>
-     <p class="text-slate-300 text-sm mt-2">
-      Facultad de Ciencias Astron&oacute;micas y Geof&iacute;sicas &middot; UNLP
+<p class="text-slate-300 text-sm mt-2">
+      Facultad de Ciencias Astronómicas y Geofísicas · UNLP
      </p>
-    </div>
-    <div class="flex gap-5 text-sm flex-wrap">
-     <a class="hover:underline" href="index.html">
+</div>
+<div class="flex gap-5 text-sm flex-wrap">
+<a class="hover:underline" href="index.html">
       Inicio
      </a>
-     <a class="hover:underline" href="quienes-somos.html">
-      La Agrupaci&oacute;n
+<a class="hover:underline" href="quienes-somos.html">
+      La Agrupación
      </a>
-     <a class="hover:underline" href="contacto.html">
+<a class="hover:underline" href="contacto.html">
       Contacto
      </a>
-    </div>
-   </div>
-  </footer>
-  <script>
+</div>
+</div>
+</footer>
+<script>
    const menuButton = document.getElementById("menu-btn");
         const mobileMenu = document.getElementById("mobile-menu");
         menuButton.addEventListener("click", () => {
@@ -471,7 +463,7 @@
             menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
         });
   </script>
-  <script>
+<script>
    /* Permitir abrir y cerrar el menú Elecciones mediante clic, además de hover. */
 document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
     const button = wrapper.querySelector('button');
@@ -494,5 +486,5 @@ document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
     });
 });
   </script>
- </body>
+</body>
 </html>

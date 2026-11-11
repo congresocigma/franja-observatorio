@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+
 <html class="scroll-smooth" lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <title>
-   Aprob&aacute; con la Franja | Franja Morada Observatorio
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+   Aprobá con la Franja | Franja Morada Observatorio
   </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <script>
+<script src="https://cdn.tailwindcss.com">
+</script>
+<script>
    tailwind.config = {
             theme: {
                 extend: {
@@ -24,9 +25,9 @@
             }
         };
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
-  <style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
    body { font-family: Inter, sans-serif; }
         .font-script { font-family: "Playfair Display", serif; }
         .nav-dropdown:hover .dropdown-menu,
@@ -36,336 +37,330 @@
    /* Navegación de Elecciones: visible al pasar el mouse, enfocar o activar el botón */
 .nav-dropdown:hover > .dropdown-menu, .nav-dropdown:focus-within > .dropdown-menu, .nav-dropdown.menu-open > .dropdown-menu { display: block; }
   </style>
- </head>
- <body class="bg-slate-50 text-slate-800 antialiased">
-  <!-- ===== ENCABEZADO Y NAVEGACIÓN ===== -->
-  <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
-   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-24 gap-4">
-     <a aria-label="Ir al inicio" class="shrink-0" href="index.html">
-      <img alt="Franja Morada Observatorio" class="h-16 w-auto object-contain" src="logo-franja.png"/>
-     </a>
-     <nav aria-label="Navegaci&oacute;n principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
-      <a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+<!-- ===== ENCABEZADO Y NAVEGACIÓN ===== -->
+<header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-24 gap-4">
+<a aria-label="Ir al inicio" class="shrink-0" href="index.html">
+<img alt="Franja Morada Observatorio" class="h-16 w-auto object-contain" src="logo-franja.png"/>
+</a>
+<nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
+<a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
        Inicio
-      </a>
-      <div class="relative nav-dropdown group" data-election-nav="">
-       <button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
-        Elecciones 2026
+      </a><a class="px-3 py-2 rounded-md text-sm font-bold hover:bg-granate-light transition" href="ingresantes.html">Ingresantes 2027</a>
+
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        La Agrupación
         <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
-         Informaci&oacute;n general
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
+         Quiénes Somos
         </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
-         &iquest;Qu&eacute; son las elecciones?
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
+         Qué Hacemos
         </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
-         &iquest;Qui&eacute;nes pueden votar?
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
-         Consultar padr&oacute;n
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
-         Doble empadronamiento
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
-         Nuestra lista 2026
-        </a>
-        <a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
-         Preguntas frecuentes
-        </a>
-       </div>
-      </div>
-      <div class="relative nav-dropdown">
-       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
-        La Agrupaci&oacute;n
-        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
-         Qui&eacute;nes Somos
-        </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
-         Qu&eacute; Hacemos
-        </a>
-       </div>
-      </div>
-      <div class="relative nav-dropdown">
-       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light bg-granate-light" type="button">
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light bg-granate-light" type="button">
         Estudiantes
         <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
-         Ingresantes 2027
-        </a>
-        <a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+
+<a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
          Carreras y Tecnicaturas
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light bg-granate-light" href="aproba.html">
-         Aprob&aacute; con la Franja
+<a class="block px-4 py-3 text-sm hover:bg-granate-light bg-granate-light" href="aproba.html">
+         Aprobá con la Franja
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
-         Gu&iacute;a de Tr&aacute;mites
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
+         Guía de Trámites
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
          Becas y Beneficios
         </a>
-       </div>
-      </div>
-      <div class="relative nav-dropdown">
-       <button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
         Facultad y Vida Prof.
         <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
-        </i>
-       </button>
-       <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
          Espacios del Centro
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="vinculacion.html">
-         Vinculaci&oacute;n y Viajes
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="vinculacion.html">
+         Vinculación y Viajes
         </a>
-        <a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
          Congresos
         </a>
-       </div>
-      </div>
-      <a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
+</div>
+</div>
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
        FAQ
       </a>
-      <a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
        Contacto
       </a>
-     </nav>
-     <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
-      <i aria-hidden="true" class="fa-solid fa-bars">
-      </i>
-     </button>
-    </div>
-   </div>
-   <!-- Navegación para celulares -->
-   <nav aria-label="Navegaci&oacute;n m&oacute;vil" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
-    <a class="block px-3 py-2" href="index.html">
+<div class="relative nav-dropdown group" data-election-nav="">
+<button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
+        Elecciones 2026
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
+         Información general
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
+         ¿Qué son las elecciones?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
+         ¿Quiénes pueden votar?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
+         Consultar padrón
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
+         Doble empadronamiento
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
+         Nuestra lista 2026
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
+         Preguntas frecuentes
+        </a>
+</div>
+</div></nav>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
+<i aria-hidden="true" class="fa-solid fa-bars">
+</i>
+</button>
+</div>
+</div>
+<!-- Navegación para celulares -->
+<nav aria-label="Navegación móvil" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
+<a class="block px-3 py-2" href="index.html">
      Inicio
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
-     Preguntas frecuentes
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
-     Nuestra lista 2026
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
-     Doble empadronamiento
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
-     Consultar padr&oacute;n
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
-     &iquest;Qui&eacute;nes pueden votar?
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
-     &iquest;Qu&eacute; son las elecciones?
-    </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
-     Informaci&oacute;n general
-    </a>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
-     Elecciones 2026
+    </a><a class="block px-3 py-3 rounded-md font-bold bg-granate-light/40 hover:bg-granate-light" href="ingresantes.html">🎓 Ingresantes 2027</a>
+
+
+
+
+
+
+
+
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     La Agrupación
     </p>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
-     La Agrupaci&oacute;n
-    </p>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
-     Qui&eacute;nes Somos
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
+     Quiénes Somos
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
-     Qu&eacute; Hacemos
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
+     Qué Hacemos
     </a>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
      Estudiantes
     </p>
-    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="ingresantes.html">
-     Ingresantes 2027
-    </a>
-    <a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+
+<a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
      Carreras y Tecnicaturas
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light bg-granate-light" href="aproba.html">
-     Aprob&aacute; con la Franja
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light bg-granate-light" href="aproba.html">
+     Aprobá con la Franja
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
-     Gu&iacute;a de Tr&aacute;mites
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
+     Guía de Trámites
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
      Becas y Beneficios
     </a>
-    <p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
      Facultad y Vida Prof.
     </p>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
      Espacios del Centro
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="vinculacion.html">
-     Vinculaci&oacute;n y Viajes
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="vinculacion.html">
+     Vinculación y Viajes
     </a>
-    <a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
      Congresos
     </a>
-    <a class="block px-3 py-2" href="faq.html">
+<a class="block px-3 py-2" href="faq.html">
      FAQ
     </a>
-    <a class="block px-3 py-2" href="contacto.html">
+<a class="block px-3 py-2" href="contacto.html">
      Contacto
     </a>
-   </nav>
-  </header>
-  <main>
-   <!-- ===== PORTADA ===== -->
-   <section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
-    <div class="max-w-6xl mx-auto">
-     <p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">
-      Estudiantes &middot; Herramientas de estudio
+<details class="group border-t border-white/10 mt-2 pt-2"><summary class="cursor-pointer px-3 py-3 font-semibold rounded-md hover:bg-granate-light">Elecciones 2026 ▾</summary><div class="pb-2"><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
+     Información general
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
+     ¿Qué son las elecciones?
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
+     ¿Quiénes pueden votar?
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
+     Consultar padrón
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
+     Doble empadronamiento
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
+     Nuestra lista 2026
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
+     Preguntas frecuentes
+    </a></div></details></nav>
+</header>
+<main>
+<!-- ===== PORTADA ===== -->
+<section class="bg-gradient-to-br from-granate via-[#58102e] to-granate-dark text-white px-4 py-20 sm:py-24">
+<div class="max-w-6xl mx-auto">
+<p class="text-xs uppercase tracking-[.2em] text-pink-200 font-bold">
+      Estudiantes · Herramientas de estudio
      </p>
-     <h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">
-      Aprob&aacute; con la Franja
+<h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">
+      Aprobá con la Franja
      </h1>
-     <p class="mt-5 max-w-3xl text-lg sm:text-xl text-pink-100 leading-relaxed">
-      Recursos y espacios de acompa&ntilde;amiento para preparar materias, organizarte y seguir avanzando en tu carrera.
+<p class="mt-5 max-w-3xl text-lg sm:text-xl text-pink-100 leading-relaxed">
+      Recursos y espacios de acompañamiento para preparar materias, organizarte y seguir avanzando en tu carrera.
      </p>
-    </div>
-   </section>
-   <!-- ===== SECCIÓN: Herramientas para estudiar ===== -->
-   <section class="py-16 px-4 bg-white">
-    <div class="max-w-6xl mx-auto">
-     <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">
-      Acompa&ntilde;amiento acad&eacute;mico
+</div>
+</section>
+<!-- ===== SECCIÓN: Herramientas para estudiar ===== -->
+<section class="py-16 px-4 bg-white">
+<div class="max-w-6xl mx-auto">
+<p class="uppercase text-xs font-bold tracking-[.2em] text-granate">
+      Acompañamiento académico
      </p>
-     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
+<h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
       Herramientas para estudiar
      </h2>
-     <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      <!-- Tarjeta: Nube Morada -->
-      <article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
-       <div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
-        <i aria-hidden="true" class="fa-solid fa-cloud">
-        </i>
-       </div>
-       <h3 class="mt-5 text-lg font-extrabold text-granate">
+<div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+<!-- Tarjeta: Nube Morada -->
+<article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
+<i aria-hidden="true" class="fa-solid fa-cloud">
+</i>
+</div>
+<h3 class="mt-5 text-lg font-extrabold text-granate">
         Nube Morada
        </h3>
-       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-        Material compartido por estudiantes: apuntes, parciales anteriores, pr&aacute;cticas, res&uacute;menes y recursos de estudio.
+<p class="mt-3 text-sm text-slate-600 leading-relaxed">
+        Material compartido por estudiantes: apuntes, parciales anteriores, prácticas, resúmenes y recursos de estudio.
        </p>
-       <!-- ENLACE AL DRIVE DE NUBE MORADA -->
-       <a class="inline-flex items-center gap-2 mt-5 bg-granate text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-granate-light transition" href="https://drive.google.com/drive/folders/11ejDN7UZM3RN5-9Pztl3srj75Ti3WnkV?usp=sharing" rel="noopener noreferrer" target="_blank">
-        <i aria-hidden="true" class="fa-solid fa-folder-open">
-        </i>
+<!-- ENLACE AL DRIVE DE NUBE MORADA -->
+<a class="inline-flex items-center gap-2 mt-5 bg-granate text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-granate-light transition" href="https://drive.google.com/drive/folders/11ejDN7UZM3RN5-9Pztl3srj75Ti3WnkV?usp=sharing" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-solid fa-folder-open">
+</i>
         Acceder al Drive
         <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square text-xs">
-        </i>
-       </a>
-      </article>
-      <!-- Tarjeta: Clases Moradas -->
-      <article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
-       <div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
-        <i aria-hidden="true" class="fa-solid fa-chalkboard-user">
-        </i>
-       </div>
-       <h3 class="mt-5 text-lg font-extrabold text-granate">
+</i>
+</a>
+</article>
+<!-- Tarjeta: Clases Moradas -->
+<article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
+<i aria-hidden="true" class="fa-solid fa-chalkboard-user">
+</i>
+</div>
+<h3 class="mt-5 text-lg font-extrabold text-granate">
         Clases Moradas
        </h3>
-       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-        Clases de consulta y encuentros de apoyo para materias como An&aacute;lisis Matem&aacute;tico I, &Aacute;lgebra y F&iacute;sica General I. Los horarios se difunden seg&uacute;n la disponibilidad.
+<p class="mt-3 text-sm text-slate-600 leading-relaxed">
+        Clases de consulta y encuentros de apoyo para materias como Análisis Matemático I, Álgebra y Física General I. Los horarios se difunden según la disponibilidad.
        </p>
-      </article>
-      <!-- Tarjeta: Contenido en YouTube -->
-      <article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
-       <div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
-        <i aria-hidden="true" class="fa-solid fa-video">
-        </i>
-       </div>
-       <h3 class="mt-5 text-lg font-extrabold text-granate">
+</article>
+<!-- Tarjeta: Contenido en YouTube -->
+<article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
+<i aria-hidden="true" class="fa-solid fa-video">
+</i>
+</div>
+<h3 class="mt-5 text-lg font-extrabold text-granate">
         Contenido en YouTube
        </h3>
-       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
+<p class="mt-3 text-sm text-slate-600 leading-relaxed">
         Resoluciones de ejercicios, parciales y clases grabadas para repasar a tu ritmo.
        </p>
-       <!-- ENLACE AL CANAL DE YOUTUBE -->
-       <a class="inline-flex items-center gap-2 mt-5 bg-granate text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-granate-light transition" href="https://www.youtube.com/@franjamoradaobservatorio" rel="noopener noreferrer" target="_blank">
-        <i aria-hidden="true" class="fa-brands fa-youtube">
-        </i>
+<!-- ENLACE AL CANAL DE YOUTUBE -->
+<a class="inline-flex items-center gap-2 mt-5 bg-granate text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-granate-light transition" href="https://www.youtube.com/@franjamoradaobservatorio" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fa-brands fa-youtube">
+</i>
         Ir al canal de YouTube
         <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square text-xs">
-        </i>
-       </a>
-      </article>
-      <!-- Tarjeta: Colecta de rocas -->
-      <article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
-       <div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
-        <i aria-hidden="true" class="fa-solid fa-mountain">
-        </i>
-       </div>
-       <h3 class="mt-5 text-lg font-extrabold text-granate">
+</i>
+</a>
+</article>
+<!-- Tarjeta: Colecta de rocas -->
+<article class="rounded-2xl bg-white p-7 border border-slate-200 shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-pink-100 text-granate flex items-center justify-center text-xl">
+<i aria-hidden="true" class="fa-solid fa-mountain">
+</i>
+</div>
+<h3 class="mt-5 text-lg font-extrabold text-granate">
         Colecta de rocas
        </h3>
-       <p class="mt-3 text-sm text-slate-600 leading-relaxed">
-        Una iniciativa para ampliar las muestras de Fundamentos de Geolog&iacute;a y facilitar la preparaci&oacute;n de pr&aacute;cticas y evaluaciones.
+<p class="mt-3 text-sm text-slate-600 leading-relaxed">
+        Una iniciativa para ampliar las muestras de Fundamentos de Geología y facilitar la preparación de prácticas y evaluaciones.
        </p>
-      </article>
-     </div>
-    </div>
-   </section>
-   <!-- ===== SECCIÓN: ¿Necesitás una mano? ===== -->
-   <section class="py-16 px-4 bg-slate-50">
-    <div class="max-w-6xl mx-auto">
-     <p class="uppercase text-xs font-bold tracking-[.2em] text-granate">
+</article>
+</div>
+</div>
+</section>
+<!-- ===== SECCIÓN: ¿Necesitás una mano? ===== -->
+<section class="py-16 px-4 bg-slate-50">
+<div class="max-w-6xl mx-auto">
+<p class="uppercase text-xs font-bold tracking-[.2em] text-granate">
       Seguimos sumando recursos
      </p>
-     <h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
-      &iquest;Necesit&aacute;s una mano?
+<h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">
+      ¿Necesitás una mano?
      </h2>
-     <p class="mt-5 max-w-3xl leading-relaxed text-slate-600">
-      Esta p&aacute;gina re&uacute;ne las iniciativas de acompa&ntilde;amiento acad&eacute;mico de Franja Morada Observatorio.
-                Ya pod&eacute;s acceder al Drive de Nube Morada y al canal de YouTube desde las tarjetas de arriba. Los horarios de las clases de consulta se difunden seg&uacute;n la disponibilidad.
+<p class="mt-5 max-w-3xl leading-relaxed text-slate-600">
+      Esta página reúne las iniciativas de acompañamiento académico de Franja Morada Observatorio.
+                Ya podés acceder al Drive de Nube Morada y al canal de YouTube desde las tarjetas de arriba. Los horarios de las clases de consulta se difunden según la disponibilidad.
      </p>
-     <a class="inline-flex mt-6 bg-granate text-white px-6 py-3 rounded-full font-bold hover:bg-granate-light" href="contacto.html">
+<a class="inline-flex mt-6 bg-granate text-white px-6 py-3 rounded-full font-bold hover:bg-granate-light" href="contacto.html">
       Hacenos una consulta
      </a>
-    </div>
-   </section>
-  </main>
-  <!-- ===== PIE DE PÁGINA ===== -->
-  <footer class="bg-granate-dark text-white px-4 py-12">
-   <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
-    <div>
-     <h2 class="font-script text-xl text-pink-200">
+</div>
+</section>
+</main>
+<!-- ===== PIE DE PÁGINA ===== -->
+<footer class="bg-granate-dark text-white px-4 py-12">
+<div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+<div>
+<h2 class="font-script text-xl text-pink-200">
       Franja Morada Observatorio
      </h2>
-     <p class="text-slate-300 text-sm mt-2">
-      Facultad de Ciencias Astron&oacute;micas y Geof&iacute;sicas &middot; UNLP
+<p class="text-slate-300 text-sm mt-2">
+      Facultad de Ciencias Astronómicas y Geofísicas · UNLP
      </p>
-    </div>
-    <div class="flex gap-5 text-sm">
-     <a class="hover:underline" href="index.html">
+</div>
+<div class="flex gap-5 text-sm">
+<a class="hover:underline" href="index.html">
       Inicio
      </a>
-     <a class="hover:underline" href="quienes-somos.html">
-      La Agrupaci&oacute;n
+<a class="hover:underline" href="quienes-somos.html">
+      La Agrupación
      </a>
-     <a class="hover:underline" href="contacto.html">
+<a class="hover:underline" href="contacto.html">
       Contacto
      </a>
-    </div>
-   </div>
-  </footer>
-  <!-- ===== MENÚ MÓVIL ===== -->
-  <script>
+</div>
+</div>
+</footer>
+<!-- ===== MENÚ MÓVIL ===== -->
+<script>
    const menuButton = document.getElementById("menu-btn");
         const mobileMenu = document.getElementById("mobile-menu");
         menuButton.addEventListener("click", () => {
@@ -374,7 +369,7 @@
             menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
         });
   </script>
-  <script>
+<script>
    /* Permitir abrir y cerrar el menú Elecciones mediante clic, además de hover. */
 document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
     const button = wrapper.querySelector('button');
@@ -397,5 +392,5 @@ document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
     });
 });
   </script>
- </body>
+</body>
 </html>
