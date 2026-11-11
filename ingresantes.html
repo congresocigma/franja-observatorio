@@ -1,1050 +1,306 @@
-
 <!DOCTYPE html>
-<html lang="es" class="scroll-smooth">
+
+<html class="scroll-smooth" lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Guía de Ingresantes 2027 de Franja Morada Observatorio. Inscripción a la UNLP, documentación, curso de nivelación y preguntas frecuentes.">
-  <title>Ingresantes 2027 | Franja Morada Observatorio</title>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            granate: {
-              DEFAULT: "#5c1233",
-              dark: "#400c22",
-              light: "#7a1943",
-              accent: "#fbcfe8"
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Guía de ingresantes 2027 de Franja Morada Observatorio: inscripción, curso de nivelación, bibliografía y preguntas frecuentes." name="description"/>
+<title>
+   Ingresantes 2027 | Franja Morada Observatorio
+  </title>
+<script src="https://cdn.tailwindcss.com">
+</script>
+<script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        granate: {
+                            DEFAULT: "#5c1233",
+                            dark: "#400c22",
+                            light: "#7a1943",
+                            accent: "#fbcfe8"
+                        }
+                    }
+                }
             }
-          }
-        }
-      }
-    };
+        };
   </script>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-
-  <style>
-    body { font-family: Inter, sans-serif; }
-    .font-script { font-family: "Playfair Display", serif; }
-    .nav-dropdown:hover > .dropdown-menu,
-    .nav-dropdown:focus-within > .dropdown-menu,
-    .nav-dropdown.menu-open > .dropdown-menu {
-      display: block;
-    }
-    details summary::-webkit-details-marker { display: none; }
-    details[open] .faq-arrow { transform: rotate(180deg); }
-    .faq-arrow { transition: transform .2s ease; }
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+   body { font-family: Inter, sans-serif; }
+        .font-script { font-family: "Playfair Display", serif; }
+        .nav-dropdown:hover .dropdown-menu,
+        .nav-dropdown:focus-within .dropdown-menu { display: block; }
+   /* Navegación de Elecciones: visible al pasar el mouse, enfocar o activar el botón */
+.nav-dropdown:hover > .dropdown-menu, .nav-dropdown:focus-within > .dropdown-menu, .nav-dropdown.menu-open > .dropdown-menu { display: block; }
   </style>
 </head>
-
 <body class="bg-slate-50 text-slate-800 antialiased">
-
-<!-- =========================
-     ENCABEZADO Y NAVEGACIÓN
-========================= -->
 <header class="sticky top-0 z-50 bg-granate text-white shadow-lg border-b border-granate-light">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-24 gap-4">
-
-      <a href="index.html" aria-label="Ir al inicio" class="shrink-0">
-        <img src="logo-franja.png" alt="Franja Morada Observatorio" class="h-16 w-auto object-contain">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-24 gap-4">
+<a aria-label="Ir al inicio" class="shrink-0" href="index.html">
+<img alt="Franja Morada Observatorio" class="h-16 w-auto object-contain" src="logo-franja.png"/>
+</a>
+<nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-1 xl:gap-3">
+<a class="px-3 py-2 rounded-md text-sm hover:bg-granate-light" href="index.html">
+       Inicio
       </a>
-
-      <nav class="hidden lg:flex items-center gap-1 xl:gap-3" aria-label="Navegación principal">
-        <a href="index.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Inicio</a>
-
-        <a href="ingresantes.html" aria-current="page" class="px-3 py-2 rounded-md text-sm font-bold bg-white text-granate hover:bg-pink-100 whitespace-nowrap">
-          <i class="fa-solid fa-graduation-cap mr-1"></i> Ingresantes 2027
+<a aria-current="page" class="px-3 py-2 rounded-md text-sm font-bold bg-white text-granate hover:bg-pink-100 transition whitespace-nowrap" href="ingresantes.html"><i aria-hidden="true" class="fa-solid fa-graduation-cap mr-1"></i> Ingresantes 2027</a>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        La Agrupación
+        <i class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="quienes-somos.html">
+         Quiénes Somos
         </a>
-
-        <div class="relative nav-dropdown">
-          <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold hover:bg-granate-light">
-            La Agrupación <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
-          </button>
-          <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-            <a href="quienes-somos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Quiénes Somos</a>
-            <a href="que-hacemos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Qué Hacemos</a>
-          </div>
-        </div>
-
-        <div class="relative nav-dropdown">
-          <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold hover:bg-granate-light">
-            Estudiantes <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
-          </button>
-          <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-            <a href="carreras.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Carreras y Tecnicaturas</a>
-            <a href="aproba.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Aprobá con la Franja</a>
-            <a href="tramites.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Guía de Trámites</a>
-            <a href="becas.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Becas y Beneficios</a>
-          </div>
-        </div>
-
-        <div class="relative nav-dropdown">
-          <button type="button" class="px-3 py-2 rounded-md text-sm font-semibold hover:bg-granate-light">
-            Facultad y Vida Prof. <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
-          </button>
-          <div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-            <a href="espacios.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Espacios del Centro</a>
-            <a href="vinculacion.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Vinculación y Viajes</a>
-            <a href="congresos.html" class="block px-4 py-3 text-sm hover:bg-granate-light">Congresos</a>
-          </div>
-        </div>
-
-        <a href="faq.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">FAQ</a>
-        <a href="contacto.html" class="px-3 py-2 rounded-md text-sm hover:bg-granate-light">Contacto</a>
-
-        <div class="relative nav-dropdown" data-election-nav>
-          <button type="button" aria-expanded="false" class="px-3 py-2 rounded-md text-sm font-semibold hover:bg-granate-light">
-            Elecciones 2026 <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
-          </button>
-          <div class="dropdown-menu hidden absolute right-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
-            <a href="elecciones.html" class="block px-4 py-2 text-sm hover:bg-granate-light">Información general</a>
-            <a href="elecciones.html#guia" class="block px-4 py-2 text-sm hover:bg-granate-light">¿Qué son las elecciones?</a>
-            <a href="elecciones.html#requisitos" class="block px-4 py-2 text-sm hover:bg-granate-light">¿Quiénes pueden votar?</a>
-            <a href="elecciones.html#consulta-padron" class="block px-4 py-2 text-sm hover:bg-granate-light">Consultar padrón</a>
-            <a href="elecciones.html#doble-empadronamiento" class="block px-4 py-2 text-sm hover:bg-granate-light">Doble empadronamiento</a>
-            <a href="elecciones.html#candidaturas" class="block px-4 py-2 text-sm hover:bg-granate-light">Nuestra lista 2026</a>
-            <a href="elecciones.html#preguntas-frecuentes" class="block px-4 py-2 text-sm hover:bg-granate-light">Preguntas frecuentes</a>
-          </div>
-        </div>
-      </nav>
-
-      <button id="menu-btn" type="button" class="lg:hidden p-2 text-xl" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </div>
-  </div>
-
-  <nav id="mobile-menu" class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto">
-    <a href="index.html" class="block px-3 py-2">Inicio</a>
-    <a href="ingresantes.html" class="block px-3 py-2 rounded-md bg-white text-granate font-bold">Ingresantes 2027</a>
-
-    <p class="text-xs uppercase font-bold text-pink-200 px-3 pt-3">La Agrupación</p>
-    <a href="quienes-somos.html" class="block px-6 py-2 text-sm">Quiénes Somos</a>
-    <a href="que-hacemos.html" class="block px-6 py-2 text-sm">Qué Hacemos</a>
-
-    <p class="text-xs uppercase font-bold text-pink-200 px-3 pt-3">Estudiantes</p>
-    <a href="carreras.html" class="block px-6 py-2 text-sm">Carreras y Tecnicaturas</a>
-    <a href="aproba.html" class="block px-6 py-2 text-sm">Aprobá con la Franja</a>
-    <a href="tramites.html" class="block px-6 py-2 text-sm">Guía de Trámites</a>
-    <a href="becas.html" class="block px-6 py-2 text-sm">Becas y Beneficios</a>
-
-    <p class="text-xs uppercase font-bold text-pink-200 px-3 pt-3">Facultad y Vida Profesional</p>
-    <a href="espacios.html" class="block px-6 py-2 text-sm">Espacios del Centro</a>
-    <a href="vinculacion.html" class="block px-6 py-2 text-sm">Vinculación y Viajes</a>
-    <a href="congresos.html" class="block px-6 py-2 text-sm">Congresos</a>
-
-    <a href="faq.html" class="block px-3 py-2">FAQ</a>
-    <a href="contacto.html" class="block px-3 py-2">Contacto</a>
-
-    <p class="text-xs uppercase font-bold text-pink-200 px-3 pt-3">Elecciones 2026</p>
-    <a href="elecciones.html" class="block px-6 py-2 text-sm">Información general</a>
-    <a href="elecciones.html#guia" class="block px-6 py-2 text-sm">¿Qué son las elecciones?</a>
-    <a href="elecciones.html#requisitos" class="block px-6 py-2 text-sm">¿Quiénes pueden votar?</a>
-    <a href="elecciones.html#consulta-padron" class="block px-6 py-2 text-sm">Consultar padrón</a>
-    <a href="elecciones.html#doble-empadronamiento" class="block px-6 py-2 text-sm">Doble empadronamiento</a>
-    <a href="elecciones.html#candidaturas" class="block px-6 py-2 text-sm">Nuestra lista 2026</a>
-    <a href="elecciones.html#preguntas-frecuentes" class="block px-6 py-2 text-sm">Preguntas frecuentes</a>
-  </nav>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="que-hacemos.html">
+         Qué Hacemos
+        </a>
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light" type="button">
+        Estudiantes
+        <i class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+         Carreras y Tecnicaturas
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="aproba.html">
+         Aprobá con la Franja
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="tramites.html">
+         Guía de Trámites
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="becas.html">
+         Becas y Beneficios
+        </a>
+</div>
+</div>
+<div class="relative nav-dropdown">
+<button class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 bg-granate-light" type="button">
+        Facultad y Vida Prof.
+        <i class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-64 rounded-lg bg-granate-dark shadow-xl py-2 border border-granate-light">
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="espacios.html">
+         Espacios del Centro
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="vinculacion.html">
+         Vinculación y Viajes
+        </a>
+<a class="block px-4 py-3 text-sm hover:bg-granate-light" href="congresos.html">
+         Congresos
+        </a>
+</div>
+</div>
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="faq.html">
+       FAQ
+      </a>
+<a class="px-3 py-2 text-sm rounded-md hover:bg-granate-light" href="contacto.html">
+       Contacto
+      </a>
+<div class="relative nav-dropdown group" data-election-nav="">
+<button aria-expanded="false" aria-haspopup="true" class="px-3 py-2 rounded-md text-sm font-semibold flex items-center gap-2 hover:bg-granate-light transition focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-200" type="button">
+        Elecciones 2026
+        <i aria-hidden="true" class="fa-solid fa-chevron-down text-xs">
+</i>
+</button>
+<div class="dropdown-menu hidden absolute left-0 top-full w-72 rounded-xl bg-granate-dark shadow-xl py-2 border border-granate-light z-[100]">
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html">
+         Información general
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#guia">
+         ¿Qué son las elecciones?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#requisitos">
+         ¿Quiénes pueden votar?
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#consulta-padron">
+         Consultar padrón
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#doble-empadronamiento">
+         Doble empadronamiento
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#candidaturas">
+         Nuestra lista 2026
+        </a>
+<a class="block px-4 py-2.5 text-sm hover:bg-granate-light focus:bg-granate-light transition" href="elecciones.html#preguntas-frecuentes">
+         Preguntas frecuentes
+        </a>
+</div>
+</div></nav>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="lg:hidden p-2 text-xl" id="menu-btn" type="button">
+<i class="fa-solid fa-bars">
+</i>
+</button>
+</div>
+</div>
+<nav class="hidden lg:hidden bg-granate-dark px-4 pt-3 pb-5 space-y-1 max-h-[75vh] overflow-y-auto" id="mobile-menu">
+<a class="block px-3 py-2" href="index.html">
+     Inicio
+    </a>
+<a aria-current="page" class="block px-3 py-2 rounded-md bg-white text-granate font-bold" href="ingresantes.html"><i aria-hidden="true" class="fa-solid fa-graduation-cap mr-2"></i>Ingresantes 2027</a>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     La Agrupación
+    </p>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="quienes-somos.html">
+     Quiénes Somos
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="que-hacemos.html">
+     Qué Hacemos
+    </a>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Estudiantes
+    </p>
+<a class="block px-6 py-2 text-sm hover:bg-granate-light transition" href="carreras.html">
+     Carreras y Tecnicaturas
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="aproba.html">
+     Aprobá con la Franja
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="tramites.html">
+     Guía de Trámites
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="becas.html">
+     Becas y Beneficios
+    </a>
+<p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Facultad y Vida Prof.
+    </p>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="espacios.html">
+     Espacios del Centro
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="vinculacion.html">
+     Vinculación y Viajes
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="congresos.html">
+     Congresos
+    </a>
+<a class="block px-3 py-2" href="faq.html">
+     FAQ
+    </a>
+<a class="block px-3 py-2" href="contacto.html">
+     Contacto
+    </a>
+<a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#preguntas-frecuentes">
+     Preguntas frecuentes
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#candidaturas">
+     Nuestra lista 2026
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#doble-empadronamiento">
+     Doble empadronamiento
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#consulta-padron">
+     Consultar padrón
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#requisitos">
+     ¿Quiénes pueden votar?
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html#guia">
+     ¿Qué son las elecciones?
+    </a><a class="block px-6 py-2 text-sm rounded-md hover:bg-granate-light" href="elecciones.html">
+     Información general
+    </a><p class="text-xs uppercase tracking-wider font-bold text-pink-200 px-3 pt-3">
+     Elecciones 2026
+    </p></nav>
 </header>
-
 <main>
-
-<!-- =========================
-     PRESENTACIÓN
-========================= -->
-<section class="bg-gradient-to-br from-granate-dark via-granate to-granate-light text-white px-4 py-20">
-  <div class="max-w-6xl mx-auto text-center">
-    <span class="inline-flex items-center gap-2 rounded-full border border-pink-300/40 bg-white/10 px-4 py-2 text-sm font-semibold mb-6">
-      <i class="fa-solid fa-graduation-cap"></i> Ingreso UNLP 2027
-    </span>
-
-    <h1 class="text-4xl sm:text-6xl font-black tracking-tight mb-6">
-      ¡Bienvenidos al Observatorio!
-    </h1>
-
-    <p class="text-lg sm:text-xl text-pink-100 max-w-3xl mx-auto leading-relaxed">
-      ¿Estás por empezar una carrera en la Facultad de Ciencias Astronómicas y Geofísicas?
-      Acá vas a encontrar todo lo que necesitás para dar tus primeros pasos.
-    </p>
-
-    <p class="mt-6 text-pink-100 max-w-2xl mx-auto">
-      Desde Franja Morada Observatorio queremos acompañarte en esta nueva etapa.
-      Sabemos que empezar la Facultad puede generar mil preguntas, ¡y estamos para ayudarte!
-    </p>
-
-    <div class="flex flex-wrap justify-center gap-3 mt-9">
-      <a href="#inscripcion" class="bg-white text-granate font-bold px-6 py-3 rounded-full hover:bg-pink-100 transition">
-        Cómo inscribirme <i class="fa-solid fa-arrow-down ml-2"></i>
-      </a>
-      <a href="#preguntas" class="border border-white/70 text-white font-bold px-6 py-3 rounded-full hover:bg-white/10 transition">
-        Preguntas frecuentes
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- =========================
-     ACCESOS RÁPIDOS
-========================= -->
-<section class="px-4 py-10">
-  <div class="max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    <a href="#inscripcion" class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md transition">
-      <i class="fa-solid fa-file-signature text-3xl text-granate"></i>
-      <h2 class="font-extrabold mt-4">Inscripción 2027</h2>
-      <p class="text-sm text-slate-600 mt-2">Cómo anotarte a la Facultad, paso a paso.</p>
-    </a>
-
-    <a href="#documentacion" class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md transition">
-      <i class="fa-solid fa-folder-open text-3xl text-granate"></i>
-      <h2 class="font-extrabold mt-4">Documentación</h2>
-      <p class="text-sm text-slate-600 mt-2">Todo lo que tenés que presentar.</p>
-    </a>
-
-    <a href="#nivelacion" class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md transition">
-      <i class="fa-solid fa-book-open-reader text-3xl text-granate"></i>
-      <h2 class="font-extrabold mt-4">Curso de Nivelación</h2>
-      <p class="text-sm text-slate-600 mt-2">Fechas, horarios y formulario de inscripción.</p>
-    </a>
-
-    <a href="#contacto-ingreso" class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md transition">
-      <i class="fa-solid fa-comments text-3xl text-granate"></i>
-      <h2 class="font-extrabold mt-4">¿Necesitás ayuda?</h2>
-      <p class="text-sm text-slate-600 mt-2">Escribinos y te acompañamos.</p>
-    </a>
-  </div>
-</section>
-
-<!-- =========================
-     INSCRIPCIÓN A LA FACULTAD
-========================= -->
-<section id="inscripcion" class="px-4 py-16 bg-white scroll-mt-28">
+<section class="bg-gradient-to-br from-granate via-granate-light to-granate-dark text-white px-4 py-16 sm:py-20">
   <div class="max-w-6xl mx-auto">
-
-    <div class="max-w-3xl mb-10">
-      <p class="text-granate font-bold uppercase tracking-widest text-sm mb-3">Tu primer paso</p>
-      <h2 class="text-3xl sm:text-4xl font-black text-granate">¿Cómo me inscribo a la Facultad?</h2>
-      <p class="mt-4 text-slate-600 leading-relaxed">
-        Para ingresar a la UNLP en 2027 tenés que completar dos etapas:
-        primero una preinscripción por internet y después presentar la documentación en la Facultad.
-      </p>
+    <p class="text-pink-100 uppercase tracking-[.22em] text-xs font-bold">Franja Morada Observatorio · Ingreso 2027</p>
+    <h1 class="mt-5 text-4xl sm:text-6xl font-black leading-tight">¡Bienvenidos al Obser! 💜</h1>
+    <p class="mt-5 max-w-2xl text-lg text-pink-100">Desde Franja Morada Observatorio queremos acompañarte en esta nueva etapa. ¡Estamos para ayudarte!</p>
+    <div class="mt-8 rounded-3xl border border-white/30 bg-white/15 p-6 sm:p-8 max-w-3xl shadow-lg">
+      <p class="text-xl sm:text-2xl font-extrabold">¡Sumate al grupo de WhatsApp de Ingresantes 2027!</p>
+      <p class="mt-3 text-pink-100">Conocé a otros ingresantes, enterate de las novedades y preguntanos lo que necesites.</p>
+      <a class="mt-6 inline-flex w-full sm:w-auto justify-center items-center gap-3 rounded-2xl bg-green-500 px-7 py-4 text-lg font-black text-white shadow-lg hover:bg-green-600 transition" href="https://chat.whatsapp.com/DmTSqvMcthEJYZ2zirQ50L?s=cl&amp;p=a&amp;iam=2" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp text-2xl"></i> UNIRME AL GRUPO DE WHATSAPP <i class="fa-solid fa-arrow-up-right-from-square text-sm"></i></a>
     </div>
-
-    <div class="bg-pink-50 border border-pink-200 rounded-2xl p-6 mb-8">
-      <div class="flex items-start gap-4">
-        <i class="fa-solid fa-calendar-days text-granate text-2xl mt-1"></i>
-        <div>
-          <h3 class="text-xl font-extrabold text-granate">Inscripciones 2027</h3>
-          <p class="text-slate-700 mt-2">
-            <strong>Del 9 de noviembre al 11 de diciembre de 2026.</strong>
-          </p>
-          <p class="text-sm text-slate-600 mt-2">
-            No dejes la inscripción para último momento. Si tenés dudas, podés escribirnos.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid md:grid-cols-2 gap-6">
-
-      <article class="bg-slate-50 border border-slate-200 rounded-3xl p-7">
-        <div class="w-12 h-12 rounded-2xl bg-granate text-white flex items-center justify-center text-xl font-black mb-5">1</div>
-        <h3 class="text-2xl font-extrabold text-granate mb-4">Preinscripción virtual</h3>
-
-        <p class="text-slate-600 mb-5">
-          Esta primera parte se hace desde tu computadora o celular.
-        </p>
-
-        <ol class="list-decimal pl-5 space-y-3 text-slate-700 leading-relaxed">
-          <li>Ingresá al sistema de preinscripción SIU Guaraní de la UNLP.</li>
-          <li>Si nunca te inscribiste a la UNLP, creá una cuenta.</li>
-          <li>Completá tus datos personales.</li>
-          <li>Seleccioná la Facultad de Ciencias Astronómicas y Geofísicas y la carrera que querés estudiar.</li>
-          <li>Completá la solicitud y cargá la documentación digital que te pida el sistema.</li>
-          <li>Elegí un turno para presentar los papeles en la Facultad.</li>
-          <li>Presioná <strong>FINALIZAR TRÁMITE</strong>.</li>
-          <li>Descargá y guardá la constancia de preinscripción.</li>
-        </ol>
-
-        <a href="https://preinscripcion.guarani.unlp.edu.ar/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-7 bg-granate text-white font-bold px-5 py-3 rounded-xl hover:bg-granate-light transition">
-          Ir a SIU Guaraní <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-        </a>
-      </article>
-
-      <article class="bg-slate-50 border border-slate-200 rounded-3xl p-7">
-        <div class="w-12 h-12 rounded-2xl bg-granate text-white flex items-center justify-center text-xl font-black mb-5">2</div>
-        <h3 class="text-2xl font-extrabold text-granate mb-4">Confirmación presencial</h3>
-
-        <p class="text-slate-600 mb-5">
-          Después de completar la preinscripción, tenés que acercarte a la Facultad
-          para presentar la documentación.
-        </p>
-
-        <ol class="list-decimal pl-5 space-y-3 text-slate-700 leading-relaxed">
-          <li>Revisá el día y horario del turno que seleccionaste.</li>
-          <li>Prepará la documentación original y las fotocopias correspondientes.</li>
-          <li>Acercate a la Facultad en el turno asignado.</li>
-          <li>Presentá los papeles para completar la inscripción.</li>
-        </ol>
-
-        <div class="mt-7 rounded-2xl bg-white border border-slate-200 p-5">
-          <p class="font-bold text-granate">
-            <i class="fa-solid fa-circle-info mr-2"></i> ¿No podés acercarte ahora?
-          </p>
-          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
-            Existe la posibilidad de solicitar la entrega de documentación en febrero.
-            Consultá con el Departamento de Alumnos cómo gestionarla.
-          </p>
-        </div>
-
-        <a href="#documentacion" class="inline-flex items-center gap-2 mt-6 font-bold text-granate hover:underline">
-          Ver documentación necesaria <i class="fa-solid fa-arrow-down"></i>
-        </a>
-      </article>
-    </div>
-
-    <div class="mt-8 text-sm text-slate-600">
-      También podés consultar la
-      <a href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/ingreso/insrcipcion-carreras/" target="_blank" rel="noopener noreferrer" class="font-bold text-granate underline">
-        información oficial de inscripción de la Facultad
-      </a>.
-    </div>
+    <div class="mt-8 flex flex-wrap gap-3"><a class="inline-flex items-center gap-2 bg-white text-granate font-bold px-6 py-3 rounded-full hover:bg-pink-100 transition" href="#inscripcion">Fechas de inscripción <i class="fa-solid fa-arrow-down"></i></a><a class="inline-flex items-center gap-2 border border-white/60 text-white font-bold px-6 py-3 rounded-full hover:bg-white/10 transition" href="#faq-ingresantes">Preguntas frecuentes</a></div>
   </div>
 </section>
-
-<!-- =========================
-     DOCUMENTACIÓN
-========================= -->
-<section id="documentacion" class="px-4 py-16 bg-slate-50 scroll-mt-28">
-  <div class="max-w-6xl mx-auto">
-    <div class="max-w-3xl mb-9">
-      <p class="text-granate font-bold uppercase tracking-widest text-sm mb-3">Antes de ir</p>
-      <h2 class="text-3xl sm:text-4xl font-black text-granate">¿Qué documentación tengo que llevar?</h2>
-      <p class="text-slate-600 mt-4">
-        Prepará todo con tiempo para evitar problemas el día de tu turno.
-      </p>
-    </div>
-
-    <div class="bg-white rounded-3xl border border-slate-200 p-7 sm:p-9 shadow-sm">
-      <div class="space-y-6">
-
-        <div class="flex items-start gap-4">
-          <i class="fa-solid fa-id-card text-granate text-2xl mt-1"></i>
-          <div>
-            <h3 class="font-extrabold text-lg">DNI</h3>
-            <p class="text-slate-600">Original y fotocopia.</p>
-          </div>
-        </div>
-
-        <div class="border-t border-slate-100"></div>
-
-        <div class="flex items-start gap-4">
-          <i class="fa-solid fa-file-circle-check text-granate text-2xl mt-1"></i>
-          <div>
-            <h3 class="font-extrabold text-lg">Constancia de preinscripción</h3>
-            <p class="text-slate-600">La que descargaste al finalizar el trámite en SIU Guaraní.</p>
-          </div>
-        </div>
-
-        <div class="border-t border-slate-100"></div>
-
-        <div class="flex items-start gap-4">
-          <i class="fa-solid fa-graduation-cap text-granate text-2xl mt-1"></i>
-          <div>
-            <h3 class="font-extrabold text-lg">Documentación del secundario</h3>
-            <p class="text-slate-600">
-              Original y fotocopia del título secundario, constancia de título en trámite
-              o constancia de alumno regular, según tu situación.
-            </p>
-          </div>
-        </div>
-
-        <div class="border-t border-slate-100"></div>
-
-        <div class="flex items-start gap-4">
-          <i class="fa-solid fa-syringe text-granate text-2xl mt-1"></i>
-          <div>
-            <h3 class="font-extrabold text-lg">Libreta de vacunación</h3>
-            <p class="text-slate-600">
-              Libreta o certificado con el esquema de vacunación completo, original y fotocopia.
-              Consultá los plazos oficiales para su presentación.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-8 bg-pink-50 rounded-2xl p-5">
-        <p class="text-granate font-bold">
-          <i class="fa-solid fa-heart mr-2"></i> Un consejo de la Franja
-        </p>
-        <p class="text-slate-600 mt-2">
-          Llevá los papeles ordenados en una carpeta y guardá una copia digital.
-          Si no sabés si un documento sirve, preguntanos antes de ir.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =========================
-     ORIENTACIÓN EN LA FACULTAD
-========================= -->
-<section class="px-4 py-14 bg-white">
-  <div class="max-w-6xl mx-auto">
-    <div class="rounded-3xl bg-granate text-white p-8 sm:p-10">
-      <div class="grid md:grid-cols-[1fr_auto] gap-8 items-center">
-        <div>
-          <i class="fa-solid fa-location-dot text-3xl text-pink-200 mb-4"></i>
-          <h2 class="text-2xl sm:text-3xl font-black">¿No sabés a dónde tenés que ir?</h2>
-          <p class="mt-4 text-pink-100 leading-relaxed max-w-2xl">
-            ¡No te preocupes! Sabemos que la primera vez puede ser difícil ubicarse.
-            Escribinos por Instagram y te ayudamos a encontrar dónde tenés que hacer
-            tu trámite o a quién consultar.
-          </p>
-          <p class="mt-3 text-pink-100">
-            <strong>Próximamente vamos a incorporar un mapa</strong> para que puedas
-            conocer los distintos espacios de la Facultad.
-          </p>
-        </div>
-
-        <a href="https://www.instagram.com/franjamoradaobservatorio/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-white text-granate font-bold px-6 py-4 rounded-full hover:bg-pink-100 transition">
-          <i class="fa-brands fa-instagram text-xl"></i> Preguntanos por Instagram
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =========================
-     CURSO DE NIVELACIÓN
-========================= -->
-<section id="nivelacion" class="px-4 py-16 bg-slate-50 scroll-mt-28">
-  <div class="max-w-6xl mx-auto">
-    <p class="text-granate font-bold uppercase tracking-widest text-sm mb-3">Preparándote para empezar</p>
-    <h2 class="text-3xl sm:text-4xl font-black text-granate">Curso de Nivelación de Verano 2027</h2>
-
-    <p class="text-slate-600 leading-relaxed max-w-3xl mt-5">
-      Antes de empezar las materias de primer año, la Facultad ofrece un curso de
-      nivelación en matemática para acompañar a los ingresantes.
-    </p>
-
-    <p class="text-slate-600 leading-relaxed max-w-3xl mt-3">
-      <strong>No es obligatorio ni eliminatorio</strong>, pero sí es muy recomendable:
-      te permite repasar contenidos, conocer la Facultad y empezar a familiarizarte
-      con la vida universitaria.
-    </p>
-
-    <div class="grid md:grid-cols-3 gap-5 mt-10">
-
-      <div class="bg-white border border-slate-200 rounded-2xl p-6">
-        <i class="fa-solid fa-calendar-days text-3xl text-granate"></i>
-        <h3 class="font-extrabold text-xl mt-4">Fechas del curso</h3>
-        <p class="text-slate-600 mt-3">
-          <strong>Inicio confirmado:</strong> lunes 1 de febrero de 2027.
-        </p>
-        <p class="text-slate-600 mt-2">
-          <strong>Finalización prevista:</strong> viernes 5 de marzo de 2027,
-          sujeta a confirmación.
-        </p>
-      </div>
-
-      <div class="bg-white border border-slate-200 rounded-2xl p-6">
-        <i class="fa-solid fa-clock text-3xl text-granate"></i>
-        <h3 class="font-extrabold text-xl mt-4">Turnos disponibles</h3>
-        <p class="text-slate-600 mt-3">
-          <strong>Mañana:</strong> 8:30 a 12:30.
-        </p>
-        <p class="text-slate-600 mt-2">
-          <strong>Tarde:</strong> 13:30 a 17:30.
-        </p>
-        <p class="text-slate-600 mt-2">
-          Podés seleccionar el turno al completar el formulario de inscripción.
-        </p>
-      </div>
-
-      <div class="bg-white border border-slate-200 rounded-2xl p-6">
-        <i class="fa-solid fa-clipboard-check text-3xl text-granate"></i>
-        <h3 class="font-extrabold text-xl mt-4">Inscripción al curso</h3>
-        <p class="text-slate-600 mt-3">
-          <strong>Del 9 de noviembre al 12 de diciembre de 2026.</strong>
-        </p>
-        <p class="text-slate-600 mt-2">
-          La inscripción se realiza mediante un formulario.
-        </p>
-      </div>
-    </div>
-
-    <div class="mt-8">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmaD0s2uxjUXlL7CPha5emz236xWr93uHGw8kFK1_o0i6GcQ/viewform" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-granate text-white font-bold px-6 py-4 rounded-xl hover:bg-granate-light transition">
-        <i class="fa-solid fa-clipboard-list"></i>
-        Inscribirme al Curso de Nivelación
-        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- =========================
-     NUBE MORADA
-========================= -->
-<section id="materiales" class="px-4 py-16 bg-white scroll-mt-28">
-  <div class="max-w-6xl mx-auto">
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <div>
-        <p class="text-granate font-bold uppercase tracking-widest text-sm mb-3">Material para estudiar</p>
-        <h2 class="text-3xl sm:text-4xl font-black text-granate">Nube Morada</h2>
-        <p class="text-slate-600 mt-5 leading-relaxed">
-          Sabemos que empezar la Facultad implica encontrarte con un montón de
-          contenidos nuevos. Por eso, desde la Franja ponemos a disposición
-          materiales para que puedas prepararte.
-        </p>
-        <p class="text-slate-600 mt-3 leading-relaxed">
-          En nuestra Nube Morada vas a encontrar recursos de estudio
-          que pueden ayudarte durante el ingreso.
-        </p>
-
-        <a href="https://drive.google.com/drive/folders/1SEgwFhrUzPAUmnZULRDXwK6W78agH5D1?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-7 bg-granate text-white font-bold px-6 py-4 rounded-xl hover:bg-granate-light transition">
-          <i class="fa-brands fa-google-drive"></i>
-          Acceder a la Nube Morada
-        </a>
-      </div>
-
-      <div class="rounded-3xl bg-pink-50 border border-pink-200 p-10 text-center">
-        <i class="fa-solid fa-cloud text-7xl text-granate"></i>
-        <h3 class="text-2xl font-black text-granate mt-6">Estudiar acompañado es mejor</h3>
-        <p class="text-slate-600 mt-4">
-          Recursos y materiales para dar tus primeros pasos.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- =========================
-     PREGUNTAS FRECUENTES
-========================= -->
-<section id="preguntas" class="px-4 py-16 bg-slate-50 scroll-mt-28">
-  <div class="max-w-5xl mx-auto">
-
-    <div class="text-center mb-12">
-      <p class="text-granate font-bold uppercase tracking-widest text-sm mb-3">Estamos para ayudarte</p>
-      <h2 class="text-3xl sm:text-4xl font-black text-granate">Preguntas frecuentes</h2>
-      <p class="text-slate-600 mt-4 max-w-2xl mx-auto">
-        ¿No entendés cómo inscribirte? ¿No sabés qué papeles llevar?
-        ¿Es tu primera vez en la Facultad? Acá respondemos las dudas más comunes.
-      </p>
-    </div>
-
-    <h3 class="text-2xl font-extrabold text-granate mb-5">Primeros pasos e inscripción</h3>
-
-    <div class="space-y-3">
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4" open>
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Cómo puedo inscribirme a la Facultad?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <div class="mt-4 text-slate-600 leading-relaxed">
-          <p>La inscripción se realiza en dos pasos:</p>
-          <ol class="list-decimal pl-5 mt-3 space-y-2">
-            <li>Entrá a SIU Guaraní y creá tu cuenta si es la primera vez que te inscribís a la UNLP.</li>
-            <li>Completá tus datos y seleccioná la carrera.</li>
-            <li>Cargá los documentos solicitados.</li>
-            <li>Elegí un turno para presentar los papeles.</li>
-            <li>Presioná <strong>FINALIZAR TRÁMITE</strong> y descargá tu constancia.</li>
-            <li>Acercate a la Facultad el día de tu turno con la documentación.</li>
-          </ol>
-          <a href="#inscripcion" class="inline-block mt-4 text-granate font-bold underline">Ver el paso a paso completo</a>
-        </div>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Cómo elijo una carrera? ¿Y dónde la selecciono?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <div class="mt-3 text-slate-600 leading-relaxed">
-          <p>
-            Primero podés conocer las carreras que se estudian en nuestra Facultad
-            y revisar sus planes de estudio para ver qué materias tienen.
-          </p>
-          <p class="mt-3">
-            Cuando completes tu preinscripción en SIU Guaraní,
-            vas a tener que seleccionar la Facultad y la carrera que elegiste.
-          </p>
-          <p class="mt-3">
-            Si todavía no sabés qué estudiar, podés escribirnos y te ayudamos a conocer las opciones.
-          </p>
-          <a href="carreras.html" class="inline-block mt-4 text-granate font-bold underline">
-            Conocer las carreras y tecnicaturas
-          </a>
-        </div>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué documentación tengo que llevar?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <div class="mt-3 text-slate-600 leading-relaxed">
-          <p>Para confirmar tu inscripción, prepará:</p>
-          <ul class="list-disc pl-5 mt-3 space-y-2">
-            <li>DNI original y fotocopia.</li>
-            <li>Constancia de preinscripción de SIU Guaraní.</li>
-            <li>Título secundario, constancia de título en trámite o constancia de alumno regular, según corresponda, con original y fotocopia.</li>
-            <li>Libreta o certificado de vacunación completo, original y fotocopia, teniendo en cuenta los plazos oficiales.</li>
-          </ul>
-          <a href="#documentacion" class="inline-block mt-4 text-granate font-bold underline">Ver documentación</a>
-        </div>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Cómo sé a dónde tengo que ir? ¿Y si me pierdo?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <div class="mt-3 text-slate-600 leading-relaxed">
-          <p>
-            ¡Podés escribirnos! Desde Franja Morada Observatorio te ayudamos
-            a orientarte y a saber dónde tenés que presentarte.
-          </p>
-          <p class="mt-3">
-            Próximamente vamos a incorporar un mapa para que puedas
-            conocer los espacios de la Facultad.
-          </p>
-          <a href="https://www.instagram.com/franjamoradaobservatorio/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 bg-granate text-white font-bold px-5 py-3 rounded-xl">
-            <i class="fa-brands fa-instagram"></i> Escribinos por Instagram
-          </a>
-        </div>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué hago si me equivoco o no entiendo algún paso?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          No te quedes con la duda. Escribinos por Instagram y te ayudamos
-          a entender qué tenés que hacer. Si necesitás corregir datos o resolver
-          un trámite oficial, también podés consultar al Departamento de Alumnos.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué pasa si todavía no terminé el secundario?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Podés realizar la preinscripción y presentar la constancia
-          correspondiente a tu situación escolar. Después vas a tener que
-          cumplir los requisitos de documentación y plazos que establezca la UNLP.
-          Si tenés materias pendientes, consultá las condiciones oficiales.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Puedo inscribirme desde el celular?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Podés intentar realizar la preinscripción desde el celular.
-          Si tenés dificultades para completar formularios o adjuntar archivos,
-          te recomendamos usar una computadora. Asegurate de guardar la constancia.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Tengo que pagar para estudiar en la UNLP?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          No. Las carreras de grado de la Universidad Nacional de La Plata
-          son públicas y gratuitas. No tenés que pagar una cuota para cursarlas.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es SIU Guaraní?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es un sistema que utilizan las universidades para gestionar trámites académicos.
-          Durante el ingreso vas a usar el sistema de preinscripción.
-          Más adelante también vas a encontrarte con SIU Guaraní para gestionar
-          distintas cuestiones de tu carrera.
-        </p>
-      </details>
-
-    </div>
-
-    <h3 class="text-2xl font-extrabold text-granate mt-12 mb-5">Sobre el Curso de Nivelación</h3>
-
-    <div class="space-y-3">
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿El curso de ingreso es obligatorio?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          No, el curso de ingreso <strong>no es obligatorio ni eliminatorio</strong>.
-          Sin embargo, es <strong>muy recomendable</strong> porque te ayuda
-          a repasar matemática, familiarizarte con los contenidos y prepararte
-          para empezar tu primer año en la Facultad.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Cuándo empieza y cuándo termina?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          El curso <strong>empieza el lunes 1 de febrero de 2027</strong>.
-          La fecha prevista de finalización es el
-          <strong>viernes 5 de marzo de 2027</strong>, aunque el cierre
-          todavía está sujeto a confirmación.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Puedo elegir el turno?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          <strong>¡Sí! Podés elegir el turno que prefieras.</strong>
-          Al completar el formulario de inscripción al Curso de Nivelación,
-          vas a poder seleccionar entre el
-          <strong>turno mañana (8:30 a 12:30)</strong> y el
-          <strong>turno tarde (13:30 a 17:30)</strong>.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Cómo me anoto al Curso de Nivelación?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <div class="mt-3 text-slate-600 leading-relaxed">
-          <p>
-            Para anotarte al Curso de Nivelación de Verano 2027,
-            tenés que completar un formulario de inscripción.
-          </p>
-          <p class="mt-3">
-            Las inscripciones están abiertas desde el
-            <strong>9 de noviembre hasta el 12 de diciembre de 2026</strong>.
-            En el formulario vas a poder seleccionar el turno en el que preferís cursar.
-          </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmaD0s2uxjUXlL7CPha5emz236xWr93uHGw8kFK1_o0i6GcQ/viewform" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-5 bg-granate text-white font-bold rounded-xl px-5 py-3 hover:bg-granate-light transition">
-            <i class="fa-solid fa-clipboard-list"></i>
-            Inscribirme al Curso de Nivelación
-            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-          </a>
-        </div>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué pasa si no puedo asistir al curso?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Como el curso no es obligatorio ni eliminatorio, no realizarlo
-          no te impide comenzar la carrera. De todas maneras, te recomendamos
-          prepararte con los materiales disponibles y consultar cualquier duda.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Dónde consigo material para prepararme?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <div class="mt-3 text-slate-600 leading-relaxed">
-          <p>
-            Podés acceder a la Nube Morada, donde compartimos
-            materiales de estudio para acompañarte.
-          </p>
-          <a href="#materiales" class="inline-block mt-3 font-bold text-granate underline">
-            Ir a la Nube Morada
-          </a>
-        </div>
-      </details>
-    </div>
-
-    <h3 class="text-2xl font-extrabold text-granate mt-12 mb-5">Palabras que vas a escuchar en la Facultad</h3>
-    <p class="text-slate-600 mb-5">
-      Al principio puede parecer que todo el mundo habla otro idioma.
-      Acá te explicamos algunas palabras que vas a escuchar seguido.
-    </p>
-
-    <div class="space-y-3">
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es una materia anual?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es una materia que se cursa durante gran parte del año académico,
-          a diferencia de las que se concentran en un solo cuatrimestre.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es una materia cuatrimestral?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es una materia que se cursa durante uno de los dos cuatrimestres del año.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es una correlativa?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es una materia que tenés que tener cursada o aprobada,
-          según el plan de estudios, para poder cursar o rendir otra.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué significa aprobar la cursada?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Significa cumplir los requisitos para regularizar una materia,
-          como parciales, trabajos prácticos o asistencia cuando corresponda.
-          No siempre significa que la materia esté aprobada definitivamente.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Cuál es la diferencia entre aprobar la cursada y aprobar la materia?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Aprobar la cursada generalmente te habilita a rendir el examen final.
-          Aprobar la materia significa completar todas las instancias exigidas,
-          incluido el final si corresponde.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es la promoción?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es una modalidad en la que podés aprobar una materia sin rendir
-          un examen final separado si cumplís los requisitos establecidos.
-          No todas las materias ofrecen esta modalidad.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es un examen parcial?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es una evaluación de una parte de los contenidos de la materia
-          que se realiza durante la cursada.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es un examen final?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es una evaluación que, cuando la materia la exige,
-          permite completar su aprobación.
-        </p>
-      </details>
-
-      <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-          ¿Qué es una comisión?
-          <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-        </summary>
-        <p class="mt-3 text-slate-600 leading-relaxed">
-          Es un grupo u horario específico de cursada dentro de una materia.
-          Puede haber distintas comisiones de clases prácticas o teóricas.
-        </p>
-      </details>
-    </div>
-
-    <div class="mt-12">
-      <h3 class="text-2xl font-extrabold text-granate mb-3">Más adelante: materias y comienzo de clases</h3>
-      <p class="text-slate-600 mb-5">
-        Estos son pasos posteriores a la inscripción a la carrera.
-        Los dejamos separados para que ahora puedas concentrarte en ingresar.
-      </p>
-
-      <div class="space-y-3">
-        <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-          <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-            ¿Cómo me inscribo a las materias de primer año?
-            <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-          </summary>
-          <p class="mt-3 text-slate-600 leading-relaxed">
-            La Facultad informará cuándo y cómo se realiza la inscripción a materias.
-            Habitualmente se utiliza SIU Guaraní, pero verificá el procedimiento
-            específico para ingresantes 2027.
-          </p>
-        </details>
-
-        <details class="group border border-slate-200 rounded-2xl bg-white px-5 py-4">
-          <summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold">
-            ¿Cuándo empiezan las clases de primer año?
-            <i class="faq-arrow fa-solid fa-chevron-down text-granate text-sm"></i>
-          </summary>
-          <p class="mt-3 text-slate-600 leading-relaxed">
-            La fecha de inicio de las materias regulares de 2027 todavía
-            no está confirmada en la información disponible.
-            Vamos a actualizar esta sección cuando se publique el calendario académico.
-          </p>
-        </details>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- =========================
-     CONTACTO Y ACOMPAÑAMIENTO
-========================= -->
-<section id="contacto-ingreso" class="px-4 py-16 bg-white scroll-mt-28">
-  <div class="max-w-6xl mx-auto bg-pink-50 border border-pink-200 rounded-3xl p-8 sm:p-10">
-
-    <h2 class="text-2xl sm:text-3xl font-extrabold text-granate">
-      ¿Te quedó alguna duda? Estamos para acompañarte 💜
-    </h2>
-
-    <p class="mt-4 text-slate-600 max-w-3xl leading-relaxed">
-      No hace falta que sepas todo antes de empezar. Si tenés preguntas,
-      no entendés un trámite o simplemente necesitás que alguien te oriente,
-      podés escribirnos a Franja Morada Observatorio.
-    </p>
-
-    <p class="mt-3 text-slate-600">
-      Para consultas formales sobre documentación, requisitos y trámites académicos,
-      también podés comunicarte con el Departamento de Alumnos.
-    </p>
-
-    <div class="flex flex-wrap gap-3 mt-7">
-
-      <a href="https://www.instagram.com/franjamoradaobservatorio/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-granate text-white font-bold px-5 py-3 rounded-full hover:bg-granate-light transition">
-        <i class="fa-brands fa-instagram"></i> Instagram de Franja
-      </a>
-
-      <a href="https://www.instagram.com/ingresofranjaobservatorio/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white transition">
-        <i class="fa-brands fa-instagram"></i> Instagram de Ingreso
-      </a>
-
-      <a href="mailto:franjaobservatorio@gmail.com" class="inline-flex items-center gap-2 border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white transition">
-        <i class="fa-solid fa-envelope"></i> Mail de Franja
-      </a>
-
-      <a href="mailto:alumnos@fcaglp.unlp.edu.ar" class="inline-flex items-center gap-2 border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white transition">
-        <i class="fa-solid fa-envelope"></i> Departamento de Alumnos
-      </a>
-
-      <a href="mailto:ae.fcag@gmail.com" class="inline-flex items-center gap-2 border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white transition">
-        <i class="fa-solid fa-envelope"></i> Centro de Estudiantes
-      </a>
-
-    </div>
-
-    <p class="mt-6 text-sm text-slate-600">
-      <i class="fa-brands fa-whatsapp text-green-600 mr-1"></i>
-      También podés encontrar el enlace al grupo de WhatsApp de ingresantes
-      en la biografía de nuestro Instagram.
-    </p>
-  </div>
-</section>
-
+<section class="scroll-mt-28 px-4 py-14" id="inscripcion"><div class="max-w-6xl mx-auto"><div class="bg-white rounded-3xl border border-pink-200 shadow-sm p-7 sm:p-10"><p class="text-sm font-extrabold text-granate uppercase tracking-widest"><i class="fa-solid fa-calendar-check mr-2"></i>Inscripciones abiertas · Ciclo lectivo 2027</p><h2 class="mt-3 text-3xl sm:text-4xl font-black text-granate">Del 9 de noviembre al 11 de diciembre de 2026</h2><p class="mt-4 text-slate-600 max-w-3xl">Ya podés iniciar tu inscripción a las carreras de la Universidad Nacional de La Plata. Consultá la documentación y el procedimiento de preinscripción en los canales oficiales.</p><a class="inline-flex mt-6 items-center gap-2 bg-granate text-white px-6 py-3 rounded-full font-bold hover:bg-granate-dark transition" href="https://www.fcaglp.unlp.edu.ar/" rel="noopener noreferrer" target="_blank">Consultar información oficial <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></div></div></section><section class="scroll-mt-28 px-4 py-16 bg-white" id="paso-a-paso"><div class="max-w-6xl mx-auto"><p class="text-sm font-extrabold text-granate uppercase tracking-widest">Guía práctica de inscripción</p><h2 class="mt-3 text-3xl sm:text-4xl font-black text-granate">Cómo inscribirte: paso a paso</h2><p class="mt-4 max-w-3xl text-slate-600">El ingreso 2027 se realiza en dos etapas: primero completás la preinscripción por internet y después confirmás la inscripción en la Facultad.</p><div class="grid md:grid-cols-2 gap-6 mt-9"><article class="rounded-3xl border border-pink-200 bg-pink-50 p-7"><span class="inline-flex items-center gap-2 text-granate font-black text-sm"><i class="fa-solid fa-laptop"></i> PASO 1 · VIRTUAL</span><h3 class="text-2xl font-black text-granate mt-3">Preinscripción en SIU Guaraní</h3><ol class="mt-5 list-decimal pl-5 space-y-3 text-slate-700"><li>Ingresá al sistema de preinscripción de la UNLP.</li><li>Si es tu primera inscripción, creá un usuario.</li><li>Completá el formulario y cargá tu documentación digital.</li><li>Elegí el día y horario para presentar los papeles en la Facultad.</li><li>Hacé clic en <strong>«Finalizar trámite»</strong> y descargá la constancia de preinscripción.</li></ol><a class="inline-flex mt-6 bg-granate text-white font-bold px-5 py-3 rounded-full hover:bg-granate-dark" href="https://preinscripcion.guarani.unlp.edu.ar/" rel="noopener noreferrer" target="_blank">Ir a SIU Guaraní <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i></a></article><article class="rounded-3xl border border-pink-200 bg-white p-7"><span class="inline-flex items-center gap-2 text-granate font-black text-sm"><i class="fa-solid fa-building-columns"></i> PASO 2 · PRESENCIAL</span><h3 class="text-2xl font-black text-granate mt-3">Confirmación en la Facultad</h3><p class="mt-5 text-slate-700">Acercate a la FCAG <strong>el día y horario que elegiste</strong> durante la preinscripción, con la documentación correspondiente.</p><p class="mt-4 text-slate-700">Si se te complica asistir durante este período, consultá con la Facultad la posibilidad de presentar la documentación en febrero.</p><div class="mt-6 rounded-2xl bg-pink-50 p-5 text-sm text-slate-700"><strong class="text-granate">Importante:</strong> guardá la constancia descargada en el paso anterior y llevá los originales y fotocopias que correspondan.</div></article></div><div class="mt-8 rounded-3xl border border-slate-200 bg-slate-50 p-7 sm:p-9"><h3 class="text-2xl font-extrabold text-granate"><i class="fa-solid fa-folder-open mr-2"></i> ¿Qué documentación tenés que llevar?</h3><ul class="mt-5 grid md:grid-cols-2 gap-x-10 gap-y-4 text-slate-700"><li><strong>DNI:</strong> original y fotocopia.</li><li><strong>Constancia de preinscripción:</strong> descargada al finalizar el trámite virtual.</li><li><strong>Estudios secundarios:</strong> original y fotocopia del título, constancia de analítico en trámite o certificado de alumno regular, según tu situación.</li><li><strong>Libreta o certificado de vacunación:</strong> documentación completa, original y fotocopia, según las indicaciones de la Facultad.</li></ul><p class="mt-5 text-sm text-slate-600">La documentación y sus plazos pueden actualizarse. Antes de ir, revisá los requisitos vigentes publicados por la Facultad. La certificación de vacunación tiene un plazo de presentación específico establecido por la UNLP.</p><a class="inline-flex mt-5 font-bold text-granate underline underline-offset-4" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/ingreso/insrcipcion-carreras/" rel="noopener noreferrer" target="_blank">Ver requisitos oficiales de la FCAG <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i></a></div></div></section>
+<section class="scroll-mt-28 bg-white border-y border-slate-200 px-4 py-16" id="nivelacion"><div class="max-w-6xl mx-auto"><p class="text-xs uppercase tracking-[.2em] text-granate font-bold">Tu primer acercamiento a la Facultad</p><h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Curso de Nivelación de Verano 2027</h2><p class="mt-4 max-w-4xl text-slate-600">Destinado a ingresantes de Astronomía, Geofísica y Meteorología y Ciencias de la Atmósfera. Se trabajan contenidos de matemática elemental necesarios para comenzar las materias de primer año.</p>
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-9">
+<article class="rounded-2xl bg-pink-50 p-6 border border-pink-100"><i class="fa-solid fa-calendar-days text-2xl text-granate"></i><h3 class="font-bold mt-3">Fechas del curso</h3><p class="mt-2 text-sm text-slate-600">Inicio confirmado: lunes 1 de febrero de 2027. Finalización prevista: viernes 5 de marzo de 2027, sujeta a confirmación.</p></article>
+<article class="rounded-2xl bg-pink-50 p-6 border border-pink-100"><i class="fa-solid fa-school text-2xl text-granate"></i><h3 class="font-bold mt-3">Modalidad</h3><p class="mt-2 text-sm text-slate-600">Presencial.</p></article>
+<article class="rounded-2xl bg-pink-50 p-6 border border-pink-100"><i class="fa-solid fa-clock text-2xl text-granate"></i><h3 class="font-bold mt-3">Días y duración</h3><p class="mt-2 text-sm text-slate-600">Lunes a viernes · 4 horas por día.</p></article>
+<article class="rounded-2xl bg-pink-50 p-6 border border-pink-100"><i class="fa-solid fa-sun text-2xl text-granate"></i><h3 class="font-bold mt-3">Turnos</h3><p class="mt-2 text-sm text-slate-600">Mañana: 8:30 a 12:30.<br/>Tarde: 13:30 a 17:30.</p></article>
+</div>
+<div class="mt-8 rounded-2xl border-l-4 border-granate bg-slate-50 p-6"><h3 class="font-extrabold text-granate text-xl">¡Anotate al curso de nivelación!</h3><p class="mt-2 text-slate-600">La inscripción al curso comienza el <strong>9 de noviembre</strong>, junto con la inscripción a las carreras. El período informado para completar el formulario es del <strong>9 de noviembre al 12 de diciembre de 2026</strong>.</p><a class="inline-flex items-center gap-2 mt-5 bg-granate text-white px-6 py-3 rounded-full font-bold hover:bg-granate-dark transition" href="https://docs.google.com/forms/d/e/1FAIpQLSfmaD0s2uxjUXlL7CPha5emz236xWr93uHGw8kFK1_o0i6GcQ/viewform" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Inscribirme al curso</a><p class="mt-3 text-xs text-slate-500">El curso comienza el lunes 1 de febrero de 2027; la fecha de finalización está sujeta a confirmación.</p></div></div></section>
+<section class="scroll-mt-28 px-4 py-16" id="material"><div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-7"><div class="bg-granate text-white rounded-3xl p-8 sm:p-10"><i class="fa-solid fa-book-open text-3xl text-pink-200"></i><h2 class="text-3xl font-extrabold mt-4">Prepará tu ingreso con la Nube Morada</h2><p class="mt-4 text-pink-100">Encontrá bibliografía y materiales para empezar a repasar matemática antes de las primeras clases.</p><a class="inline-flex mt-6 bg-white text-granate font-bold rounded-full px-6 py-3 hover:bg-pink-100 transition" href="https://drive.google.com/drive/folders/1SEgwFhrUzPAUmnZULRDXwK6W78agH5D1?usp=drive_link" rel="noopener noreferrer" target="_blank">Abrir la Nube Morada <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i></a></div><div class="bg-white border border-slate-200 rounded-3xl p-8 sm:p-10"><i class="fa-solid fa-graduation-cap text-3xl text-granate"></i><h2 class="text-3xl font-extrabold text-granate mt-4">¿Todavía estás eligiendo tu carrera?</h2><p class="mt-4 text-slate-600">Conocé Astronomía, Geofísica, Meteorología y Ciencias de la Atmósfera, y las propuestas académicas de la Facultad.</p><a class="inline-flex mt-6 bg-granate text-white font-bold rounded-full px-6 py-3 hover:bg-granate-dark transition" href="carreras.html">Ver carreras y tecnicaturas <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a></div></div></section>
+<section class="scroll-mt-28 bg-white border-y border-slate-200 px-4 py-16" id="faq-ingresantes"><div class="max-w-6xl mx-auto"><p class="text-xs uppercase tracking-[.2em] text-granate font-bold">Todas tus dudas, en un solo lugar</p><h2 class="text-3xl sm:text-4xl font-extrabold text-granate mt-3">Preguntas frecuentes para ingresantes</h2><p class="mt-4 text-slate-600">Organizamos las preguntas por tema para que encuentres rápido lo que necesitás. Abrí cada pregunta para ver la respuesta.</p>
+<div class="mt-10"><h3 class="text-2xl font-extrabold text-granate mb-3">Antes de empezar: inscripción y primeras dudas</h3>
+<p class="text-slate-600 mb-5">¿Es tu primera vez haciendo un trámite universitario? Acá respondemos las preguntas más básicas, paso a paso y sin vueltas.</p>
+<div class="space-y-3">
+<details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cómo puedo inscribirme a la Facultad?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><div class="mt-3 text-slate-600 leading-relaxed"><p>La inscripción 2027 es del <strong>9 de noviembre al 11 de diciembre de 2026</strong> y tiene dos pasos:</p><ol class="list-decimal pl-6 mt-3 space-y-2"><li><strong>Preinscripción por internet:</strong> entrá al <a class="text-granate font-semibold underline" href="https://preinscripcion.guarani.unlp.edu.ar/" rel="noopener noreferrer" target="_blank">SIU Guaraní</a>. Si es tu primera inscripción en la UNLP, creá un usuario. Elegí la carrera, completá tus datos, cargá la documentación digital y seleccioná un turno para presentar los papeles. Antes de salir, hacé clic en <strong>«Finalizar trámite»</strong> y descargá la constancia.</li><li><strong>Confirmación presencial:</strong> acercate a la Facultad el día y horario que elegiste, con la constancia y la documentación solicitada.</li></ol><p class="mt-3">¿Se te complica ir ahora? Consultá con la Facultad la posibilidad de presentar la documentación en febrero. También podés revisar la <a class="text-granate font-semibold underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/ingreso/insrcipcion-carreras/" rel="noopener noreferrer" target="_blank">información oficial de FCAG</a>.</p></div></details>
+<details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cómo elijo una carrera? ¿Y dónde la selecciono?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><div class="mt-3 text-slate-600 leading-relaxed"><p>Primero conocé las opciones: <strong>Astronomía, Geofísica y Meteorología y Ciencias de la Atmósfera</strong>. Podés ver de qué trata cada una en <a class="text-granate font-semibold underline" href="carreras.html">Carreras y Tecnicaturas</a>. No hace falta que sepas todo sobre una carrera antes de consultar: escribinos y te ayudamos a orientarte.</p><p class="mt-3">Cuando hayas decidido, ingresá al sistema de preinscripción SIU Guaraní y seleccioná la carrera que querés estudiar al completar el formulario. <strong>Elegir una carrera no es lo mismo que anotarte al curso de nivelación</strong>: son trámites distintos.</p></div></details>
+<details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué documentación tengo que llevar?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><div class="mt-3 text-slate-600 leading-relaxed"><p>Para la confirmación presencial, prepará:</p><ul class="list-disc pl-6 mt-3 space-y-2"><li><strong>DNI:</strong> original y fotocopia.</li><li><strong>Constancia de preinscripción:</strong> la que descargaste al finalizar el trámite virtual.</li><li><strong>Documentación del secundario:</strong> original y fotocopia del título, constancia de título o analítico en trámite, o certificado de alumno regular, según tu situación.</li><li><strong>Libreta o certificado de vacunación:</strong> original y fotocopia, conforme a los requisitos vigentes.</li></ul><p class="mt-3">Antes de ir, revisá la <a class="text-granate font-semibold underline" href="https://www.fcaglp.unlp.edu.ar/index.php/carreras-grado/ingreso/insrcipcion-carreras/" rel="noopener noreferrer" target="_blank">lista oficial de FCAG</a> por si hay actualizaciones.</p></div></details>
+<details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cómo sé a dónde tengo que ir? ¿Y si me pierdo?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><div class="mt-3 text-slate-600 leading-relaxed"><p>Para entregar los papeles tenés que acercarte a la <strong>Facultad de Ciencias Astronómicas y Geofísicas de la UNLP</strong>, en el día y horario del turno que elegiste. Si no sabés cómo llegar, por dónde entrar o dónde presentarte, <strong>escribinos a la Franja por Instagram</strong>. Te podemos orientar y acompañar durante el proceso.</p><p class="mt-3">Además, <strong>próximamente vamos a sumar un mapa</strong> a esta página para que ubiques más fácilmente los espacios de la Facultad.</p><a class="inline-flex items-center gap-2 mt-4 bg-granate text-white font-bold rounded-xl px-5 py-3 hover:bg-granate-light transition" href="https://www.instagram.com/franjamoradaobservatorio/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa-brands fa-instagram"></i> Escribinos por Instagram</a></div></details>
+<details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué hago si me equivoco o no entiendo algún paso?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><div class="mt-3 text-slate-600 leading-relaxed"><p>No te quedes con la duda. Podés escribirnos a <a class="text-granate font-semibold underline" href="https://www.instagram.com/franjamoradaobservatorio/" rel="noopener noreferrer" target="_blank">@franjamoradaobservatorio</a> y contarnos en qué parte te trabaste. Te ayudamos a entender los pasos y a encontrar el canal de consulta correspondiente.</p></div></details>
+</div>
+<aside class="mt-6 rounded-2xl border border-pink-200 bg-pink-50 p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4"><div><p class="font-extrabold text-granate text-lg">¿Es tu primera vez en el Observatorio? 💜</p><p class="text-slate-700 mt-1">Preguntanos lo que necesites, incluso si te parece una pavada. Queremos acompañarte desde la inscripción.</p><p class="text-sm text-slate-600 mt-2"><i aria-hidden="true" class="fa-solid fa-map-location-dot"></i> Próximamente: mapa para orientarte en la Facultad.</p></div><a class="inline-flex shrink-0 justify-center items-center gap-2 rounded-xl bg-granate px-5 py-3 text-white font-bold hover:bg-granate-light transition" href="https://www.instagram.com/franjamoradaobservatorio/" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa-brands fa-instagram"></i> Hablar con la Franja</a></aside></div><div class="mt-10"><h3 class="text-2xl font-extrabold text-granate mb-4">Curso de Nivelación de Verano</h3><div class="space-y-3"><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es el Curso de Nivelación?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es un curso de matemática elemental pensado para acompañar a ingresantes de Astronomía, Geofísica y Meteorología y Ciencias de la Atmósfera en el comienzo de primer año.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿El curso de ingreso es obligatorio?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">No, el curso de ingreso <strong>no es obligatorio ni eliminatorio</strong>. Sin embargo, es <strong>muy recomendable</strong> porque te ayuda a repasar matemática y a prepararte para empezar la carrera.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cuándo empieza y cuándo termina?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">El curso <strong>empieza el lunes 1 de febrero de 2027</strong>. La fecha prevista de finalización es el <strong>viernes 5 de marzo de 2027</strong>, aunque el cierre todavía está sujeto a confirmación.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Es presencial?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Sí. La modalidad informada para el Curso de Nivelación de Verano 2027 es presencial.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué días y horarios se cursa?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">De lunes a viernes, cuatro horas por día. Turno mañana: de 8:30 a 12:30. Turno tarde: de 13:30 a 17:30.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Puedo elegir el turno?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed"><strong>Sí, podés elegir el turno</strong> (mañana o tarde) cuando completás el formulario de inscripción al curso.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cómo me anoto al Curso de Nivelación?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Completá el formulario específico del curso, disponible durante su período de inscripción, informado del 9 de noviembre al 12 de diciembre de 2026.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Dónde consigo material para prepararme?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">En nuestra Nube Morada reunimos bibliografía y materiales del ingreso para que puedas empezar a practicar.</p></details></div></div><div class="mt-10"><h3 class="text-2xl font-extrabold text-granate mb-4">Vocabulario universitario</h3><div class="space-y-3"><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es una materia anual?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es una materia que se desarrolla a lo largo del año académico, en lugar de concentrarse en un solo cuatrimestre.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es una materia cuatrimestral?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es una materia que se cursa durante uno de los dos cuatrimestres del año.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es una correlativa?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es una materia que tenés que tener cursada o aprobada, según el plan de estudios y el reglamento, para poder cursar o rendir otra.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué significa aprobar la cursada?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Significa cumplir los requisitos para regularizar la materia, como parciales, trabajos o asistencia cuando corresponda. No siempre significa que la materia esté aprobada definitivamente.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cuál es la diferencia entre aprobar la cursada y aprobar la materia?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Aprobar la cursada generalmente te habilita a rendir el examen final. Aprobar la materia significa completar todas las instancias exigidas, incluido el final si corresponde.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es la promoción?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es una modalidad en la que podés aprobar una materia sin rendir examen final separado, si cumplís los requisitos de evaluación establecidos. No todas las materias la ofrecen.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es un examen parcial?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es una evaluación de contenidos de una parte de la materia durante la cursada.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es un examen final?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es una instancia de evaluación que, cuando la materia la exige, permite completar su aprobación.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es SIU Guaraní?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es el sistema de gestión académica que se utiliza para trámites como inscripciones y consulta de historia académica, según las funciones habilitadas por la Facultad.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Qué es una comisión?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">Es un grupo u horario específico de cursada dentro de una materia. Puede haber distintas comisiones de clases prácticas o teóricas.</p></details></div></div><div class="mt-12"><h3 class="text-2xl font-extrabold text-granate mb-3">Más adelante: materias y comienzo de clases</h3><p class="text-slate-600 mb-5">Estos son pasos posteriores a la inscripción a la carrera. Los dejamos separados para que ahora puedas concentrarte en ingresar.</p><div class="space-y-3"><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cómo me inscribo a las materias de primer año?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">La Facultad informará cuándo y cómo se realiza la inscripción a materias. Habitualmente se utiliza SIU Guaraní; verificá el procedimiento específico para ingresantes 2027 antes de hacerlo.</p></details><details class="group border border-slate-200 rounded-2xl bg-slate-50 px-5 py-4"><summary class="cursor-pointer list-none flex items-center justify-between gap-4 font-bold text-slate-800">¿Cuándo empiezan las clases de primer año?<i class="fa-solid fa-chevron-down text-granate text-sm transition-transform group-open:rotate-180"></i></summary><p class="mt-3 text-slate-600 leading-relaxed">La fecha de inicio de las materias regulares de 2027 todavía no fue confirmada en la información disponible. Se actualizará cuando se publique el calendario académico.</p></details></div></div></div></section>
+<section class="px-4 py-14"><div class="max-w-6xl mx-auto bg-pink-50 border border-pink-200 rounded-3xl p-8 sm:p-10"><h2 class="text-2xl sm:text-3xl font-extrabold text-granate">¿Te quedó alguna duda? Estamos para acompañarte 💜</h2><p class="mt-3 text-slate-600">Podés escribirnos por Instagram. Para consultas sobre documentación, requisitos y trámites académicos, comunicate con el Departamento de Alumnos.</p><div class="flex flex-wrap gap-3 mt-6"><a class="bg-granate text-white font-bold px-5 py-3 rounded-full" href="https://www.instagram.com/franjamoradaobservatorio/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram mr-2"></i>Escribinos en Instagram</a><a class="border border-granate text-granate font-bold px-5 py-3 rounded-full" href="mailto:alumnos@fcaglp.unlp.edu.ar">Departamento de Alumnos</a><a class="border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white" href="https://www.instagram.com/ingresofranjaobservatorio/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram mr-2"></i>Instagram de Ingreso</a><a class="border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white" href="mailto:franjaobservatorio@gmail.com"><i class="fa-solid fa-envelope mr-2"></i>Mail de Franja</a><a class="border border-granate text-granate font-bold px-5 py-3 rounded-full hover:bg-white" href="mailto:ae.fcag@gmail.com"><i class="fa-solid fa-envelope mr-2"></i>Centro de Estudiantes</a></div><p class="mt-5 text-sm text-slate-600"><a class="font-bold text-granate underline" href="https://chat.whatsapp.com/DmTSqvMcthEJYZ2zirQ50L?s=cl&amp;p=a&amp;iam=2" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-1"></i>Sumate directamente al grupo de WhatsApp de Ingresantes 2027</a>.</p></div></section>
 </main>
-
-<!-- =========================
-     PIE DE PÁGINA
-========================= -->
 <footer class="bg-granate-dark text-white px-4 py-12">
-  <div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-6 justify-between">
-    <div>
-      <h2 class="font-script text-xl text-pink-200">Franja Morada Observatorio</h2>
-      <p class="text-slate-300 text-sm mt-2">
-        Facultad de Ciencias Astronómicas y Geofísicas · UNLP
-      </p>
-      <p class="text-slate-400 text-sm mt-2">
-        Acompañándote desde el primer día.
-      </p>
-    </div>
-
-    <div class="flex gap-5 text-sm flex-wrap items-start">
-      <a href="index.html" class="hover:underline">Inicio</a>
-      <a href="quienes-somos.html" class="hover:underline">La Agrupación</a>
-      <a href="carreras.html" class="hover:underline">Carreras</a>
-      <a href="contacto.html" class="hover:underline">Contacto</a>
-    </div>
-  </div>
+<div class="max-w-6xl mx-auto flex flex-col sm:flex-row gap-5 justify-between">
+<div>
+<h2 class="font-script text-xl text-pink-200">
+      Franja Morada Observatorio
+     </h2>
+<p class="text-slate-300 text-sm mt-2">
+      Facultad de Ciencias Astronómicas y Geofísicas · UNLP
+     </p>
+</div>
+<div class="flex gap-5 text-sm flex-wrap">
+<a class="hover:underline" href="index.html">
+      Inicio
+     </a>
+<a class="hover:underline" href="quienes-somos.html">
+      La Agrupación
+     </a>
+<a class="hover:underline" href="contacto.html">
+      Contacto
+     </a>
+</div>
+</div>
 </footer>
-
-<!-- =========================
-     FUNCIONAMIENTO DEL MENÚ
-========================= -->
 <script>
-  const menuButton = document.getElementById("menu-btn");
-  const mobileMenu = document.getElementById("mobile-menu");
-
-  menuButton.addEventListener("click", () => {
-    const isOpen = mobileMenu.classList.toggle("hidden") === false;
-    menuButton.setAttribute("aria-expanded", String(isOpen));
-    menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
-  });
-
-  document.querySelectorAll("[data-election-nav]").forEach((wrapper) => {
-    const button = wrapper.querySelector("button");
-
-    button.addEventListener("click", () => {
-      const isOpen = wrapper.classList.toggle("menu-open");
-      button.setAttribute("aria-expanded", String(isOpen));
+   const menuButton = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        menuButton.addEventListener("click", () => {
+            const isOpen = mobileMenu.classList.toggle("hidden") === false;
+            menuButton.setAttribute("aria-expanded", String(isOpen));
+            menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
+        });
+  </script>
+<script>
+   /* Permitir abrir y cerrar el menú Elecciones mediante clic, además de hover. */
+document.querySelectorAll('[data-election-nav]').forEach(function (wrapper) {
+    const button = wrapper.querySelector('button');
+    button.addEventListener('click', function () {
+        const open = wrapper.classList.toggle('menu-open');
+        button.setAttribute('aria-expanded', String(open));
     });
-
-    document.addEventListener("click", (event) => {
-      if (!wrapper.contains(event.target)) {
-        wrapper.classList.remove("menu-open");
-        button.setAttribute("aria-expanded", "false");
-      }
+    document.addEventListener('click', function (event) {
+        if (!wrapper.contains(event.target)) {
+            wrapper.classList.remove('menu-open');
+            button.setAttribute('aria-expanded', 'false');
+        }
     });
-
-    wrapper.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") {
-        wrapper.classList.remove("menu-open");
-        button.setAttribute("aria-expanded", "false");
-        button.focus();
-      }
+    wrapper.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            wrapper.classList.remove('menu-open');
+            button.setAttribute('aria-expanded', 'false');
+            button.focus();
+        }
     });
-  });
-</script>
-
+});
+  </script>
 </body>
 </html>
